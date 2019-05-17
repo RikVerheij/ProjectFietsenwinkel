@@ -1,35 +1,56 @@
+<?php
+include("Database/Config.php");
+session_start();
 
-<!DOCTYPE html>
-<html lang="en">
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // username and password sent from form
+
+    $username = mysqli_real_escape_string($db, $_POST['username']);
+    $password = mysqli_real_escape_string($db, $_POST['password']);
+
+    $sql = "SELECT customer_id FROM customer WHERE username = '$username' and password = '$password'";
+    $result = mysqli_query($db, $sql);
+
+    $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+    $active = $row['active'];
+
+    $count = mysqli_num_rows($result);
+
+    if ($count == 1) {
+        $_SESSION['login_user'] = $username;
+        header("location: index.php");
+    } else {
+        $error = "Your Login Name or Password is invalid";
+    }
+}
+?>
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
-    <style type="text/css">
-        body{ font: 14px sans-serif; }
-        .wrapper{ width: 350px; padding: 20px; }
-    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-<div class="wrapper">
-    <h2>Login</h2>
-    <p>Please fill in your credentials to login.</p>
-    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-        <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-            <label>Username</label>
-            <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
-            <span class="help-block"><?php echo $username_err; ?></span>
-        </div>
-        <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-            <label>Password</label>
-            <input type="password" name="password" class="form-control">
-            <span class="help-block"><?php echo $password_err; ?></span>
-        </div>
-        <div class="form-group">
-            <input type="submit" class="btn btn-primary" value="Login">
-        </div>
-        <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
+<div>
+
+
+    <form action="" method="POST">
+        <table>
+            <tr>
+                <td>Gebruikersnaam:</td>
+                <td><input type="text" name="username"/></td>
+            </tr>
+            <tr>
+                <td>Wachtwoord:</td>
+                <td><input type="password" name="password"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value=" Login "/>
+                    <a href="register.php">Registreren</a></td>
+                <td></td>
+            </tr>
+        </table>
     </form>
-</div>
 </body>
 </html>
