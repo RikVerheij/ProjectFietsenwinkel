@@ -24,7 +24,7 @@ if (!empty($_POST["first_name"]) && !empty($_POST["last_name"]) && !empty($_POST
     <title>Sign Up</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="Css/style.css";
+    <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
 <form action="" method="POST">
