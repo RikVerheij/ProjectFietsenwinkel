@@ -12,7 +12,7 @@ include('Database/Session.php');
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Fietsenwinkel</a>
+    <a class="navbar-brand" href="#">Chain Gang</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -54,12 +54,12 @@ include('Database/Session.php');
 
 <!--Footer-->
 <footer class="footer">
-    <b class="footerTextBig">Case Chain Gang</b>
+    <b class="footerTextBig">Chain Gang</b>
     <p class="footerTextNormal">Voor alle tweedehands fietsen</p>
 
     <hr>
 
-    <p class="footerTextSmall">Case Chain Gang 2019</p>
+    <p class="footerTextSmall">Chain Gang 2019 ® Alle rechten voorbehouden</p>
 </footer>
 
 </html>
