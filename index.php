@@ -11,7 +11,24 @@ include('Database/Session.php');
     <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
+<a href="login.php">Login.php</a>
+<a href="logout.php">Logout.php</a>
+<a href="index.php">index.php</a>
+<a href="register.php">register.php</a>
 Hello world
 <div><a href="logout.php">&laquo Logout</a></div>
 </body>
+
+
+<!--Footer-->
+<footer class="footer">
+    <b class="footerTextBig">Case Chain Gang</b>
+    <p class="footerTextNormal">Voor alle tweedehands fietsen</p>
+
+    <hr>
+
+    <p class="footerTextSmall">Case Chain Gang 2019</p>
+    <a href="" class="footerTextSmall">Contact</a>
+</footer>
+
 </html>
