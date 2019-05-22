@@ -15,7 +15,7 @@ include('Database/Session.php');
 <a href="logout.php">Logout.php</a>
 <a href="index.php">index.php</a>
 <a href="register.php">register.php</a>
-Hello world
+
 <div><a href="logout.php">&laquo Logout</a></div>
 </body>
 
@@ -28,7 +28,6 @@ Hello world
     <hr>
 
     <p class="footerTextSmall">Case Chain Gang 2019</p>
-    <a href="" class="footerTextSmall">Contact</a>
 </footer>
 
 </html>
