@@ -27,39 +27,52 @@ if (!empty($_POST["first_name"]) && !empty($_POST["last_name"]) && !empty($_POST
     <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
-<form action="" method="POST">
-    <table>
-        <tr>
-            <td>Naam:</td>
-            <td><input type="text" name="first_name"/></td>
-            <td><input type="text" name="last_name"/></td>
-        </tr>
-        <tr>
-            <td>E-mail:</td>
-            <td colspan="2"><input type="email" name="email"/></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Telefoonnummer:</td>
-            <td><input type="text" name="telephone"/></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Gebruikersnaam:</td>
-            <td><input type="text" name="username"/></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Wachtwoord:</td>
-            <td><input type="password" name="password"/></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><input type="submit" value=" Submit "/></td>
-            <td></td>
-        </tr>
-    </table>
-</form>
+<div class="container">
+    <div class="row">
+        <div class="mx-auto">
+            <form action="" method="POST">
+                <table>
+                    <tr>
+                        <div class="form-group">
+                            <td><label for="Naam">Naam:</label></td>
+                            <td><input type="text" class="form-control" name="first_name" id="Naam"></td>
+                            <td><input type="text" class="form-control" name="last_name" id="Naam"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td><label for="Mail">E-mail:</label></td>
+                            <td colspan="2"><input type="email" class="form-control" name="email" id="Mail"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td><label for="Tel">Telefoonnummer:</label></td>
+                            <td colspan="2"><input type="text" class="form-control" name="telephone" id="Tel"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td><label for="Gebruiker">Gebruikersnaam:</label></td>
+                            <td colspan="2"><input type="text" class="form-control" name="username" id="Gebruiker"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td><label for="Wachtwoord">Wachtwoord:</label></td>
+                            <td colspan="2"><input type="text" class="form-control" name="password" id="Wachtwoord">
+                            </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" class="btn btn-primary" value=" Submit "/></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
 </body>
 </html>

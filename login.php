@@ -32,26 +32,33 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
-<div>
-
-
-    <form action="" method="POST">
-        <table>
-            <tr>
-                <td>Gebruikersnaam:</td>
-                <td><input type="text" name="username"/></td>
-            </tr>
-            <tr>
-                <td>Wachtwoord:</td>
-                <td><input type="password" name="password"/></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="submit" value=" Login "/>
-                    <a href="register.php">Registreren</a></td>
-                <td></td>
-            </tr>
-        </table>
-    </form>
+<div class="container">
+    <div class="row">
+        <div class="mx-auto">
+            <form action="" method="POST">
+                <table>
+                    <tr>
+                        <div class="form-group">
+                            <td><label for="Gebruikersnaam">Gebruikersnaam:</label></td>
+                            <td><input type="text" class="form-control" name="username" id="Gebruikersnaam"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td><label for="Wachtwoord">Password:</label></td>
+                            <td><input type="password" class="form-control" name="password" id="Wachtwoord"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" class="btn btn-primary" value=" Login "/>
+                            <a href="register.php">Registreren</a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
 </body>
 </html>
