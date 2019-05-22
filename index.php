@@ -54,7 +54,7 @@ include('Database/Session.php');
 
 <!--Footer-->
 <footer class="footer">
-    <b class="footerTextBig">Case Chain Gang</b>
+    <b class="footerTextBig">Chain Gang</b>
     <p class="footerTextNormal">Voor alle tweedehands fietsen</p>
 
     <hr>
