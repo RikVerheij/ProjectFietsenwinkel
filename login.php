@@ -40,19 +40,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <tr>
                         <div class="form-group">
                             <td><label for="Gebruikersnaam">Gebruikersnaam:</label></td>
-                            <td><input type="text" class="form-control"  name="username" id="Gebruikersnaam"></td>
+                            <td><input type="text" class="form-control" name="username" id="Gebruikersnaam"></td>
                         </div>
                     </tr>
                     <tr>
                         <div class="form-group">
-                            <td><label for="Wachtwoord">Gebruikersnaam:</label></td>
-                            <td><input type="password" class="form-control"  name="password" id="Wachtwoord"></td>
+                            <td><label for="Wachtwoord">Password:</label></td>
+                            <td><input type="password" class="form-control" name="password" id="Wachtwoord"></td>
                         </div>
                     </tr>
                     <tr>
                         <td></td>
                         <td><input type="submit" class="btn btn-primary" value=" Login "/>
-                            <a href="register.php">Registreren</a></td>
+                            <a href="register.php">Registreren</a>
+                        </td>
                     </tr>
                 </table>
             </form>
