@@ -72,13 +72,13 @@
       <nav class="navigation">
         <div class="container-fluid">
           <div class="navigation__column left">
-            <div class="header__logo"><a class="ps-logo" href="index.html"><img src="images/logo.png" alt=""></a></div>
+            <div class="header__logo"><a class="ps-logo" href="index.php"><img src="images/logo.png" alt=""></a></div>
           </div>
           <div class="navigation__column center">
                 <ul class="main-menu menu">
-                  <li class="menu-item menu-item-has-children dropdown"><a href="index.html">Home</a>
+                  <li class="menu-item menu-item-has-children dropdown"><a href="index.php">Home</a>
                         <ul class="sub-menu">
-                          <li class="menu-item"><a href="index.html">Homepage #1</a></li>
+                          <li class="menu-item"><a href="index.php">Homepage #1</a></li>
                           <li class="menu-item"><a href="#">Homepage #2</a></li>
                           <li class="menu-item"><a href="#">Homepage #3</a></li>
                         </ul>
@@ -88,58 +88,58 @@
                       <div class="mega-wrap">
                         <div class="mega-column">
                           <ul class="mega-item mega-features">
-                            <li><a href="product-listing.html">NEW RELEASES</a></li>
-                            <li><a href="product-listing.html">FEATURES SHOES</a></li>
-                            <li><a href="product-listing.html">BEST SELLERS</a></li>
-                            <li><a href="product-listing.html">NOW TRENDING</a></li>
-                            <li><a href="product-listing.html">SUMMER ESSENTIALS</a></li>
-                            <li><a href="product-listing.html">MOTHER'S DAY COLLECTION</a></li>
-                            <li><a href="product-listing.html">FAN GEAR</a></li>
+                            <li><a href="product-listing.php">NEW RELEASES</a></li>
+                            <li><a href="product-listing.php">FEATURES SHOES</a></li>
+                            <li><a href="product-listing.php">BEST SELLERS</a></li>
+                            <li><a href="product-listing.php">NOW TRENDING</a></li>
+                            <li><a href="product-listing.php">SUMMER ESSENTIALS</a></li>
+                            <li><a href="product-listing.php">MOTHER'S DAY COLLECTION</a></li>
+                            <li><a href="product-listing.php">FAN GEAR</a></li>
                           </ul>
                         </div>
                         <div class="mega-column">
                           <h4 class="mega-heading">Shoes</h4>
                           <ul class="mega-item">
-                            <li><a href="product-listing.html">All Shoes</a></li>
-                            <li><a href="product-listing.html">Running</a></li>
-                            <li><a href="product-listing.html">Training & Gym</a></li>
-                            <li><a href="product-listing.html">Basketball</a></li>
-                            <li><a href="product-listing.html">Football</a></li>
-                            <li><a href="product-listing.html">Soccer</a></li>
-                            <li><a href="product-listing.html">Baseball</a></li>
+                            <li><a href="product-listing.php">All Shoes</a></li>
+                            <li><a href="product-listing.php">Running</a></li>
+                            <li><a href="product-listing.php">Training & Gym</a></li>
+                            <li><a href="product-listing.php">Basketball</a></li>
+                            <li><a href="product-listing.php">Football</a></li>
+                            <li><a href="product-listing.php">Soccer</a></li>
+                            <li><a href="product-listing.php">Baseball</a></li>
                           </ul>
                         </div>
                         <div class="mega-column">
                           <h4 class="mega-heading">CLOTHING</h4>
                           <ul class="mega-item">
-                            <li><a href="product-listing.html">Compression & Nike Pro</a></li>
-                            <li><a href="product-listing.html">Tops & T-Shirts</a></li>
-                            <li><a href="product-listing.html">Polos</a></li>
-                            <li><a href="product-listing.html">Hoodies & Sweatshirts</a></li>
-                            <li><a href="product-listing.html">Jackets & Vests</a></li>
-                            <li><a href="product-listing.html">Pants & Tights</a></li>
-                            <li><a href="product-listing.html">Shorts</a></li>
+                            <li><a href="product-listing.php">Compression & Nike Pro</a></li>
+                            <li><a href="product-listing.php">Tops & T-Shirts</a></li>
+                            <li><a href="product-listing.php">Polos</a></li>
+                            <li><a href="product-listing.php">Hoodies & Sweatshirts</a></li>
+                            <li><a href="product-listing.php">Jackets & Vests</a></li>
+                            <li><a href="product-listing.php">Pants & Tights</a></li>
+                            <li><a href="product-listing.php">Shorts</a></li>
                           </ul>
                         </div>
                         <div class="mega-column">
                           <h4 class="mega-heading">Accessories</h4>
                           <ul class="mega-item">
-                            <li><a href="product-listing.html">Compression & Nike Pro</a></li>
-                            <li><a href="product-listing.html">Tops & T-Shirts</a></li>
-                            <li><a href="product-listing.html">Polos</a></li>
-                            <li><a href="product-listing.html">Hoodies & Sweatshirts</a></li>
-                            <li><a href="product-listing.html">Jackets & Vests</a></li>
-                            <li><a href="product-listing.html">Pants & Tights</a></li>
-                            <li><a href="product-listing.html">Shorts</a></li>
+                            <li><a href="product-listing.php">Compression & Nike Pro</a></li>
+                            <li><a href="product-listing.php">Tops & T-Shirts</a></li>
+                            <li><a href="product-listing.php">Polos</a></li>
+                            <li><a href="product-listing.php">Hoodies & Sweatshirts</a></li>
+                            <li><a href="product-listing.php">Jackets & Vests</a></li>
+                            <li><a href="product-listing.php">Pants & Tights</a></li>
+                            <li><a href="product-listing.php">Shorts</a></li>
                           </ul>
                         </div>
                         <div class="mega-column">
                           <h4 class="mega-heading">BRAND</h4>
                           <ul class="mega-item">
-                            <li><a href="product-listing.html">NIKE</a></li>
-                            <li><a href="product-listing.html">Adidas</a></li>
-                            <li><a href="product-listing.html">Dior</a></li>
-                            <li><a href="product-listing.html">B&G</a></li>
+                            <li><a href="product-listing.php">NIKE</a></li>
+                            <li><a href="product-listing.php">Adidas</a></li>
+                            <li><a href="product-listing.php">Dior</a></li>
+                            <li><a href="product-listing.php">B&G</a></li>
                           </ul>
                         </div>
                       </div>
@@ -149,19 +149,19 @@
                   <li class="menu-item"><a href="#">Kids</a></li>
                   <li class="menu-item menu-item-has-children dropdown"><a href="#">News</a>
                         <ul class="sub-menu">
-                          <li class="menu-item menu-item-has-children dropdown"><a href="blog-grid.html">Blog-grid</a>
+                          <li class="menu-item menu-item-has-children dropdown"><a href="blog-grid.php">Blog-grid</a>
                                 <ul class="sub-menu">
-                                  <li class="menu-item"><a href="blog-grid.html">Blog Grid 1</a></li>
-                                  <li class="menu-item"><a href="blog-grid-2.html">Blog Grid 2</a></li>
+                                  <li class="menu-item"><a href="blog-grid.php">Blog Grid 1</a></li>
+                                  <li class="menu-item"><a href="blog-grid-2.php">Blog Grid 2</a></li>
                                 </ul>
                           </li>
-                          <li class="menu-item"><a href="blog-list.html">Blog List</a></li>
+                          <li class="menu-item"><a href="blog-list.php">Blog List</a></li>
                         </ul>
                   </li>
                   <li class="menu-item menu-item-has-children dropdown"><a href="#">Contact</a>
                         <ul class="sub-menu">
-                          <li class="menu-item"><a href="contact-us.html">Contact Us #1</a></li>
-                          <li class="menu-item"><a href="contact-us.html">Contact Us #2</a></li>
+                          <li class="menu-item"><a href="contact-us.php">Contact Us #1</a></li>
+                          <li class="menu-item"><a href="contact-us.php">Contact Us #2</a></li>
                         </ul>
                   </li>
                 </ul>
@@ -175,20 +175,20 @@
               <div class="ps-cart__listing">
                 <div class="ps-cart__content">
                   <div class="ps-cart-item"><a class="ps-cart-item__close" href="#"></a>
-                    <div class="ps-cart-item__thumbnail"><a href="product-detail.html"></a><img src="images/cart-preview/1.jpg" alt=""></div>
-                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.html">Amazin’ Glazin’</a>
+                    <div class="ps-cart-item__thumbnail"><a href="product-detail.php"></a><img src="images/cart-preview/1.jpg" alt=""></div>
+                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.php">Amazin’ Glazin’</a>
                       <p><span>Quantity:<i>12</i></span><span>Total:<i>£176</i></span></p>
                     </div>
                   </div>
                   <div class="ps-cart-item"><a class="ps-cart-item__close" href="#"></a>
-                    <div class="ps-cart-item__thumbnail"><a href="product-detail.html"></a><img src="images/cart-preview/2.jpg" alt=""></div>
-                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.html">The Crusty Croissant</a>
+                    <div class="ps-cart-item__thumbnail"><a href="product-detail.php"></a><img src="images/cart-preview/2.jpg" alt=""></div>
+                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.php">The Crusty Croissant</a>
                       <p><span>Quantity:<i>12</i></span><span>Total:<i>£176</i></span></p>
                     </div>
                   </div>
                   <div class="ps-cart-item"><a class="ps-cart-item__close" href="#"></a>
-                    <div class="ps-cart-item__thumbnail"><a href="product-detail.html"></a><img src="images/cart-preview/3.jpg" alt=""></div>
-                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.html">The Rolling Pin</a>
+                    <div class="ps-cart-item__thumbnail"><a href="product-detail.php"></a><img src="images/cart-preview/3.jpg" alt=""></div>
+                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.php">The Rolling Pin</a>
                       <p><span>Quantity:<i>12</i></span><span>Total:<i>£176</i></span></p>
                     </div>
                   </div>
@@ -197,7 +197,7 @@
                   <p>Number of items:<span>36</span></p>
                   <p>Item Total:<span>£528.00</span></p>
                 </div>
-                <div class="ps-cart__footer"><a class="ps-btn" href="cart.html">Check out<i class="ps-icon-arrow-left"></i></a></div>
+                <div class="ps-cart__footer"><a class="ps-btn" href="cart.php">Check out<i class="ps-icon-arrow-left"></i></a></div>
               </div>
             </div>
             <div class="menu-toggle"><span></span></div>
@@ -250,8 +250,8 @@
             <div class="row">
                   <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
                     <div class="ps-product--hotdeal reverse">
-                      <div class="ps-product__thumbnail"><a class="ps-product__overlay" href="product-detail.html"></a><img src="images/access/5.jpg" alt=""></div>
-                      <div class="ps-product__content"><a class="ps-product__title" href="product-detail.html">Slim Fit Men Sport Hoodie</a>
+                      <div class="ps-product__thumbnail"><a class="ps-product__overlay" href="product-detail.php"></a><img src="images/access/5.jpg" alt=""></div>
+                      <div class="ps-product__content"><a class="ps-product__title" href="product-detail.php">Slim Fit Men Sport Hoodie</a>
                         <p class="ps-product__price">Only: <span>£178</span></p>
                         <div class="ps-product__status">
                           <div class="sold">Already sold: <span>10</span></div>
@@ -266,13 +266,13 @@
                                 <li><span class="minutes"></span><p>minutes</p></li>
                                 <li class="divider">:</li>
                                 <li><span class="seconds"></span><p>Seconds</p></li>
-                              </ul><a class="ps-btn" href="cart.html">Order Today<i class="ps-icon-next"></i></a>
+                              </ul><a class="ps-btn" href="cart.php">Order Today<i class="ps-icon-next"></i></a>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 "><a class="ps-offer mb-30" href="product-detail.html"><img src="images/offer/home-3-1.jpg" alt=""></a><a class="ps-offer" href="product-detail.html"><img src="images/offer/home-3-3.jpg" alt=""></a>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 "><a class="ps-offer mb-30" href="product-detail.php"><img src="images/offer/home-3-1.jpg" alt=""></a><a class="ps-offer" href="product-detail.php"><img src="images/offer/home-3-3.jpg" alt=""></a>
                   </div>
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 "><a class="ps-offer" href="product-detail.html"><img src="images/offer/home-3-2.jpg" alt=""></a>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 "><a class="ps-offer" href="product-detail.php"><img src="images/offer/home-3-2.jpg" alt=""></a>
                   </div>
             </div>
           </div>
@@ -300,7 +300,7 @@
                     <div class="ps-shoe mb-30">
                       <div class="ps-shoe__thumbnail">
                         <div class="ps-badge"><span>New</span></div>
-                        <div class="ps-badge ps-badge--sale ps-badge--2nd"><span>-35%</span></div><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/1.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                        <div class="ps-badge ps-badge--sale ps-badge--2nd"><span>-35%</span></div><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/1.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.php"></a>
                       </div>
                       <div class="ps-shoe__content">
                         <div class="ps-shoe__variants">
@@ -324,7 +324,7 @@
                 <div class="grid-item nike">
                   <div class="grid-item__content-wrapper">
                     <div class="ps-shoe mb-30">
-                      <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/2.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                      <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/2.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.php"></a>
                       </div>
                       <div class="ps-shoe__content">
                         <div class="ps-shoe__variants">
@@ -347,7 +347,7 @@
                 <div class="grid-item adidas">
                   <div class="grid-item__content-wrapper">
                     <div class="ps-shoe mb-30">
-                      <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/3.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                      <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/3.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.php"></a>
                       </div>
                       <div class="ps-shoe__content">
                         <div class="ps-shoe__variants">
@@ -371,7 +371,7 @@
                   <div class="grid-item__content-wrapper">
                     <div class="ps-shoe mb-30">
                       <div class="ps-shoe__thumbnail">
-                        <div class="ps-badge ps-badge--sale"><span>-35%</span></div><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/4.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                        <div class="ps-badge ps-badge--sale"><span>-35%</span></div><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/4.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.php"></a>
                       </div>
                       <div class="ps-shoe__content">
                         <div class="ps-shoe__variants">
@@ -395,7 +395,7 @@
                 <div class="grid-item men">
                   <div class="grid-item__content-wrapper">
                     <div class="ps-shoe mb-30">
-                      <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/5.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                      <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/5.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.php"></a>
                       </div>
                       <div class="ps-shoe__content">
                         <div class="ps-shoe__variants">
@@ -418,7 +418,7 @@
                 <div class="grid-item women">
                   <div class="grid-item__content-wrapper">
                     <div class="ps-shoe mb-30">
-                      <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/6.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                      <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/6.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.php"></a>
                       </div>
                       <div class="ps-shoe__content">
                         <div class="ps-shoe__variants">
@@ -441,7 +441,7 @@
                 <div class="grid-item kids">
                   <div class="grid-item__content-wrapper">
                     <div class="ps-shoe mb-30">
-                      <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/7.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                      <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/7.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.php"></a>
                       </div>
                       <div class="ps-shoe__content">
                         <div class="ps-shoe__variants">
@@ -464,7 +464,7 @@
                 <div class="grid-item kids">
                   <div class="grid-item__content-wrapper">
                     <div class="ps-shoe mb-30">
-                      <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/8.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.html"></a>
+                      <div class="ps-shoe__thumbnail"><a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a><img src="images/access/8.jpg" alt=""><a class="ps-shoe__overlay" href="product-detail.php"></a>
                       </div>
                       <div class="ps-shoe__content">
                         <div class="ps-shoe__variants">
@@ -687,8 +687,8 @@
             <div class="row">
                   <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
                     <div class="ps-product--hotdeal reverse">
-                      <div class="ps-product__thumbnail"><a class="ps-product__overlay" href="product-detail.html"></a><img src="images/access/4.jpg" alt=""></div>
-                      <div class="ps-product__content"><a class="ps-product__title text-uppercase" href="product-detail.html">Jordan pro andre hat</a>
+                      <div class="ps-product__thumbnail"><a class="ps-product__overlay" href="product-detail.php"></a><img src="images/access/4.jpg" alt=""></div>
+                      <div class="ps-product__content"><a class="ps-product__title text-uppercase" href="product-detail.php">Jordan pro andre hat</a>
                         <p class="ps-product__price">Only: <span>£178</span></p>
                         <div class="ps-product__status">
                           <div class="sold">Already sold: <span>10</span></div>
@@ -703,14 +703,14 @@
                                 <li><span class="minutes"></span><p>minutes</p></li>
                                 <li class="divider">:</li>
                                 <li><span class="seconds"></span><p>Seconds</p></li>
-                              </ul><a class="ps-btn" href="cart.html">Order Today<i class="ps-icon-next"></i></a>
+                              </ul><a class="ps-btn" href="cart.php">Order Today<i class="ps-icon-next"></i></a>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
                     <div class="ps-product--hotdeal reverse">
-                      <div class="ps-product__thumbnail"><a class="ps-product__overlay" href="product-detail.html"></a><img src="images/access/1.jpg" alt=""></div>
-                      <div class="ps-product__content"><a class="ps-product__title text-uppercase" href="product-detail.html">brasilia small bag</a>
+                      <div class="ps-product__thumbnail"><a class="ps-product__overlay" href="product-detail.php"></a><img src="images/access/1.jpg" alt=""></div>
+                      <div class="ps-product__content"><a class="ps-product__title text-uppercase" href="product-detail.php">brasilia small bag</a>
                         <p class="ps-product__price">Only: <span>£178</span></p>
                         <div class="ps-product__status">
                           <div class="sold">Already sold: <span>10</span></div>
@@ -725,7 +725,7 @@
                                 <li><span class="minutes"></span><p>minutes</p></li>
                                 <li class="divider">:</li>
                                 <li><span class="seconds"></span><p>Seconds</p></li>
-                              </ul><a class="ps-btn" href="cart.html">Order Today<i class="ps-icon-next"></i></a>
+                              </ul><a class="ps-btn" href="cart.php">Order Today<i class="ps-icon-next"></i></a>
                       </div>
                     </div>
                   </div>
@@ -797,28 +797,28 @@
             <div class="row">
                   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                     <div class="ps-post">
-                      <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.html"></a><img src="images/blog/1.jpg" alt=""></div>
-                      <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.html">An Inside Look at the Breaking2 Kit</a>
+                      <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/blog/1.jpg" alt=""></div>
+                      <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">An Inside Look at the Breaking2 Kit</a>
                         <p class="ps-post__meta"><span>By:<a class="mr-5" href="blog.html">Alena Studio</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
-                        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further…</p><a class="ps-morelink" href="blog-detail.html">Read more<i class="fa fa-long-arrow-right"></i></a>
+                        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further…</p><a class="ps-morelink" href="blog-detail.php">Read more<i class="fa fa-long-arrow-right"></i></a>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                     <div class="ps-post">
-                      <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.html"></a><img src="images/blog/2.jpg" alt=""></div>
-                      <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.html">Unpacking the Breaking2 Race Strategy</a>
+                      <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/blog/2.jpg" alt=""></div>
+                      <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Unpacking the Breaking2 Race Strategy</a>
                         <p class="ps-post__meta"><span>By:<a class="mr-5" href="blog.html">Alena Studio</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
-                        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further…</p><a class="ps-morelink" href="blog-detail.html">Read more<i class="fa fa-long-arrow-right"></i></a>
+                        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further…</p><a class="ps-morelink" href="blog-detail.php">Read more<i class="fa fa-long-arrow-right"></i></a>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                     <div class="ps-post">
-                      <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.html"></a><img src="images/blog/3.jpg" alt=""></div>
-                      <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.html">Nike’s Latest Football Cleat Breaks the Mold</a>
+                      <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/blog/3.jpg" alt=""></div>
+                      <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Nike’s Latest Football Cleat Breaks the Mold</a>
                         <p class="ps-post__meta"><span>By:<a class="mr-5" href="blog.html">Alena Studio</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
-                        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further…</p><a class="ps-morelink" href="blog-detail.html">Read more<i class="fa fa-long-arrow-right"></i></a>
+                        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further…</p><a class="ps-morelink" href="blog-detail.php">Read more<i class="fa fa-long-arrow-right"></i></a>
                       </div>
                     </div>
                   </div>
@@ -840,7 +840,7 @@
             <p>Learn about our company profile, communityimpact, sustainable motivation, and more.</p>
           </header>
           <footer>
-            <form action="product-listing.html" method="post">
+            <form action="product-listing.php" method="post">
               <div class="form-group">
                 <label>Name<span>*</span></label>
                 <input class="form-control" type="text">
@@ -884,7 +884,7 @@
             <div class="row">
                   <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
                     <aside class="ps-widget--footer ps-widget--info">
-                      <header><a class="ps-logo" href="index.html"><img src="images/logo-white.png" alt=""></a>
+                      <header><a class="ps-logo" href="index.php"><img src="images/logo-white.png" alt=""></a>
                         <h3 class="ps-widget__title">Address Office 1</h3>
                       </header>
                       <footer>

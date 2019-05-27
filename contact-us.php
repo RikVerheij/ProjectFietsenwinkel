@@ -14,7 +14,7 @@
     <meta name="author" content="Nghia Minh Luong">
     <meta name="keywords" content="Default Description">
     <meta name="description" content="Default keyword">
-    <title>Sky - Blog Detail</title>
+    <title>Sky - Contact Us</title>
     <!-- Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:300,400,700%7CMontserrat:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
@@ -72,13 +72,13 @@
       <nav class="navigation">
         <div class="container-fluid">
           <div class="navigation__column left">
-            <div class="header__logo"><a class="ps-logo" href="index.html"><img src="images/logo.png" alt=""></a></div>
+            <div class="header__logo"><a class="ps-logo" href="index.php"><img src="images/logo.png" alt=""></a></div>
           </div>
           <div class="navigation__column center">
                 <ul class="main-menu menu">
-                  <li class="menu-item menu-item-has-children dropdown"><a href="index.html">Home</a>
+                  <li class="menu-item menu-item-has-children dropdown"><a href="index.php">Home</a>
                         <ul class="sub-menu">
-                          <li class="menu-item"><a href="index.html">Homepage #1</a></li>
+                          <li class="menu-item"><a href="index.php">Homepage #1</a></li>
                           <li class="menu-item"><a href="#">Homepage #2</a></li>
                           <li class="menu-item"><a href="#">Homepage #3</a></li>
                         </ul>
@@ -88,58 +88,58 @@
                       <div class="mega-wrap">
                         <div class="mega-column">
                           <ul class="mega-item mega-features">
-                            <li><a href="product-listing.html">NEW RELEASES</a></li>
-                            <li><a href="product-listing.html">FEATURES SHOES</a></li>
-                            <li><a href="product-listing.html">BEST SELLERS</a></li>
-                            <li><a href="product-listing.html">NOW TRENDING</a></li>
-                            <li><a href="product-listing.html">SUMMER ESSENTIALS</a></li>
-                            <li><a href="product-listing.html">MOTHER'S DAY COLLECTION</a></li>
-                            <li><a href="product-listing.html">FAN GEAR</a></li>
+                            <li><a href="product-listing.php">NEW RELEASES</a></li>
+                            <li><a href="product-listing.php">FEATURES SHOES</a></li>
+                            <li><a href="product-listing.php">BEST SELLERS</a></li>
+                            <li><a href="product-listing.php">NOW TRENDING</a></li>
+                            <li><a href="product-listing.php">SUMMER ESSENTIALS</a></li>
+                            <li><a href="product-listing.php">MOTHER'S DAY COLLECTION</a></li>
+                            <li><a href="product-listing.php">FAN GEAR</a></li>
                           </ul>
                         </div>
                         <div class="mega-column">
                           <h4 class="mega-heading">Shoes</h4>
                           <ul class="mega-item">
-                            <li><a href="product-listing.html">All Shoes</a></li>
-                            <li><a href="product-listing.html">Running</a></li>
-                            <li><a href="product-listing.html">Training & Gym</a></li>
-                            <li><a href="product-listing.html">Basketball</a></li>
-                            <li><a href="product-listing.html">Football</a></li>
-                            <li><a href="product-listing.html">Soccer</a></li>
-                            <li><a href="product-listing.html">Baseball</a></li>
+                            <li><a href="product-listing.php">All Shoes</a></li>
+                            <li><a href="product-listing.php">Running</a></li>
+                            <li><a href="product-listing.php">Training & Gym</a></li>
+                            <li><a href="product-listing.php">Basketball</a></li>
+                            <li><a href="product-listing.php">Football</a></li>
+                            <li><a href="product-listing.php">Soccer</a></li>
+                            <li><a href="product-listing.php">Baseball</a></li>
                           </ul>
                         </div>
                         <div class="mega-column">
                           <h4 class="mega-heading">CLOTHING</h4>
                           <ul class="mega-item">
-                            <li><a href="product-listing.html">Compression & Nike Pro</a></li>
-                            <li><a href="product-listing.html">Tops & T-Shirts</a></li>
-                            <li><a href="product-listing.html">Polos</a></li>
-                            <li><a href="product-listing.html">Hoodies & Sweatshirts</a></li>
-                            <li><a href="product-listing.html">Jackets & Vests</a></li>
-                            <li><a href="product-listing.html">Pants & Tights</a></li>
-                            <li><a href="product-listing.html">Shorts</a></li>
+                            <li><a href="product-listing.php">Compression & Nike Pro</a></li>
+                            <li><a href="product-listing.php">Tops & T-Shirts</a></li>
+                            <li><a href="product-listing.php">Polos</a></li>
+                            <li><a href="product-listing.php">Hoodies & Sweatshirts</a></li>
+                            <li><a href="product-listing.php">Jackets & Vests</a></li>
+                            <li><a href="product-listing.php">Pants & Tights</a></li>
+                            <li><a href="product-listing.php">Shorts</a></li>
                           </ul>
                         </div>
                         <div class="mega-column">
                           <h4 class="mega-heading">Accessories</h4>
                           <ul class="mega-item">
-                            <li><a href="product-listing.html">Compression & Nike Pro</a></li>
-                            <li><a href="product-listing.html">Tops & T-Shirts</a></li>
-                            <li><a href="product-listing.html">Polos</a></li>
-                            <li><a href="product-listing.html">Hoodies & Sweatshirts</a></li>
-                            <li><a href="product-listing.html">Jackets & Vests</a></li>
-                            <li><a href="product-listing.html">Pants & Tights</a></li>
-                            <li><a href="product-listing.html">Shorts</a></li>
+                            <li><a href="product-listing.php">Compression & Nike Pro</a></li>
+                            <li><a href="product-listing.php">Tops & T-Shirts</a></li>
+                            <li><a href="product-listing.php">Polos</a></li>
+                            <li><a href="product-listing.php">Hoodies & Sweatshirts</a></li>
+                            <li><a href="product-listing.php">Jackets & Vests</a></li>
+                            <li><a href="product-listing.php">Pants & Tights</a></li>
+                            <li><a href="product-listing.php">Shorts</a></li>
                           </ul>
                         </div>
                         <div class="mega-column">
                           <h4 class="mega-heading">BRAND</h4>
                           <ul class="mega-item">
-                            <li><a href="product-listing.html">NIKE</a></li>
-                            <li><a href="product-listing.html">Adidas</a></li>
-                            <li><a href="product-listing.html">Dior</a></li>
-                            <li><a href="product-listing.html">B&G</a></li>
+                            <li><a href="product-listing.php">NIKE</a></li>
+                            <li><a href="product-listing.php">Adidas</a></li>
+                            <li><a href="product-listing.php">Dior</a></li>
+                            <li><a href="product-listing.php">B&G</a></li>
                           </ul>
                         </div>
                       </div>
@@ -149,19 +149,19 @@
                   <li class="menu-item"><a href="#">Kids</a></li>
                   <li class="menu-item menu-item-has-children dropdown"><a href="#">News</a>
                         <ul class="sub-menu">
-                          <li class="menu-item menu-item-has-children dropdown"><a href="blog-grid.html">Blog-grid</a>
+                          <li class="menu-item menu-item-has-children dropdown"><a href="blog-grid.php">Blog-grid</a>
                                 <ul class="sub-menu">
-                                  <li class="menu-item"><a href="blog-grid.html">Blog Grid 1</a></li>
-                                  <li class="menu-item"><a href="blog-grid-2.html">Blog Grid 2</a></li>
+                                  <li class="menu-item"><a href="blog-grid.php">Blog Grid 1</a></li>
+                                  <li class="menu-item"><a href="blog-grid-2.php">Blog Grid 2</a></li>
                                 </ul>
                           </li>
-                          <li class="menu-item"><a href="blog-list.html">Blog List</a></li>
+                          <li class="menu-item"><a href="blog-list.php">Blog List</a></li>
                         </ul>
                   </li>
                   <li class="menu-item menu-item-has-children dropdown"><a href="#">Contact</a>
                         <ul class="sub-menu">
-                          <li class="menu-item"><a href="contact-us.html">Contact Us #1</a></li>
-                          <li class="menu-item"><a href="contact-us.html">Contact Us #2</a></li>
+                          <li class="menu-item"><a href="contact-us.php">Contact Us #1</a></li>
+                          <li class="menu-item"><a href="contact-us.php">Contact Us #2</a></li>
                         </ul>
                   </li>
                 </ul>
@@ -175,20 +175,20 @@
               <div class="ps-cart__listing">
                 <div class="ps-cart__content">
                   <div class="ps-cart-item"><a class="ps-cart-item__close" href="#"></a>
-                    <div class="ps-cart-item__thumbnail"><a href="product-detail.html"></a><img src="images/cart-preview/1.jpg" alt=""></div>
-                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.html">Amazin’ Glazin’</a>
+                    <div class="ps-cart-item__thumbnail"><a href="product-detail.php"></a><img src="images/cart-preview/1.jpg" alt=""></div>
+                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.php">Amazin’ Glazin’</a>
                       <p><span>Quantity:<i>12</i></span><span>Total:<i>£176</i></span></p>
                     </div>
                   </div>
                   <div class="ps-cart-item"><a class="ps-cart-item__close" href="#"></a>
-                    <div class="ps-cart-item__thumbnail"><a href="product-detail.html"></a><img src="images/cart-preview/2.jpg" alt=""></div>
-                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.html">The Crusty Croissant</a>
+                    <div class="ps-cart-item__thumbnail"><a href="product-detail.php"></a><img src="images/cart-preview/2.jpg" alt=""></div>
+                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.php">The Crusty Croissant</a>
                       <p><span>Quantity:<i>12</i></span><span>Total:<i>£176</i></span></p>
                     </div>
                   </div>
                   <div class="ps-cart-item"><a class="ps-cart-item__close" href="#"></a>
-                    <div class="ps-cart-item__thumbnail"><a href="product-detail.html"></a><img src="images/cart-preview/3.jpg" alt=""></div>
-                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.html">The Rolling Pin</a>
+                    <div class="ps-cart-item__thumbnail"><a href="product-detail.php"></a><img src="images/cart-preview/3.jpg" alt=""></div>
+                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.php">The Rolling Pin</a>
                       <p><span>Quantity:<i>12</i></span><span>Total:<i>£176</i></span></p>
                     </div>
                   </div>
@@ -197,7 +197,7 @@
                   <p>Number of items:<span>36</span></p>
                   <p>Item Total:<span>£528.00</span></p>
                 </div>
-                <div class="ps-cart__footer"><a class="ps-btn" href="cart.html">Check out<i class="ps-icon-arrow-left"></i></a></div>
+                <div class="ps-cart__footer"><a class="ps-btn" href="cart.php">Check out<i class="ps-icon-arrow-left"></i></a></div>
               </div>
             </div>
             <div class="menu-toggle"><span></span></div>
@@ -213,201 +213,93 @@
       </div>
     </div>
     <main class="ps-main">
-      <div class="ps-blog-grid pt-80 pb-80">
+      <div class="ps-contact ps-section pb-80">
+        <div id="contact-map" data-address="New York, NY" data-title="Sky Store!" data-zoom="17"></div>
         <div class="ps-container">
           <div class="row">
-                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 ">
-                  <div class="ps-post--detail">
-                    <div class="ps-post__thumbnail"><img src="images/blog/11.png" alt=""></div>
-                    <div class="ps-post__header">
-                      <h3 class="ps-post__title">Unpacking the Breaking 2 Race Strategy</h3>
-                      <p class="ps-post__meta">Posted by <a href="blog-grid.html">Alena Studio</a> on August 17, 2016  in <a href="blog-grid.html">Men Shoes</a> , <a href="blog-grid.html">Stylish</a></p>
-                    </div>
-                    <div class="ps-post__content">
-                      <p>No matter how far along you are in your sophistication as an amateur astronomer, there is always one fundamental moment that we all go back to. That is that very first moment that we went out where you could really see the cosmos well and you took in the night sky. For city dwellers, this is a revelation as profound as if we discovered aliens living among us. Most of us have no idea the vast panorama of lights that dot a clear night sky when there are no city lights to interfere with the view.</p>
-                      <blockquote>
-                        <p>It seems from the moment you begin to take your love of astronomy seriously, the thing that is on your mind is what kind of telescope will you get. And there is no question, investing in a good telescope can really enhance your enjoyment of your new passion in astronomy.</p>
-                        <p class="author">Rodney <br> <span>Cannon</span></p>
-                      </blockquote>
-                      <p>In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space   telescope known as the Hubble. While NASA has had many ups and downs, the launch and continued operation of the Hubble space telescope probably ranks next to the moon landings ace exploration accomplishments of the last hundred years.</p>
-                    </div>
-                    <div class="ps-post__footer">
-                      <p class="ps-post__tags"><i class="fa fa-tags"></i><a href="blog-list.html">Man shoe</a>,<a href="blog-list.html"> Woman</a>,<a href="blog-list.html"> Nike</a></p>
-                      <div class="ps-post__actions"><span><i class="fa fa-comments"></i> 23 Comments</span><span><i class="fa fa-heart"></i>  likes</span>
-                        <div class="ps-post__social"><i class="fa fa-share-alt"></i><a href="#">Share</a>
-                          <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                          </ul>
-                        </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                  <div class="ps-section__header mb-50">
+                    <h2 class="ps-section__title" data-mask="Contact">- Get in touch</h2>
+                    <form class="ps-contact__form" action="do_action" method="post">
+                      <div class="row">   
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                              <div class="form-group">
+                                <label>Name <sub>*</sub></label>
+                                <input class="form-control" type="text" placeholder="">
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                              <div class="form-group">
+                                <label>Email <sub>*</sub></label>
+                                <input class="form-control" type="email" placeholder="">
+                              </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                              <div class="form-group mb-25">
+                                <label>Your Message <sub>*</sub></label>
+                                <textarea class="form-control" rows="6"></textarea>
+                              </div>
+                              <div class="form-group">
+                                <button class="ps-btn">Send Message<i class="ps-icon-next"></i></button>
+                              </div>
+                            </div>
                       </div>
-                    </div>
+                    </form>
                   </div>
-                  <div class="ps-author">
-                    <div class="ps-author__thumbnail"><img src="images/user/1.jpg" alt=""></div>
-                    <div class="ps-author__content">
-                      <header>
-                        <h4>MARK GREY</h4>
-                        <p>WEB DESIGNER</p>
-                      </header>
-                      <p>The development of the mass spectrometer allowed the mass of atoms to be measured with increased accuracy. The device uses the launch and continued operation of the Hubble space telescope probably.</p>
-                    </div>
-                  </div>
-                  <div class="ps-comments">
-                    <h3>Comment(4)</h3>
-                    <div class="ps-comment">
-                      <div class="ps-comment__thumbnail"><img src="images/user/2.jpg" alt=""></div>
-                      <div class="ps-comment__content">
-                        <header>
-                          <h4>MARK GREY <span>(15 minutes ago)</span></h4><a href="#">Reply<i class="ps-icon-arrow-left"></i></a>
-                        </header>
-                        <p>The development of the mass spectrometer allowed the mass of atoms to be measured with increased accuracy. The device uses the launch and continued operation of the Hubble space telescope probably.</p>
-                      </div>
-                    </div>
-                    <div class="ps-comment ps-comment--reply">
-                      <div class="ps-comment__thumbnail"><img src="images/user/3.jpg" alt=""></div>
-                      <div class="ps-comment__content">
-                        <header>
-                          <h4>MARK GREY <span>(3 hours ago)</span></h4><a href="#">Reply<i class="ps-icon-arrow-left"></i></a>
-                        </header>
-                        <p>The development of the mass spectrometer allowed the mass of atoms to be measured with increased accuracy. The device uses  continue ace explore.</p>
-                      </div>
-                    </div>
-                    <div class="ps-comment">
-                      <div class="ps-comment__thumbnail"><img src="images/user/4.jpg" alt=""></div>
-                      <div class="ps-comment__content">
-                        <header>
-                          <h4>MARK GREY <span>(1 day ago)</span></h4><a href="#">Reply<i class="ps-icon-arrow-left"></i></a>
-                        </header>
-                        <p>The development of the mass spectrometer allowed the mass of atoms to be measured with increased accuracy. The device uses the launch and continued operation of the Hubble space telescope probably.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <form class="ps-form--comment" action="do_action" method="post">
-                    <h3>LEAVE A COMMENT</h3>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                  <div class="ps-section__content">
                     <div class="row">
                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
-                            <div class="form-group">
-                              <input class="form-control" type="text" placeholder="Your Name">
+                            <div class="ps-contact__block" data-mh="contact-block">
+                              <header>
+                                <h3>USA <span> San Francisco</span></h3>
+                              </header>
+                              <footer>
+                                <p><i class="fa fa-map-marker"></i> 19C Trolley Square  Wilmington, DE 19806</p>
+                                <p><i class="fa fa-envelope-o"></i><a href="mailto@supportShoes@shoes.net">supportShoes@shoes.net</a></p>
+                                <p><i class="fa fa-phone"></i> ( +84 ) 9892 2324  -  9401 123 003</p>
+                              </footer>
                             </div>
                           </div>
                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
-                            <div class="form-group">
-                              <input class="form-control" type="email" placeholder="E-mail">
+                            <div class="ps-contact__block" data-mh="contact-block">
+                              <header>
+                                <h3>Ireland  <span> Dublin</span></h3>
+                              </header>
+                              <footer>
+                                <p><i class="fa fa-map-marker"></i> 19C Trolley Square  Wilmington, DE 19806</p>
+                                <p><i class="fa fa-envelope-o"></i><a href="mailto@supportShoes@shoes.net">supportShoes@shoes.net</a></p>
+                                <p><i class="fa fa-phone"></i> ( +84 ) 9892 2324  -  9401 123 003</p>
+                              </footer>
                             </div>
                           </div>
                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
-                            <div class="form-group">
-                              <input class="form-control" type="text" placeholder="Subject">
+                            <div class="ps-contact__block" data-mh="contact-block">
+                              <header>
+                                <h3>Brazil <span> São Paulo</span></h3>
+                              </header>
+                              <footer>
+                                <p><i class="fa fa-map-marker"></i> 19C Trolley Square  Wilmington, DE 19806</p>
+                                <p><i class="fa fa-envelope-o"></i><a href="mailto@supportShoes@shoes.net">supportShoes@shoes.net</a></p>
+                                <p><i class="fa fa-phone"></i> ( +84 ) 9892 2324  -  9401 123 003</p>
+                              </footer>
                             </div>
                           </div>
                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
-                            <div class="form-group">
-                              <input class="form-control" type="text" placeholder="Phone Number">
+                            <div class="ps-contact__block" data-mh="contact-block">
+                              <header>
+                                <h3>Philippines <span> Quezon City</span></h3>
+                              </header>
+                              <footer>
+                                <p><i class="fa fa-map-marker"></i> 19C Trolley Square  Wilmington, DE 19806</p>
+                                <p><i class="fa fa-envelope-o"></i><a href="mailto@supportShoes@shoes.net">supportShoes@shoes.net</a></p>
+                                <p><i class="fa fa-phone"></i> ( +84 ) 9892 2324  -  9401 123 003</p>
+                              </footer>
                             </div>
                           </div>
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-                            <div class="form-group">
-                              <textarea class="form-control" rows="6" placeholder="Text your message here..."></textarea>
-                            </div>
-                          </div>
                     </div>
-                    <div class="form-group">
-                      <button class="ps-btn ps-btn--sm ps-contact__submit">Send Message<i class="ps-icon-next"></i></button>
-                    </div>
-                  </form>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
-                  <aside class="ps-widget--sidebar ps-widget--search">
-                    <form class="ps-search--widget" action="do_action" method="post">
-                      <input class="form-control" type="text" placeholder="Search posts...">
-                      <button><i class="ps-icon-search"></i></button>
-                    </form>
-                  </aside>
-                  <aside class="ps-widget--sidebar">
-                    <div class="ps-widget__header">
-                      <h3>Archive</h3>
-                    </div>
-                    <div class="ps-widget__content">
-                      <ul class="ps-list--arrow">
-                        <li class="current"><a href="product-listing.html">Sky(321)</a></li>
-                        <li><a href="product-listing.html">Amazin’ Glazin’</a></li>
-                        <li><a href="product-listing.html">The Crusty Croissant</a></li>
-                        <li><a href="product-listing.html">The Rolling Pin</a></li>
-                        <li><a href="product-listing.html">Skippity Scones</a></li>
-                        <li><a href="product-listing.html">Mad Batter</a></li>
-                        <li><a href="product-listing.html">Confection Connection</a></li>
-                      </ul>
-                    </div>
-                  </aside>
-                  <aside class="ps-widget--sidebar">
-                    <div class="ps-widget__header">
-                      <h3>Ads Banner</h3>
-                    </div>
-                    <div class="ps-widget__content"><a href="product-listing"><img src="images/offer/sidebar.jpg" alt=""></a></div>
-                  </aside>
-                  <aside class="ps-widget--sidebar">
-                    <div class="ps-widget__header">
-                      <h3>Recent Posts</h3>
-                    </div>
-                    <div class="ps-widget__content">
-                      <div class="ps-post--sidebar">
-                        <div class="ps-post__thumbnail"><a href="#"></a><img src="images/blog/sidebar/1.jpg" alt=""></div>
-                        <div class="ps-post__content"><a class="ps-post__title" href="#">Micenas Placerat Nibh Loreming Fentum</a><span>SEP 29, 2017</span></div>
-                      </div>
-                      <div class="ps-post--sidebar">
-                        <div class="ps-post__thumbnail"><a href="#"></a><img src="images/blog/sidebar/2.jpg" alt=""></div>
-                        <div class="ps-post__content"><a class="ps-post__title" href="#">Micenas Placerat Nibh Loreming Fentum</a><span>SEP 29, 2017</span></div>
-                      </div>
-                      <div class="ps-post--sidebar">
-                        <div class="ps-post__thumbnail"><a href="#"></a><img src="images/blog/sidebar/3.jpg" alt=""></div>
-                        <div class="ps-post__content"><a class="ps-post__title" href="#">Micenas Placerat Nibh Loreming Fentum</a><span>SEP 29, 2017</span></div>
-                      </div>
-                    </div>
-                  </aside>
-                  <aside class="ps-widget--sidebar">
-                    <div class="ps-widget__header">
-                      <h3>Best Seller</h3>
-                    </div>
-                    <div class="ps-widget__content">
-                      <div class="ps-shoe--sidebar">
-                        <div class="ps-shoe__thumbnail"><a href="#"></a><img src="images/shoe/sidebar/1.jpg" alt=""></div>
-                        <div class="ps-shoe__content"><a class="ps-shoe__title" href="#">Men's Sky</a>
-                          <p><del> £253.00</del> £152.00</p><a class="ps-btn" href="#">PURCHASE</a>
-                        </div>
-                      </div>
-                      <div class="ps-shoe--sidebar">
-                        <div class="ps-shoe__thumbnail"><a href="#"></a><img src="images/shoe/sidebar/2.jpg" alt=""></div>
-                        <div class="ps-shoe__content"><a class="ps-shoe__title" href="#">Nike Flight Bonafide</a>
-                          <p><del> £253.00</del> £152.00</p><a class="ps-btn" href="#">PURCHASE</a>
-                        </div>
-                      </div>
-                      <div class="ps-shoe--sidebar">
-                        <div class="ps-shoe__thumbnail"><a href="#"></a><img src="images/shoe/sidebar/3.jpg" alt=""></div>
-                        <div class="ps-shoe__content"><a class="ps-shoe__title" href="#">Nike Sock Dart QS</a>
-                          <p><del> £253.00</del> £152.00</p><a class="ps-btn" href="#">PURCHASE</a>
-                        </div>
-                      </div>
-                    </div>
-                  </aside>
-                  <aside class="ps-widget--sidebar">
-                    <div class="ps-widget__header">
-                      <h3>Tags</h3>
-                    </div>
-                    <div class="ps-widget__content">
-                      <ul class="ps-tags">
-                        <li><a href="product-listing.html">Men</a></li>
-                        <li><a href="product-listing.html">Female</a></li>
-                        <li><a href="product-listing.html">B&G</a></li>
-                        <li><a href="product-listing.html">ugly fashion</a></li>
-                        <li><a href="product-listing.html">Nike</a></li>
-                        <li><a href="product-listing.html">Dior</a></li>
-                        <li><a href="product-listing.html">Adidas</a></li>
-                        <li><a href="product-listing.html">Diour</a></li>
-                      </ul>
-                    </div>
-                  </aside>
+                  </div>
                 </div>
           </div>
         </div>
@@ -436,7 +328,7 @@
             <div class="row">
                   <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
                     <aside class="ps-widget--footer ps-widget--info">
-                      <header><a class="ps-logo" href="index.html"><img src="images/logo-white.png" alt=""></a>
+                      <header><a class="ps-logo" href="index.php"><img src="images/logo-white.png" alt=""></a>
                         <h3 class="ps-widget__title">Address Office 1</h3>
                       </header>
                       <footer>
