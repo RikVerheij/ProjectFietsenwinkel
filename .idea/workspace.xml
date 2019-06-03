@@ -2,591 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b9484e7-340d-4868-8fdf-471ba7ddbd1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProjectFietsenwinkel.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/blog-detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/blog-grid-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/blog-grid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/blog-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/cart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/checkout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/compare.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/contact-us-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/contact-us.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/homepage-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/homepage-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/access/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/access/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/access/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/access/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/access/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/access/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/access/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/access/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/access/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/background/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/background/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/background/404.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/background/Banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/background/banner-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/background/home-banner-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/background/home-banner-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/background/parallax.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/banner/Banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/banner/banner-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/banner/banner-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/banner/home-banner-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/banner/home-banner-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/blog/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/blog/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/blog/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/blog/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/blog/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/blog/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/blog/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/blog/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/blog/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/blog/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/blog/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/blog/sidebar/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/blog/sidebar/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/blog/sidebar/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/blog/sidebar/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/cart-preview/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/cart-preview/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/cart-preview/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/clothes/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/clothes/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/clothes/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/clothes/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/clothes/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/clothes/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/clothes/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/clothes/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/clothes/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/clothes/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/clothes/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/clothes/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/flag/china.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/flag/japan.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/flag/singapore.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/flag/usa.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/hot-deal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/logo-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/logo-white/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/marker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/offer/banner-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/offer/clothes-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/offer/clothes-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/offer/home-2-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/offer/home-2-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/offer/home-2-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/offer/home-2-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/offer/home-2-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/offer/home-3-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/offer/home-3-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/offer/home-3-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/offer/img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/offer/sidebar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/partner/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/partner/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/partner/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/partner/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/partner/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/partner/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/partner/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/partner/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/payment/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/payment/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/payment/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/payment/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/payment/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/payment/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/product/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/product/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/product/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/product/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/product/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/product/cart-preview/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/product/cart-preview/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/product/cart-preview/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe-detail/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe-detail/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe-detail/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/sidebar/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/sidebar/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/shoe/sidebar/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/slider/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/slider/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/slider/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/slider/slider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/team/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/team/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/team/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/team/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/testimonial/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/testimonial/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/testimonial/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/testimonial/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/testimonial/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/user/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/user/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/user/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/user/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/images/user/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/js/main.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/js/shoe-variants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/Magnific-Popup/dist/jquery.magnific-popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/Magnific-Popup/dist/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/animate.css/animate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/bootstrap-select/dist/css/bootstrap-select.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/bootstrap-select/dist/js/bootstrap-select.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/elevatezoom/images/large/image1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/elevatezoom/images/large/image2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/elevatezoom/images/large/image3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/elevatezoom/images/large/image4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/elevatezoom/images/small/image1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/elevatezoom/images/small/image2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/elevatezoom/images/small/image3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/elevatezoom/images/small/image4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/elevatezoom/images/thumb/image1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/elevatezoom/images/thumb/image2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/elevatezoom/images/thumb/image3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/elevatezoom/images/thumb/image4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/elevatezoom/images/window-positions.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/elevatezoom/jquery.elevateZoom-3.0.8.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/elevatezoom/jquery.elevatezoom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/gmap3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/imagesloaded.pkgd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ionicons/css/ionicons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ionicons/css/ionicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ionicons/fonts/ionicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ionicons/fonts/ionicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ionicons/fonts/ionicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ionicons/fonts/ionicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/isotope.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-bar-rating/dist/jquery.barrating.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-bar-rating/dist/themes/bars-1to10.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-bar-rating/dist/themes/bars-horizontal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-bar-rating/dist/themes/bars-movie.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-bar-rating/dist/themes/bars-pill.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-bar-rating/dist/themes/bars-reversed.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-bar-rating/dist/themes/bars-square.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-bar-rating/dist/themes/bootstrap-stars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-bar-rating/dist/themes/css-stars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-bar-rating/dist/themes/fontawesome-stars-o.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-bar-rating/dist/themes/fontawesome-stars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-ui/external/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-ui/images/ui-icons_444444_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-ui/images/ui-icons_555555_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-ui/images/ui-icons_777620_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-ui/images/ui-icons_777777_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-ui/images/ui-icons_cc0000_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-ui/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-ui/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery-ui/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery.countTo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery.matchHeight-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery.parallax-1.1.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/masonry.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/overflow-text.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/owl-carousel/assets/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/owl-carousel/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/plugin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/plugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ps-icon/Read Me.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ps-icon/demo-files/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ps-icon/demo-files/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ps-icon/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ps-icon/fonts/ps-icon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ps-icon/fonts/ps-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ps-icon/fonts/ps-icon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ps-icon/fonts/ps-icon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ps-icon/selection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/ps-icon/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/coloredbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/gridtile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/gridtile_3x3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/gridtile_3x3_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/gridtile_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/sources/fb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/sources/fr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/sources/ig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/sources/post.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/sources/revolution_slide1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/sources/revolution_slide2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/sources/tw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/sources/vm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/sources/wc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/sources/yt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/svg/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/assets/svg/svg.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/closedhand.cur" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/layers.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/navigation-skins/ares.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/navigation-skins/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/navigation-skins/dione.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/navigation-skins/erinyen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/navigation-skins/gyges.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/navigation-skins/hades.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/navigation-skins/hebe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/navigation-skins/hephaistos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/navigation-skins/hermes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/navigation-skins/hesperiden.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/navigation-skins/metis.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/navigation-skins/persephone.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/navigation-skins/uranus.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/navigation-skins/zeus.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/navigation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/openhand.cur" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/settings-source.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/settings.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/css/tp-color-picker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/font-awesome/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/pe-icon-7-stroke/css/helper.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/pe-icon-7-stroke/css/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/pe-icon-7-stroke/fonts/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/pe-icon-7-stroke/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/revicons/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/revicons/revicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/revicons/revicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/revicons/revicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/fonts/revicons/revicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/images/tpcolorpicker/arrow_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/images/tpcolorpicker/arrow_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/images/tpcolorpicker/check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/images/tpcolorpicker/check_reverse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/images/tpcolorpicker/check_small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/images/tpcolorpicker/delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/images/tpcolorpicker/exit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/images/tpcolorpicker/point_bottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/images/tpcolorpicker/point_top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/images/tpcolorpicker/save.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/images/tpcolorpicker/trans_tile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/revolution.extension.actions.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/revolution.extension.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/revolution.extension.migration.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/revolution.extension.navigation.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/revolution.extension.parallax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/revolution.extension.video.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/source/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/source/revolution.extension.actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/source/revolution.extension.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/source/revolution.extension.kenburn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/source/revolution.extension.layeranimation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/source/revolution.extension.migration.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/source/revolution.extension.navigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/source/revolution.extension.parallax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/source/revolution.extension.slideanims.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/extensions/source/revolution.extension.video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/jquery.themepunch.enablelog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/jquery.themepunch.revolution.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/jquery.themepunch.tools.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/source/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/source/jquery.themepunch.enablelog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/source/jquery.themepunch.revolution.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/source/jquery.themepunch.tools.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/source/tp-color-picker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/revolution/js/tp-color-picker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/slick/slick/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/slick/slick/fonts/slick.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/slick/slick/fonts/slick.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/slick/slick/fonts/slick.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/slick/slick/fonts/slick.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/slick/slick/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/slick/slick/slick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/plugins/slick/slick/slick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/product-detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/product-listing-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/product-listing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/css/elements/_pagination.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/base/fonts.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/base/head.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/base/scripts.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/base/styles.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/common/accordion.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/common/breadcrumb.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/common/cart.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/common/masonry.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/common/mega-menu.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/common/pagination.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/common/tabs.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/data/list.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/data/menu.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/data/pages.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/data/post.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/404.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/about.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/blog-detail.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/blog-grid-2.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/blog-grid.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/blog-list.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/cart.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/checkout.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/compare.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/contact-us-2.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/contact-us.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/homepage-2.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/homepage-3.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/homepage.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/pages.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/product-detail.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/product-listing-2.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/product-listing.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/sticky.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/typhography.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/layouts/whishlist.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/master.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/about.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/blog-detail.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/blog-grid-2.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/blog-grid.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/blog-list.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/cart.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/checkout.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/compare.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/contact-us-2.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/contact-us.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/demo-text.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/footer.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/header.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/modules/accsess.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/modules/blog-sidebar.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/modules/clothes.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/modules/form-comment.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/modules/pagination.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/modules/partner.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/modules/post-comment.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/modules/product-action.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/modules/product-sidebar.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/modules/shoe.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/product-detail.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/product-listing-2.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/product-listing.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-2-features.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-2-hotdeal.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-2-new-product.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-2-offer.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-3-features.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-3-hotdeal.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-3-offer.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-3-product.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-3-topsale.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-banner.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-blog.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-contact.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-features-product.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-hot-deal.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-testimonial.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/home-top-sales.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/related-product.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/slider-2.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/slider-3.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/sections/subscribe.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/slider/slider-1.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/slider/slider-2.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/typhography.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/partials/whishlist.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/jade/utils/mixins.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/base/_reset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/base/_typhography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/components/_cart.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/components/_contact.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/components/_navigation.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/components/_search.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/components/_subscribe.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/custom.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_author.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_badge.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_banner.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_block.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_comment.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_filter.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_form.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_hotspot.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_iconbox.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_loader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_masonry.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_offer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_post.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_rating.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_review.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_section.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_shoe.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_table.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_tags.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_testimonial.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_user.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/elements/_widget.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/frames/_background.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/frames/_margin.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/frames/_padding.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/modules/_404.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/modules/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/modules/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/modules/_product.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/themes/_effect.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/utils/_mixin.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/utils/_variable.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/_hover_effect.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/_masonry_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/_media_query.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/_bourbon-deprecated-upcoming.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/_bourbon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_border-color.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_border-radius.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_border-style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_border-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_ellipsis.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_font-stacks.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_hide-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_margin.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_padding.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_position.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_prefixer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_retina-image.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_size.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_text-inputs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_timing-functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_triangle.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/addons/_word-wrap.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_animation.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_appearance.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_backface-visibility.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_background-image.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_background.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_border-image.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_calc.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_columns.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_filter.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_flex-box.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_font-face.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_font-feature-settings.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_hidpi-media-query.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_hyphens.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_image-rendering.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_keyframes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_linear-gradient.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_perspective.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_placeholder.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_radial-gradient.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_selection.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_text-decoration.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_transform.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_transition.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/css3/_user-select.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/functions/_assign-inputs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/functions/_contains-falsy.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/functions/_contains.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/functions/_is-length.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/functions/_is-light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/functions/_is-number.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/functions/_is-size.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/functions/_modular-scale.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/functions/_px-to-em.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/functions/_px-to-rem.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/functions/_shade.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/functions/_strip-units.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/functions/_tint.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/functions/_transition-property-name.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/functions/_unpack.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/helpers/_convert-units.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/helpers/_directional-values.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/helpers/_font-source-declaration.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/helpers/_gradient-positions-parser.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/helpers/_linear-angle-parser.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/helpers/_linear-gradient-parser.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/helpers/_linear-positions-parser.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/helpers/_linear-side-corner-parser.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/helpers/_radial-arg-parser.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/helpers/_radial-gradient-parser.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/helpers/_radial-positions-parser.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/helpers/_render-gradients.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/helpers/_shape-size-stripper.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/helpers/_str-to-num.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/settings/_asset-pipeline.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/settings/_prefixer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/resources/sass/vendor/bourbon/settings/_px-to-em.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nieuwe Site/whishlist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case chain.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -597,11 +14,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="122" column="63" lean-forward="true" selection-start-line="122" selection-start-column="63" selection-end-line="122" selection-end-column="63" />
+            <state relative-caret-position="438">
+              <caret line="507" column="33" lean-forward="false" selection-start-line="507" selection-start-column="33" selection-end-line="507" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-59">
+              <caret line="24" column="93" lean-forward="false" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -609,17 +37,9 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1610">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="1260">
+              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -627,8 +47,9 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="342">
+              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -636,13 +57,24 @@
       <file leaf-file-name="contact-us.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact-us.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="989">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+            <state relative-caret-position="774">
+              <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ps-subscribe</find>
+      <find>Main</find>
+      <find>main</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\ProjectFietsenwinkel\Database</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -659,7 +91,9 @@
         <option value="$PROJECT_DIR$/contact-us.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/Css/style.css" />
+        <option value="$PROJECT_DIR$/.idea/footer.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
       </list>
     </option>
   </component>
@@ -672,7 +106,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="387" />
     <option name="y" value="-8" />
     <option name="width" value="977" />
@@ -680,27 +115,19 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ProjectFietsenwinkel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectFietsenwinkel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectFietsenwinkel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectFietsenwinkel" type="462c0819:PsiDirectoryNode" />
-              <item name="Css" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -726,6 +153,9 @@
       </list>
     </option>
   </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -746,59 +176,36 @@
       <workItem from="1559392029026" duration="561000" />
       <workItem from="1559478849983" duration="4831000" />
       <workItem from="1559550938482" duration="575000" />
+      <workItem from="1559559036864" duration="1699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13569000" />
+    <option name="totallyTimeSpent" value="15268000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.06769723" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12147651" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32970026" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -806,7 +213,43 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2070">
@@ -817,7 +260,7 @@
     <entry file="file://$PROJECT_DIR$/Css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1610">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -831,14 +274,14 @@
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact-us.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="989">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -852,7 +295,7 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -866,14 +309,14 @@
     <entry file="file://$PROJECT_DIR$/contact-us.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="989">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
-          <caret line="57" column="81" selection-start-line="57" selection-start-column="81" selection-end-line="57" selection-end-column="81" />
+          <caret line="57" column="81" lean-forward="false" selection-start-line="57" selection-start-column="81" selection-end-line="57" selection-end-column="81" />
         </state>
       </provider>
     </entry>
@@ -894,7 +337,7 @@
     <entry file="file://$PROJECT_DIR$/contact-us.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="989">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -908,35 +351,35 @@
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1104">
-          <caret line="48" column="107" selection-start-line="48" selection-start-column="107" selection-end-line="48" selection-end-column="107" />
+          <caret line="48" column="107" lean-forward="false" selection-start-line="48" selection-start-column="107" selection-end-line="48" selection-end-column="107" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
-          <caret line="68" column="72" selection-start-line="68" selection-start-column="72" selection-end-line="68" selection-end-column="72" />
+          <caret line="68" column="72" lean-forward="false" selection-start-line="68" selection-start-column="72" selection-end-line="68" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129421">
-          <caret line="5627" column="1" selection-start-line="5627" selection-start-column="1" selection-end-line="5627" selection-end-column="1" />
+          <caret line="5627" column="1" lean-forward="false" selection-start-line="5627" selection-start-column="1" selection-end-line="5627" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/Session.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -946,63 +389,83 @@
     <entry file="file://$PROJECT_DIR$/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/Session.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
-          <caret line="68" column="72" selection-start-line="68" selection-start-column="72" selection-end-line="68" selection-end-column="72" />
+          <caret line="68" column="72" lean-forward="false" selection-start-line="68" selection-start-column="72" selection-end-line="68" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="342">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact-us.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        <state relative-caret-position="774">
+          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1610">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="1260">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="75" lean-forward="true" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="122" column="63" lean-forward="true" selection-start-line="122" selection-start-column="63" selection-end-line="122" selection-end-column="63" />
+        <state relative-caret-position="438">
+          <caret line="507" column="33" lean-forward="false" selection-start-line="507" selection-start-column="33" selection-end-line="507" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="24" column="93" lean-forward="false" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
+          <folding />
         </state>
       </provider>
     </entry>
