@@ -53,6 +53,22 @@
            5.2 margin
            5.3 padding
 */
+
+.map-container-2{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-2 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
 .masonry-wrapper .grid-item .grid-item__inner, .setting .grid-item .grid-item__inner {
   position: relative; }
 
