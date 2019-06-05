@@ -89,7 +89,7 @@
                 </li>
             </ul>
     </div>
-<!--        <div class="d-flex p-2"></div>-->
+      <div class="d-flex p-2"></div>
 
         <div class="ps-section--offer">
         <div class="ps-column"><a class="ps-offer" href="product-listing.php"><img src="images/banner/e_fietsen.jpg"
@@ -104,6 +104,14 @@
                                                                                        alt=""></a></div>
 
         </div>
+
+        <!--Google map-->
+        <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
+            <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                    style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <!--Google Maps-->
 
     <div class="ps-section ps-home-blog pt-80 pb-80">
         <div class="ps-container">
