@@ -89,7 +89,7 @@
                 </li>
             </ul>
     </div>
-      <div class="d-flex p-2"></div>
+
 
         <div class="ps-section--offer">
         <div class="ps-column"><a class="ps-offer" href="product-listing.php"><img src="images/banner/e_fietsen.jpg"
@@ -116,24 +116,20 @@
     <div class="ps-section ps-home-blog pt-80 pb-80">
         <div class="ps-container">
             <div class="ps-section__header mb-50">
-                <h2 class="ps-section__title" data-mask="News">- Our Story</h2>
-                <div class="ps-section__action"><a class="ps-morelink text-uppercase" href="#">View all post<i
-                                class="fa fa-long-arrow-right"></i></a></div>
+                <h2 class="ps-section__title" data-mask="Reviews">- Recente reviews</h2>
+
             </div>
             <div class="ps-section__content">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                         <div class="ps-post">
                             <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img
-                                        src="images/blog/1.jpg" alt=""></div>
-                            <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">An Inside
-                                    Look at the Breaking2 Kit</a>
-                                <p class="ps-post__meta"><span>By:<a class="mr-5"
-                                                                     href="blog.html">Alena Studio</a></span> -<span
-                                            class="ml-5">Jun 10, 2017</span></p>
-                                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.
-                                    Iterative approaches to corporate strategy foster collaborative thinking to
-                                    further…</p><a class="ps-morelink" href="blog-detail.php">Read more<i
+                                        src="images/blog/bike_1.jpg" alt=""></div>
+                            <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Gazelle Herenfiets 1</a>
+                                <p class="ps-post__meta"><span>Door:<a class="mr-5"
+                                                                     href="#">Peter Sanders</a></span> -<span
+                                            class="ml-5">Jun 10, 2019</span></p>
+                                <p>Hele fijne fiets die ook sportief oogt. Snelle levering en verwerking, buiten dat ook een goede klantenservice die altijd bereikbaar is.</p><a class="ps-morelink" href="blog-detail.php">Lees meer<i
                                             class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
@@ -210,19 +206,7 @@
                             </footer>
                         </aside>
                     </div>
-<!--                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">-->
-<!--                        <aside class="ps-widget--footer ps-widget--info second">-->
-<!--                            <header>-->
-<!--                                <h3 class="ps-widget__title">Address Office 2</h3>-->
-<!--                            </header>-->
-<!--                            <footer>-->
-<!--                                <p><strong>PO Box 16122 Collins Victoria 3000 Australia</strong></p>-->
-<!--                                <p>Email: <a href='mailto:support@store.com'>support@store.com</a></p>-->
-<!--                                <p>Phone: +323 32434 5334</p>-->
-<!--                                <p>Fax: ++323 32434 5333</p>-->
-<!--                            </footer>-->
-<!--                        </aside>-->
-<!--                    </div>-->
+
                     <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
                         <aside class="ps-widget--footer ps-widget--link">
                             <header>
