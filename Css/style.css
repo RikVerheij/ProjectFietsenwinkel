@@ -3792,6 +3792,10 @@ textarea.form-control {
       .ps-section--features-product .ps-masonry__filter li a {
         font-size: 12px; } }
 
+.image{
+  width: 100%;
+}
+
 .ps-owl-root .ps-owl-actions {
   margin-top: 40px;
   text-align: right; }
