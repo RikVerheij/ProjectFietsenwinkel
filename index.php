@@ -42,7 +42,9 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
 </head>
-<?php include 'header.php'
+<?php
+include 'header.php';
+include 'Functions/functions.php';
 
 ?>
 <main class="ps-main">
@@ -105,13 +107,10 @@
 
         </div>
 
-        <!--Google map-->
-        <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
-            <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                    style="border:0" allowfullscreen></iframe>
-        </div>
-
         <!--Google Maps-->
+        <?php  googlemaps() ?>
+
+
 
     <div class="ps-section ps-home-blog pt-80 pb-80">
         <div class="ps-container">
@@ -171,110 +170,15 @@
         </div>
     </div>
 
-    <div class="ps-subscribe">
-        <div class="ps-container">
-            <div class="row">
-                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 ">
-                    <h3><i class="fa fa-envelope"></i>Meld je aan voor de nieuwsbrief</h3>
-                </div>
-                <div class="col-lg-5 col-md-7 col-sm-12 col-xs-12 ">
-                    <form class="ps-subscribe__form" action="do_action" method="post">
-                        <input class="form-control" type="text" placeholder="">
-                        <button>Meld je aan</button>
-                    </form>
-                </div>
-                <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12 ">
-                    <p>...en ontvang een <span>€ 20 </span> kortingscode voor uw eerste bestelling.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="ps-footer bg--cover" data-background="images/background/fiets_footer.jpg">
-        <div class="ps-footer__content">
-            <div class="ps-container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
-                        <aside class="ps-widget--footer ps-widget--info">
-                            <header><a class="ps-logo" href="index.php"><img src="images/logo_header.png" alt=""></a>
-                                <h3 class="ps-widget__title">Adres </h3>
-                            </header>
-                            <footer>
-                                <p><strong>J.F. Kennedylaan 49, 12e verdieping, Doetinchem</strong></p>
-                                <p>Email: <a href='mailto:bk.ilhan@outlook.com'>contact@cg.com</a></p>
-                                <p>Phone: +31 6655321</p>
-                                <p>Fax: ++32 32434 5333</p>
-                            </footer>
-                        </aside>
-                    </div>
+        <?php
 
-                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
-                        <aside class="ps-widget--footer ps-widget--link">
-                            <header>
-                                <h3 class="ps-widget__title">Find Our store</h3>
-                            </header>
-                            <footer>
-                                <ul class="ps-list--link">
-                                    <li><a href="#">Coupon Code</a></li>
-                                    <li><a href="#">SignUp For Email</a></li>
-                                    <li><a href="#">Site Feedback</a></li>
-                                    <li><a href="#">Careers</a></li>
-                                </ul>
-                            </footer>
-                        </aside>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
-                        <aside class="ps-widget--footer ps-widget--link">
-                            <header>
-                                <h3 class="ps-widget__title">Get Help</h3>
-                            </header>
-                            <footer>
-                                <ul class="ps-list--line">
-                                    <li><a href="#">Order Status</a></li>
-                                    <li><a href="#">Shipping and Delivery</a></li>
-                                    <li><a href="#">Returns</a></li>
-                                    <li><a href="#">Payment Options</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
-                            </footer>
-                        </aside>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
-                        <aside class="ps-widget--footer ps-widget--link">
-                            <header>
-                                <h3 class="ps-widget__title">Products</h3>
-                            </header>
-                            <footer>
-                                <ul class="ps-list--line">
-                                    <li><a href="#">Shoes</a></li>
-                                    <li><a href="#">Clothing</a></li>
-                                    <li><a href="#">Accessries</a></li>
-                                    <li><a href="#">Football Boots</a></li>
-                                </ul>
-                            </footer>
-                        </aside>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ps-footer__copyright">
-            <div class="ps-container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
-                        <p>&copy; <a href="#">Chain Gang</a>, Alle rechten voorbehouden. Design <a href="#"> Basair </a></p>
-                    </div>
+        // footer
+        include 'footer.php';
 
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
-                        <ul class="ps-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+        ?>
+
+
 </main>
 <!-- JS Library-->
 <script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>

@@ -16,36 +16,24 @@
         </div>
     </div>
 </div>
-<div class="ps-footer bg--cover" data-background="images/background/parallax.jpg">
+<div class="ps-footer bg--cover" data-background="images/background/fiets_footer.jpg">
     <div class="ps-footer__content">
         <div class="ps-container">
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
                     <aside class="ps-widget--footer ps-widget--info">
-                        <header><a class="ps-logo" href="index.php"><img src="images/logo.png" alt=""></a>
-                            <h3 class="ps-widget__title">Adress Kantoor 1</h3>
+                        <header><a class="ps-logo" href="index.php"><img src="images/logo_header.png" alt=""></a>
+                            <h3 class="ps-widget__title">Adress Kantoor</h3>
                         </header>
                         <footer>
-                            <p><strong>460 West 34th Street, 15th floor, New York</strong></p>
-                            <p>Email: <a href='mailto:support@store.com'>support@store.com</a></p>
-                            <p>Phone: +323 32434 5334</p>
-                            <p>Fax: ++323 32434 5333</p>
+                            <p><strong>J.F Kennedylaan 49, 3e verdieping T316, Doetinchem</strong></p>
+                            <p>Email: <a href='bk.ilhan@outlook.com'>support@chaingang.com</a></p>
+                            <p>Phone: +32 32434 5334</p>
+                            <p>Fax: ++32 32434 5333</p>
                         </footer>
                     </aside>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
-                    <aside class="ps-widget--footer ps-widget--info second">
-                        <header>
-                            <h3 class="ps-widget__title">Adress Kantoor 2</h3>
-                        </header>
-                        <footer>
-                            <p><strong>PO Box 16122 Collins Victoria 3000 Australia</strong></p>
-                            <p>Email: <a href='mailto:support@store.com'>support@store.com</a></p>
-                            <p>Phone: +323 32434 5334</p>
-                            <p>Fax: ++323 32434 5333</p>
-                        </footer>
-                    </aside>
-                </div>
+
                 <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
                     <aside class="ps-widget--footer ps-widget--link">
                         <header>
