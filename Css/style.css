@@ -1491,10 +1491,12 @@ body {
     background-color: #50cf96;
 }
 
+
 .form-control {
     outline: none;
     height: 50px;
-    background-color: #e4e4e4;
+    width:100%;
+    background-color: none;
     border-color: #e4e4e4;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -1503,8 +1505,9 @@ body {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
-    border-radius: 0;
-    padding: 0 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
 }
 
 .form-control:focus {
@@ -5238,6 +5241,14 @@ textarea.form-control {
 
 .ps-section--hotdeal-3 {
     display: block !important;
+}
+
+.ps-login{
+    padding:70px;
+}
+
+.registeren{
+    padding:0 0 0 70px;
 }
 
 /*3.COMPONENTS*/
