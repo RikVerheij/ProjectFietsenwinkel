@@ -3,11 +3,6 @@ include("Database/Config.php");
 $sql = "SELECT * 
           FROM product"; //Query die uitgevoerd wordt
 $result = mysqli_query($db, $sql);
-
-$sqlphoto = "SELECT * FROM product WHERE product_id='$id';";
-$sth = $db->query($sql);
-$resultphoto = mysqli_fetch_array($sth);
-$resultname = mysqli_query($db, $sql);
 ?>
 
 <!DOCTYPE html>
@@ -87,25 +82,37 @@ $resultname = mysqli_query($db, $sql);
                     </ul>
                 </div>
             </div>
-            <?php while ($row = mysqli_fetch_assoc($result)) { ?>
             <div class="ps-product__columns">
-                <div class="ps-product__column">
-                    <div class="ps-shoe mb-30">
-                        <div class="ps-shoe__thumbnail">
-                            <!--                            <div class="ps-badge"><span>New</span></div>-->
-                            <!--                            <div class="ps-badge ps-badge--sale ps-badge--2nd"><span>-35%</span></div>-->
-                            <img src="images/shoe/1.jpg" alt=""><a class="ps-shoe__overlay"
-                                                                   href="product-detail.php?Id=<?php echo $row["product_id"] ?>"></a>
-                        </div>
-                        <div class="ps-shoe__content">
-                            <div class="ps-shoe__detail"><a class="ps-shoe__name" href="#">Air Jordan 7 Retro</a>
-                                <p class="ps-shoe__categories"><a href="#">Men shoes</a>,<a href="#"> Nike</a>,<a
-                                            href="#"> Jordan</a></p><span class="ps-shoe__price">
-                            <del>£220</del> £ 120</span>
+                <?php while ($row = mysqli_fetch_assoc($result)) { ?>
+                    <div class="ps-product__column">
+                        <a href="product-detail.php?Id=<?php echo $row["product_id"] ?>">
+                            <div class="ps-shoe mb-30">
+                                <div class="ps-shoe__thumbnail">
+                                    <!--                            <div class="ps-badge"><span>New</span></div>-->
+                                    <!--                            <div class="ps-badge ps-badge--sale ps-badge--2nd"><span>-35%</span></div>-->
+                                    <?php echo '<img class="image" src="data:image/jpeg;base64,' . base64_encode($row['photo']) . '" alt="" />'; ?>
+                                </div>
+                                <div class="ps-shoe__content">
+                                    <div class="ps-shoe__detail"><a class="ps-shoe__name"
+                                                                    href="product-detail.php?Id=<?php echo $row["product_id"] ?>"><?= $row['product_name'], " ", $row['model'] ?></a>
+                                        <p class="ps-shoe__categories"><?= $row['category'] ?></p>
+                                        <span class="ps-shoe__price">
+
+                                                    <?php if (isset($row['sale']) && $row['sale'] != 0) {
+                                                        ?>
+                                                        € <?= $row['sale'] ?>
+                                                        <del>€<?= $row['price'] ?></del>
+                                                        <?php
+                                                    } else {
+                                                        ?>
+                                                        € <?= $row['price'];
+                                                    }
+                                                    ?>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                </div>
                 <?php } ?>
                 <div class="ps-sidebar" data-mh="product-listing">
                     <aside class="ps-widget--sidebar ps-widget--category">
@@ -235,12 +242,13 @@ $resultname = mysqli_query($db, $sql);
                             </div>
                         </aside>
                     </div>
-
                 </div>
             </div>
-
-            <?php include 'footer.php' ?>
+        </div>
+    </div>
 </main>
+
+<?php include 'footer.php' ?>
 <!-- JS Library-->
 <script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="plugins/bootstrap/dist/js/bootstrap.min.js"></script>

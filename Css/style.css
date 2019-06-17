@@ -1197,9 +1197,8 @@ body {
 .ps-products-wrap .ps-sidebar {
     position: relative;
     float: left;
-    padding-right: 30px;
     width: 270px;
-    right: calc(100% - 270px);
+    right: calc(70%);
 }
 
 .ps-products-wrap .ps-products {
@@ -1208,13 +1207,6 @@ body {
     padding-left: 10px;
     float: left;
     width: calc(100% - 270px);
-}
-
-.ps-products-wrap.inverse .ps-sidebar {
-    float: right;
-    right: 0;
-    padding-right: 0;
-    padding-left: 30px;
 }
 
 .ps-products-wrap.inverse .ps-products {
@@ -3230,19 +3222,11 @@ textarea.form-control {
     top: -15px;
     left: -15px;
     width: calc(100% + 30px);
-    height: calc(100% + 108px);
+    height: calc(100% + 18px);
     border: 1px solid #000;
     z-index: 1000;
     visibility: hidden;
     opacity: 0;
-    -webkit-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    transform: scale(0.8, 0.8);
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    transition: all 0.3s ease;
 }
 
 .ps-shoe .ps-shoe__thumbnail {
@@ -3258,15 +3242,13 @@ textarea.form-control {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
     z-index: 10;
 }
 
 .ps-shoe .ps-shoe__content {
     display: block;
     position: absolute;
-    padding: 10px 0 0;
+    padding: 0;
     bottom: 0;
     left: 0;
     z-index: 10;
@@ -3335,7 +3317,7 @@ textarea.form-control {
     float: right;
 }
 
-.ps-shoe .ps-shoe__variant img:hover {
+.ps-shoe .ps-shoe__variant:hover {
     cursor: pointer;
 }
 
@@ -3442,12 +3424,6 @@ textarea.form-control {
 
 .ps-shoe:hover .ps-shoe__thumbnail {
     z-index: 10000;
-}
-
-.ps-shoe:hover .ps-shoe__content {
-    padding-top: 100px;
-    bottom: -90px;
-    max-height: none;
 }
 
 .ps-shoe:hover .ps-shoe__variants {
@@ -4279,6 +4255,7 @@ textarea.form-control {
         padding: 15px;
     }
 }
+
 .ps-comment {
     margin-bottom: 50px;
     display: -webkit-box;
@@ -4517,7 +4494,7 @@ textarea.form-control {
 }
 
 .ps-offer img {
-    width:100%;
+    width: 100%;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     transition: all 0.4s ease;
@@ -8971,24 +8948,26 @@ html .bg--parallax {
 .pl-100 {
     padding-left: 100px;
 }
-.map-container-2{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-}
-.map-container-2 iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
+
+.map-container-2 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
 }
 
-iframe
-{
-  height:100%;
-  padding-top: 30px;
+.map-container-2 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+iframe {
+    height: 100%;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
+
 /*# sourceMappingURL=style.css.map */

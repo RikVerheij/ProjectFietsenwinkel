@@ -1,4 +1,3 @@
-
 <body class="ie7 lt-ie8 lt-ie9 lt-ie10">
 <!--[if IE 8]>
 <body class="ie8 lt-ie9 lt-ie10"><![endif]-->
@@ -25,7 +24,8 @@
     <nav class="navigation">
         <div class="container-fluid">
             <div class="navigation__column left">
-                <div class="header__logo"><a class="ps-logo" href="index.php"><img src="images/logo_header.png" height="75px" alt=""></a>
+                <div class="header__logo"><a class="ps-logo" href="index.php"><img src="images/logo_header.png"
+                                                                                   height="75px" alt=""></a>
                 </div>
             </div>
             <div class="navigation__column center">
@@ -33,54 +33,13 @@
                     <li class="menu-item menu-item-has-children dropdown"><a href="index.php">Home</a>
 
                     </li>
-                    <li class="menu-item menu-item-has-children has-mega-menu"><a href="#">Alle producten </a>
+                    <li class="menu-item menu-item-has-children has-mega-menu"><a href="#">Alle fietsen </a>
                         <div class="mega-menu">
                             <div class="mega-wrap">
-
                                 <div class="mega-column">
-                                    <h4 class="mega-heading">Vrouwenfietsen</h4>
-                                    <ul class="mega-item">
-                                        <li><a href="product-listing.php">All Shoes</a></li>
-                                        <li><a href="product-listing.php">Running</a></li>
-                                        <li><a href="product-listing.php">Training & Gym</a></li>
-                                        <li><a href="product-listing.php">Basketball</a></li>
-                                        <li><a href="product-listing.php">Football</a></li>
-                                        <li><a href="product-listing.php">Soccer</a></li>
-                                        <li><a href="product-listing.php">Baseball</a></li>
-                                    </ul>
-                                </div>
-                                <div class="mega-column">
-                                    <h4 class="mega-heading">Herenfietsen</h4>
-                                    <ul class="mega-item">
-                                        <li><a href="product-listing.php">Compression & Nike Pro</a></li>
-                                        <li><a href="product-listing.php">Tops & T-Shirts</a></li>
-                                        <li><a href="product-listing.php">Polos</a></li>
-                                        <li><a href="product-listing.php">Hoodies & Sweatshirts</a></li>
-                                        <li><a href="product-listing.php">Jackets & Vests</a></li>
-                                        <li><a href="product-listing.php">Pants & Tights</a></li>
-                                        <li><a href="product-listing.php">Shorts</a></li>
-                                    </ul>
-                                </div>
-                                <div class="mega-column">
-                                    <h4 class="mega-heading">Kinderfietsen</h4>
-                                    <ul class="mega-item">
-                                        <li><a href="product-listing.php">Compression & Nike Pro</a></li>
-                                        <li><a href="product-listing.php">Tops & T-Shirts</a></li>
-                                        <li><a href="product-listing.php">Polos</a></li>
-                                        <li><a href="product-listing.php">Hoodies & Sweatshirts</a></li>
-                                        <li><a href="product-listing.php">Jackets & Vests</a></li>
-                                        <li><a href="product-listing.php">Pants & Tights</a></li>
-                                        <li><a href="product-listing.php">Shorts</a></li>
-                                    </ul>
-                                </div>
-                                <div class="mega-column">
-                                    <h4 class="mega-heading">Merk</h4>
-                                    <ul class="mega-item">
-                                        <li><a href="product-listing.php">NIKE</a></li>
-                                        <li><a href="product-listing.php">Adidas</a></li>
-                                        <li><a href="product-listing.php">Dior</a></li>
-                                        <li><a href="product-listing.php">B&G</a></li>
-                                    </ul>
+                                    <a href="product-listing.php"><h4 class="mega-heading">Vrouwenfietsen</h4></a>
+                                    <a href="product-listing.php"><h4 class="mega-heading">Herenfietsen</h4></a>
+                                    <a href="product-listing.php"><h4 class="mega-heading">Kinderfiets</h4></a>
                                 </div>
                             </div>
                         </div>
@@ -99,12 +58,12 @@
                     <button><i class="ps-icon-search"></i></button>
                 </form>
                 <div class="ps-cart"><a class="ps-cart__toggle" href="#"><span><i>20</i></span><i
-                            class="ps-icon-shopping-cart"></i></a>
+                                class="ps-icon-shopping-cart"></i></a>
                     <div class="ps-cart__listing">
                         <div class="ps-cart__content">
                             <div class="ps-cart-item"><a class="ps-cart-item__close" href="#"></a>
                                 <div class="ps-cart-item__thumbnail"><a href="product-detail.php"></a><img
-                                        src="images/cart-preview/1.jpg" alt=""></div>
+                                            src="images/cart-preview/1.jpg" alt=""></div>
                                 <div class="ps-cart-item__content"><a class="ps-cart-item__title"
                                                                       href="product-detail.php">Gazelle 1’</a>
                                     <p><span>Aantal:<i>12</i></span><span>Totaal:<i>€1760.00</i></span></p>
@@ -116,7 +75,7 @@
                                 <p>Totaal:<span>€ 1760.00</span></p>
                             </div>
                             <div class="ps-cart__footer"><a class="ps-btn" href="cart.php">BESTELLEN<i
-                                        class="ps-icon-arrow-left"></i></a></div>
+                                            class="ps-icon-arrow-left"></i></a></div>
                         </div>
                     </div>
                     <div class="menu-toggle"><span></span></div>
@@ -128,8 +87,11 @@
     <div class="ps-services owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="7000" data-owl-gap="0"
          data-owl-nav="true" data-owl-dots="false" data-owl-item="1" data-owl-item-xs="1" data-owl-item-sm="1"
          data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="1000" data-owl-mousedrag="on">
-        <p class="ps-service"><i class="ps-icon-delivery"></i><strong>Gratis levering</strong>: Krijg gratis verzending met elke bestelling</p>
-        <p class="ps-service"><i class="glyphicon glyphicon-eur"></i><strong>Laagste prijzen</strong>: Bij ons altijd de voordeligste prijzen</p>
-        <p class="ps-service"><i class="glyphicon glyphicon-thumbs-up"></i><strong>Bezoek ons</strong>: Kom gerust naar onze winkel zodat wij u optimaal advies kunnen geven</p>
+        <p class="ps-service"><i class="ps-icon-delivery"></i><strong>Gratis levering</strong>: Krijg gratis verzending
+            met elke bestelling</p>
+        <p class="ps-service"><i class="glyphicon glyphicon-eur"></i><strong>Laagste prijzen</strong>: Bij ons altijd de
+            voordeligste prijzen</p>
+        <p class="ps-service"><i class="glyphicon glyphicon-thumbs-up"></i><strong>Bezoek ons</strong>: Kom gerust naar
+            onze winkel zodat wij u optimaal advies kunnen geven</p>
     </div>
 </div>
