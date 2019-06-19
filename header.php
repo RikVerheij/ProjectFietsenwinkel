@@ -10,7 +10,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12 ">
-                    <p>Hier komt wat tekst....</p>
+                    <p>Gratis verzending vanaf € 749,- Bezorging dezelfde dag, 's avonds of in het weekend - Gratis retourneren
+                    </p>
                 </div>
                 <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 ">
                     <div class="header__actions"><a href="login.php">Login & Registeren</a>
@@ -33,16 +34,16 @@
                     <li class="menu-item menu-item-has-children dropdown"><a href="index.php">Home</a>
 
                     </li>
-                    <li class="menu-item menu-item-has-children has-mega-menu"><a href="#">Alle fietsen </a>
-                        <div class="mega-menu">
-                            <div class="mega-wrap">
-                                <div class="mega-column">
-                                    <a href="product-listing.php"><h4 class="mega-heading">Vrouwenfietsen</h4></a>
-                                    <a href="product-listing.php"><h4 class="mega-heading">Herenfietsen</h4></a>
-                                    <a href="product-listing.php"><h4 class="mega-heading">Kinderfiets</h4></a>
-                                </div>
-                            </div>
-                        </div>
+                    <li class="menu-item menu-item-has-children has-mega-menu"><a href="product-listing.php">Alle fietsen </a>
+<!--                        <div class="mega-menu">-->
+<!--                            <div class="mega-wrap">-->
+<!--                                <div class="mega-column">-->
+<!--                                    <a href="product-listing.php"><h4 class="mega-heading">Vrouwenfietsen</h4></a>-->
+<!--                                    <a href="product-listing.php"><h4 class="mega-heading">Herenfietsen</h4></a>-->
+<!--                                    <a href="product-listing.php"><h4 class="mega-heading">Kinderfiets</h4></a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
                     </li>
 
                     <li class="menu-item"><a href="#">Over ons</a></li>

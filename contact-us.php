@@ -13,11 +13,11 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link href="apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="favicon.png" rel="icon">
+    <link href="favicon-bike.png" rel="icon">
     <meta name="author" content="Nghia Minh Luong">
     <meta name="keywords" content="Default Description">
     <meta name="description" content="Default keyword">
-    <title>Sky - Contact Us</title>
+    <title>Chain Gang - Contact</title>
     <!-- Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:300,400,700%7CMontserrat:300,400,500,600,700,800,900"
           rel="stylesheet">
@@ -52,13 +52,13 @@
 
 <?php include 'header.php' ?>
 
-<!--  <!--Google map-->-->
+<!--  <!--Google map-->
 <!--  <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">-->
 <!--      <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"-->
 <!--              style="border:0" allowfullscreen></iframe>-->
 <!--  </div>-->
 <!---->
-<!--  <!--Google Maps-->-->
+<!--  <!--Google Maps-->
 <main class="ps-main">
     <div class="ps-contact ps-section">
         <!--Google map-->
