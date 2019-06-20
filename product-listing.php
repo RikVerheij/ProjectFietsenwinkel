@@ -66,7 +66,19 @@ $result = mysqli_query($db, $sql);
                 <div class="ps-product__filter">
                     <select class="ps-select selectpicker">
                         <option value="1">Shortby</option>
-                        <option value="2">Name</option>
+                        <option value="2" onclick="sorting">Naam  <?php
+
+                            function sorting (){
+                                include("Database/Config.php");
+
+                                $sqlsortname= "SELECT *
+                                FROM product
+                                ORDER BY  product_name";
+                                $resultsortname = mysqli_query($db, $sqlsortname);
+                                $rowcsortname = mysqli_fetch_assoc($resultsortname);
+                            }
+                            ?>
+                        </option>
                         <option value="3">Price (Low to High)</option>
                         <option value="3">Price (High to Low)</option>
                     </select>
@@ -121,9 +133,9 @@ $result = mysqli_query($db, $sql);
                         </div>
                         <div class="ps-widget__content">
                             <ul class="ps-list--checked">
-                                <li class="current"><a href="product-listing.php">Life(521)</a></li>
-                                <li><a href="product-listing.php">Running(76)</a></li>
-                                <li><a href="product-listing.php">Baseball(21)</a></li>
+                                <li class="current"><a href="product-listing.php">alles</a></li>
+                                <li><a href="product-listing.php">Batavus</a></li>
+                                <li><a href="product-listing.php">Gazelle</a></li>
                                 <li><a href="product-listing.php">Football(105)</a></li>
                                 <li><a href="product-listing.php">Soccer(108)</a></li>
                                 <li><a href="product-listing.php">Trainning & game(47)</a></li>
@@ -136,7 +148,7 @@ $result = mysqli_query($db, $sql);
                             <h3>Category</h3>
                         </div>
                         <div class="ps-widget__content">
-                            <div class="ac-slider" data-default-min="300" data-default-max="2000" data-max="3450"
+                            <div class="ac-slider" data-default-min="100" data-default-max="750" data-max="1200"
                                  data-step="50" data-unit="$"></div>
                             <p class="ac-slider__meta">Price:<span class="ac-slider__value ac-slider__min"></span>-<span
                                         class="ac-slider__value ac-slider__max"></span></p><a
@@ -145,7 +157,7 @@ $result = mysqli_query($db, $sql);
                     </aside>
                     <aside class="ps-widget--sidebar ps-widget--category">
                         <div class="ps-widget__header">
-                            <h3>Sky Brand</h3>
+                            <h3>Merk</h3>
                         </div>
                         <div class="ps-widget__content">
                             <ul class="ps-list--checked">
@@ -159,89 +171,6 @@ $result = mysqli_query($db, $sql);
                             </ul>
                         </div>
                     </aside>
-                    <aside class="ps-widget--sidebar ps-widget--category">
-                        <div class="ps-widget__header">
-                            <h3>Width</h3>
-                        </div>
-                        <div class="ps-widget__content">
-                            <ul class="ps-list--checked">
-                                <li class="current"><a href="product-listing.php">Narrow</a></li>
-                                <li><a href="product-listing.php">Regular</a></li>
-                                <li><a href="product-listing.php">Wide</a></li>
-                                <li><a href="product-listing.php">Extra Wide</a></li>
-                            </ul>
-                        </div>
-                    </aside>
-                    <div class="ps-sticky desktop">
-                        <aside class="ps-widget--sidebar">
-                            <div class="ps-widget__header">
-                                <h3>Size</h3>
-                            </div>
-                            <div class="ps-widget__content">
-                                <table class="table ps-table--size">
-                                    <tbody>
-                                    <tr>
-                                        <td class="active">3</td>
-                                        <td>5.5</td>
-                                        <td>8</td>
-                                        <td>10.5</td>
-                                        <td>13</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3.5</td>
-                                        <td>6</td>
-                                        <td>8.5</td>
-                                        <td>11</td>
-                                        <td>13.5</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>6.5</td>
-                                        <td>9</td>
-                                        <td>11.5</td>
-                                        <td>14</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4.5</td>
-                                        <td>7</td>
-                                        <td>9.5</td>
-                                        <td>12</td>
-                                        <td>14.5</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>7.5</td>
-                                        <td>10</td>
-                                        <td>12.5</td>
-                                        <td>15</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </aside>
-                        <aside class="ps-widget--sidebar">
-                            <div class="ps-widget__header">
-                                <h3>Color</h3>
-                            </div>
-                            <div class="ps-widget__content">
-                                <ul class="ps-list--color">
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                </ul>
-                            </div>
-                        </aside>
-                    </div>
                 </div>
             </div>
         </div>
