@@ -22,10 +22,12 @@ $resultreview = mysqli_query($db, $sqlreview);
 if (!empty($_POST["description"])) {
     $description = $_POST["description"];
     $date = date("Y-m-d");
-    $sqladdreview = "  INSERT INTO review (description, date, product_id )
+    $sqladdreview = "  INSERT INTO review (review.description, review.date, review.product_id )
                 VALUES ('$description', '$date', '$id')";
 
     $result = mysqli_query($db, $sqladdreview);
+
+    echo "<meta http-equiv='refresh' content='0'>";
 }
 ?>
 
@@ -129,12 +131,8 @@ if (!empty($_POST["description"])) {
                                                                                alt=""><img
                                     src="images/shoe-detail/3.jpg" alt=""></div>
                     </div>
-                    <div class="ps-product__info">
-                        </select><a href="">lees alle <?php echo implode($rowcountresult) ?> review(s)</a>
-                    </div>
                     <h1> <?= $row['product_name'], " ", $row['category'], " ", $row['model'] ?> </h1>
-                    <p class="ps-product__category"><a href="#"> <?= $row['category'] ?></a>,<a
-                                href="#"> <?= $row['product_name'] ?></a>
+
                     <h3 class="ps-product__price">
 
                         <?php if (isset($row['sale']) && $row['sale'] != 0) {
@@ -155,8 +153,7 @@ if (!empty($_POST["description"])) {
                     </div>
                     <div class="ps-product__shopping"><a class="ps-btn mb-10" href="cart.php">Add to cart<i
                                     class="ps-icon-next"></i></a>
-                        <div class="ps-product__actions"><a class="mr-10" href="whishlist.php"><i
-                                        class="ps-icon-share"></i></a></div>
+
                     </div>
                 </div>
                 <div class="clearfix"></div>
@@ -178,7 +175,6 @@ if (!empty($_POST["description"])) {
                             </div>
                         <?php } ?>
                     </div>
-                    <?php if (session_status() == PHP_SESSION_ACTIVE) { ?>
                         <form class="ps-product__review" action="" method="post">
                             <h4>SCHRIJF EEN REVIEW</h4>
                             <div class="row">
@@ -193,13 +189,6 @@ if (!empty($_POST["description"])) {
                                 </div>
                             </div>
                         </form>
-                    <?php } else { ?>
-
-                        <div class="review_disabled">
-                            <h4>LOG EERST IN VOOR U EEN REVIEW SCHRIJFT</h4>
-                        </div>
-
-                    <?php } ?>
                 </div>
             </div>
         </div>
