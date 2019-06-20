@@ -1495,7 +1495,7 @@ body {
 .form-control {
     outline: none;
     height: 50px;
-    width:100%;
+    width: 100%;
     background-color: none;
     border-color: #e4e4e4;
     -webkit-box-shadow: none;
@@ -5243,12 +5243,12 @@ textarea.form-control {
     display: block !important;
 }
 
-.ps-login{
-    padding:70px;
+.ps-login {
+    padding: 70px;
 }
 
-.registeren{
-    padding:0 0 0 70px;
+.registeren {
+    padding: 0 0 0 70px;
 }
 
 /*3.COMPONENTS*/
@@ -7337,6 +7337,7 @@ textarea.form-control {
     padding: 0 35px;
 }
 
+
 .ps-product--detail .ps-product__thumbnail--mobile .ps-product__preview .owl-nav {
     position: absolute;
     top: 50%;
@@ -7688,6 +7689,10 @@ textarea.form-control {
     font-size: 16px;
     line-height: 1.3em;
     color: #5b5b5b;
+}
+
+.review_disabled {
+    margin: 40px;
 }
 
 .ps-product--detail .ps-product__tags {

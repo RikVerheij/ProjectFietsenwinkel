@@ -254,7 +254,7 @@
             var filters = masonryTrigger.closest('.masonry-root').find('.ps-masonry__filter > li > a');
             filters.on('click', function() {
                 var selector = $(this).attr('data-filter');
-                filters.find('a').removeClass('current');
+                // filters.find('a').removeClass('current');
                 $(this).parent('li').addClass('current');
                 $(this).parent('li').siblings('li').removeClass('current');
                 console.log($(this));
@@ -350,7 +350,6 @@
         var selector = $('.ps-btn'),
             shoe = $('.ps-shoe');
         shoe.on('mouseenter', function() {
-            var variants = $(this).find('.ps-shoe__variant');
             if (variants.children().length === 0) {
                 setTimeout(function() {
                     $.ajax({
@@ -704,5 +703,6 @@
     });
 
 })(jQuery);
+
 
 //# sourceMappingURL=main.js.map

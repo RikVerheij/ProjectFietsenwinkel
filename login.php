@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $count = mysqli_num_rows($result);
 
     if ($count == 1) {
-        $_SESSION['login_user'] = $username;
+        $_SESSION['login_user'] = $row["customer_id"];
         header("location: index.php");
     } else {
         $error = "Your Login Name or Password is invalid";
@@ -74,14 +74,6 @@ include 'header.php'
         <div class="d-flex">
 
         </div>
-
-        <!--        <!--Google map-->
-        <!--        <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">-->
-        <!--            <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"-->
-        <!--                    style="border:0" allowfullscreen></iframe>-->
-        <!--        </div>-->
-        <!---->
-        <!--        <!--Google Maps-->
 
 
         <!-- JS Library-->

@@ -19,14 +19,14 @@ $sqlreview = "SELECT * FROM review WHERE product_id = '$id'";
 $resultreview = mysqli_query($db, $sqlreview);
 
 
-//if (!empty($_POST["description"])) {
-//    $description = $_POST["description"];
-//    $date = date("Y-m-d");
-//    $sqladdreview = "  INSERT INTO review (description, date, product_id )
-//                VALUES ('$description', '$date', '$id')";
-//
-//    $result = mysqli_query($db, $sqladdreview);
-//}
+if (!empty($_POST["description"])) {
+    $description = $_POST["description"];
+    $date = date("Y-m-d");
+    $sqladdreview = "  INSERT INTO review (description, date, product_id )
+                VALUES ('$description', '$date', '$id')";
+
+    $result = mysqli_query($db, $sqladdreview);
+}
 ?>
 
 
@@ -178,20 +178,28 @@ $resultreview = mysqli_query($db, $sqlreview);
                             </div>
                         <?php } ?>
                     </div>
-                    <form class="ps-product__review" action="" method="post">
-                        <h4>SCHRIJF EEN REVIEW</h4>
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 ">
-                                <div class="form-group">
-                                    <label>Uw review:</label>
-                                    <textarea class="form-control" name="description" rows="6"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <button class="ps-btn ps-btn--sm">Verzend<i class="ps-icon-next"></i></button>
+                    <?php if (session_status() == PHP_SESSION_ACTIVE) { ?>
+                        <form class="ps-product__review" action="" method="post">
+                            <h4>SCHRIJF EEN REVIEW</h4>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 ">
+                                    <div class="form-group">
+                                        <label>Uw review:</label>
+                                        <textarea class="form-control" name="description" rows="6"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="ps-btn ps-btn--sm">Verzend<i class="ps-icon-next"></i></button>
+                                    </div>
                                 </div>
                             </div>
+                        </form>
+                    <?php } else { ?>
+
+                        <div class="review_disabled">
+                            <h4>LOG EERST IN VOOR U EEN REVIEW SCHRIJFT</h4>
                         </div>
-                    </form>
+
+                    <?php } ?>
                 </div>
             </div>
         </div>
