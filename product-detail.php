@@ -1,5 +1,5 @@
 <?php
-include("Database/Config.php");
+include("Database/Session.php");
 $id = $_GET['Id'];
 
 $sql = "SELECT * FROM product WHERE product_id='$id';";
@@ -22,7 +22,7 @@ $resultreview = mysqli_query($db, $sqlreview);
 if (!empty($_POST["description"])) {
     $description = $_POST["description"];
     $date = date("Y-m-d");
-    $sqladdreview = "  INSERT INTO review (review.description, review.date, review.product_id )
+    $sqladdreview = "INSERT INTO review (review.description, review.date, review.product_id )
                 VALUES ('$description', '$date', '$id')";
 
     $result = mysqli_query($db, $sqladdreview);
@@ -175,6 +175,7 @@ if (!empty($_POST["description"])) {
                             </div>
                         <?php } ?>
                     </div>
+                    <?php if (session_status() == PHP_SESSION_ACTIVE) { ?>
                         <form class="ps-product__review" action="" method="post">
                             <h4>SCHRIJF EEN REVIEW</h4>
                             <div class="row">
@@ -189,6 +190,11 @@ if (!empty($_POST["description"])) {
                                 </div>
                             </div>
                         </form>
+                    <?php } else { ?>
+                        <div class="review_disabled">
+                                <h4>JE MOET EERS INGELOGD ZIJN OM EEN REVIEW TE PLAATSEN</h4>
+                        </div>
+                    <?php } ?>
                 </div>
             </div>
         </div>

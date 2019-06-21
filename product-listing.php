@@ -1,5 +1,5 @@
 <?php
-include("Database/Config.php");
+include("Database/Session.php");
 $sql = "SELECT * 
           FROM product"; //Query die uitgevoerd wordt
 $result = mysqli_query($db, $sql);
@@ -66,17 +66,19 @@ $result = mysqli_query($db, $sql);
                 <div class="ps-product__filter">
                     <select class="ps-select selectpicker">
                         <option value="1">Shortby</option>
-                        <option value="2" onclick="sorting">Naam  <?php
+                        <option value="2" onclick="sorting">Naam <?php
 
-                            function sorting (){
+                            function sorting()
+                            {
                                 include("Database/Config.php");
 
-                                $sqlsortname= "SELECT *
+                                $sqlsortname = "SELECT *
                                 FROM product
                                 ORDER BY  product_name";
                                 $resultsortname = mysqli_query($db, $sqlsortname);
                                 $rowcsortname = mysqli_fetch_assoc($resultsortname);
                             }
+
                             ?>
                         </option>
                         <option value="3">Price (Low to High)</option>
