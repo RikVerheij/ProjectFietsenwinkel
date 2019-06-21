@@ -40,7 +40,7 @@
   <!--[if IE 8]><body class="ie8 lt-ie9 lt-ie10"><![endif]-->
   <!--[if IE 9]><body class="ie9 lt-ie10"><![endif]-->
   <body class="ps-loading">
-    <div class="ps-404 bg--cover" data-background="images/background/404.jpg">
+    <div class="ps-404 bg--cover" data-background="images/404_fiets.jpg">
       <div class="ps-404__content">
         <h1>404</h1>
         <h3>Page not found</h3>

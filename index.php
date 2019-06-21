@@ -1,3 +1,7 @@
+<?php
+include("Database/Session.php");
+?>
+
 <!DOCTYPE html>
 <!--[if IE 7]>
 <html class="ie ie7"><![endif]-->

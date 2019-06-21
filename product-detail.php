@@ -1,5 +1,5 @@
 <?php
-include("Database/Config.php");
+include("Database/Session.php");
 $id = $_GET['Id'];
 
 $sql = "SELECT * FROM product WHERE product_id='$id';";
@@ -22,7 +22,7 @@ $resultreview = mysqli_query($db, $sqlreview);
 if (!empty($_POST["description"])) {
     $description = $_POST["description"];
     $date = date("Y-m-d");
-    $sqladdreview = "  INSERT INTO review (review.description, review.date, review.product_id )
+    $sqladdreview = "INSERT INTO review (review.description, review.date, review.product_id )
                 VALUES ('$description', '$date', '$id')";
 
     $result = mysqli_query($db, $sqladdreview);
@@ -175,6 +175,9 @@ if (!empty($_POST["description"])) {
                             </div>
                         <?php } ?>
                     </div>
+                    <?php
+                    if (array_key_exists('login_user', $_SESSION) && !empty($_SESSION['login_user'])) {
+                        ?>
                         <form class="ps-product__review" action="" method="post">
                             <h4>SCHRIJF EEN REVIEW</h4>
                             <div class="row">
@@ -189,12 +192,16 @@ if (!empty($_POST["description"])) {
                                 </div>
                             </div>
                         </form>
+                    <?php } else { ?>
+                    <div class="review_disabled">
+                        <a class="ps-shoe__name" href="login.php">JE MOET EERST INLOGEN OM EEN REVIEW TE PLAATSEN</a>
+                        <?php } ?>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <?php include 'footer.php' ?>
+        <?php include 'footer.php' ?>
 </main>
 <!-- JS Library-->
 <script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>
