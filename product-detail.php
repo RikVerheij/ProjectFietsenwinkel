@@ -175,7 +175,9 @@ if (!empty($_POST["description"])) {
                             </div>
                         <?php } ?>
                     </div>
-                    <?php if (session_status() == PHP_SESSION_ACTIVE) { ?>
+                    <?php
+                    if (array_key_exists('login_user', $_SESSION) && !empty($_SESSION['login_user'])) {
+                        ?>
                         <form class="ps-product__review" action="" method="post">
                             <h4>SCHRIJF EEN REVIEW</h4>
                             <div class="row">
@@ -191,16 +193,15 @@ if (!empty($_POST["description"])) {
                             </div>
                         </form>
                     <?php } else { ?>
-                        <div class="review_disabled">
-                                <h4>JE MOET EERS INGELOGD ZIJN OM EEN REVIEW TE PLAATSEN</h4>
-                        </div>
-                    <?php } ?>
+                    <div class="review_disabled">
+                        <a class="ps-shoe__name" href="login.php">JE MOET EERST INLOGEN OM EEN REVIEW TE PLAATSEN</a>
+                        <?php } ?>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <?php include 'footer.php' ?>
+        <?php include 'footer.php' ?>
 </main>
 <!-- JS Library-->
 <script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>

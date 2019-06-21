@@ -1,5 +1,14 @@
 <?php
-include("Database/Session.php");
+
+include('Database/Config.php');
+session_start();
+
+$user_check = $_SESSION['login_user'];
+
+if (!isset($_SESSION['login_user'])) {
+    header("location:login.php");
+}
+
 include("header.php");
 
 $session_id = $_SESSION['login_user'];
@@ -15,14 +24,14 @@ $row["first_name"];
 
 ?>
 
-<!DOCTYPE html>
-<!--[if IE 7]>
-<html class="ie ie7"><![endif]-->
-<!--[if IE 8]>
-<html class="ie ie8"><![endif]-->
-<!--[if IE 9]>
-<html class="ie ie9"><![endif]-->
-<html lang="en">
+    <!DOCTYPE html>
+    <!--[if IE 7]>
+    <html class="ie ie7"><![endif]-->
+    <!--[if IE 8]>
+    <html class="ie ie8"><![endif]-->
+    <!--[if IE 9]>
+    <html class="ie ie9"><![endif]-->
+    <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -60,6 +69,78 @@ $row["first_name"];
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 
+
+<div class="container">
+    <div class="">
+        <div class="col-lg-6 ">
+            <table class="table table-hover table-borderless">
+                <tbody>
+                <tr>
+                    <th><b>Naam:</b></th>
+                    <td><?= $row["first_name"], " ", $row["last_name"] ?></td>
+                </tr>
+                <tr>
+                    <th><b>E-mail:</b></th>
+                    <td><?= $row["email"] ?></td>
+                </tr>
+                <tr>
+                    <th><b>Telefoon:</b></th>
+                    <td><?= $row["phone"] ?></td>
+                </tr>
+                <tr>
+                    <th><b>Gebruikersnaam:</b></th>
+                    <td><?= $row["username"] ?></td>
+                </tr>
+                <tr>
+                    <th><b>Wachtwoord:</b></th>
+                    <td><?= $row["password"] ?></td>
+                </tr>
+                <tr>
+                    <th><b>Wachtwoord:</b></th>
+                    <td><?= $row["password"] ?></td>
+                </tr>
+                <tr>
+                    <th><b>Nieuwsbrief:</b></th>
+                    <td>
+                        <?php if ($row["newsletter"] == 1) { ?>
+                            Aangemeld
+                        <?php } else { ?>
+                            Nog niet aangemeld
+                        <?php } ?>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-lg-6 ">
+            <?php if (!empty($row["city"]) && !empty($row["street"]) && !empty($row["zipcode"]) && !empty($row["house_number"])) { ?>
+                <table class="table table-hover">
+                    <tbody>
+                    <tr>
+                        <th><b>Plaats:</b></th>
+                        <td><?= $row["city"] ?></td>
+                    </tr>
+                    <tr>
+                        <th><b>Straat:</b></th>
+                        <td><?= $row["street"] ?></td>
+                    </tr>
+                    <tr>
+                        <th><b>Postcode:</b></th>
+                        <td><?= $row["zipcode"] ?></td>
+                    </tr>
+                    <tr>
+                        <th><b>Huisnummer:</b></th>
+                        <td><?= $row["house_number"] ?></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <?php
+            } else { ?>
+                U heeft nog geen adres
+    <?php } ?>
+        </div>
+    </div>
+</div>
 <h1> <?= $row['first_name'], " ", $row['last_name'], " ", $row['phone'] ?> </h1>
 
 
