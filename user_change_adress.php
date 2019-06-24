@@ -69,82 +69,33 @@ $row["first_name"];
 
 ?>
 
-<div class="container">
+<div class="container" align="right">
     <div class="row">
-        <div class="col-lg-6">
-            <table class="table">
+        <div class="col-lg-5">
+            <table class="table table-hover table-borderless">
                 <tbody>
                 <tr>
-                    <th colspan="2" class="user_detail_h3"><h3><a
-                                    href="user-detail_personaldata.php?Id=<?php echo $row["customer_id"] ?>"><b>Persoonsgegevens
-                                    <i class="fa fa-pencil" style="font-size:24px"></i></b></a></h3></th>
+                    <th colspan="2" class="user_detail_h3"><h3><b>Wijzigen</b></h3></th>
                 </tr>
                 <tr>
-                    <th><b>Naam:</b></th>
-                    <td><?= $row["first_name"], " ", $row["last_name"] ?></td>
+                    <th><b>Plaats:</b></th>
+                    <td><?= $row["city"] ?></td>
                 </tr>
                 <tr>
-                    <th><b>E-mail:</b></th>
-                    <td><?= $row["email"] ?></td>
+                    <th><b>Straat:</b></th>
+                    <td><?= $row["street"] ?></td>
                 </tr>
                 <tr>
-                    <th><b>Telefoon:</b></th>
-                    <td><?= $row["phone"] ?></td>
+                    <th><b>Postcode:</b></th>
+                    <td><?= $row["zipcode"] ?></td>
                 </tr>
                 <tr>
-                    <th><b>Gebruikersnaam:</b></th>
-                    <td><?= $row["username"] ?></td>
-                </tr>
-                <tr>
-                    <th><b>Wachtwoord:</b></th>
-                    <td><?= $row["password"] ?></td>
-                </tr>
-                <tr>
-                    <th><b>Nieuwsbrief:</b></th>
-                    <td>
-                        <?php if ($row["newsletter"] == 1) { ?>
-                            Aangemeld
-                        <?php } else { ?>
-                            Nog niet aangemeld
-                        <?php } ?>
-                    </td>
+                    <th><b>Huisnummer:</b></th>
+                    <td><?= $row["house_number"] ?></td>
                 </tr>
                 </tbody>
             </table>
         </div>
-        <div class="col-lg-6 ">
-            <?php if (!empty($row["city"]) && !empty($row["street"]) && !empty($row["zipcode"]) && !empty($row["house_number"])) { ?>
-                <table class="table">
-                    <tbody>
-                    <tr>
-                        <th colspan="2" class="user_detail_h3"><h3><a
-                                        href="user_change_adress.php?Id=<?php echo $row["customer_id"] ?>"><b>Adres
-                                        <i class="fa fa-pencil" style="font-size:24px"></i></b></a></h3></th>
-                    </tr>
-                    <tr>
-                        <th><b>Plaats:</b></th>
-                        <td><?= $row["city"] ?></td>
-                    </tr>
-                    <tr>
-                        <th><b>Straat:</b></th>
-                        <td><?= $row["street"] ?></td>
-                    </tr>
-                    <tr>
-                        <th><b>Postcode:</b></th>
-                        <td><?= $row["zipcode"] ?></td>
-                    </tr>
-                    <tr>
-                        <th><b>Huisnummer:</b></th>
-                        <td><?= $row["house_number"] ?></td>
-                    </tr>
-                    </tbody>
-                </table>
-                <?php
-            } else { ?>
-                U heeft nog geen adres
-            <?php } ?>
-        </div>
-
     </div>
 </div>
 
