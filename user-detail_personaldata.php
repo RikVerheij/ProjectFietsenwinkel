@@ -73,37 +73,76 @@ $username = $row["username"];
 $password = $row["password"];
 $newsletter = $row["newsletter"];
 
-if (!empty($f_naam) && !empty($l_naam) && !empty($email) && !empty($phone) && !empty($username) && !empty($password) && !empty($newsletter)) {
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if (isset($f_naam) && isset($l_naam) && isset($email) && isset($phone) && isset($username) && isset($password) && isset($newsletter)) {
 
-    $f_naam = $_POST["first_name"];
-    $l_naam = $_POST["last_name"];
-    $email = $_POST["email"];
-    $phone = $_POST["phone"];
-    $username = $_POST["username"];
-    $password = $_POST["password"];
-    $newsletter = "0"/*-$_POST["newsletter"]-*/;
+        if (($_POST["f_name"] !== "")) {
+            $f_naam = $_POST["f_name"];
+        } else {
+            $f_naam = $row["first_name"];
+        }
 
-    $updatesql = "UPDATE customer
+        if (($_POST["l_name"] !== "")) {
+            $l_naam = $_POST["l_name"];
+        } else {
+            $l_naam = $row["last_name"];
+        }
+
+        if (($_POST["email"] !== "")) {
+            $email = $_POST["email"];
+        } else {
+            $email = $row["email"];
+        }
+
+        if (($_POST["phone"] !== "")) {
+            $phone = $_POST["phone"];
+        } else {
+            $phone = $row["phone"];
+        }
+
+        if (($_POST["username"] !== "")) {
+            $username = $_POST["username"];
+        } else {
+            $username = $row["username"];
+        }
+
+        if (($_POST["password"] !== "")) {
+            $password = $_POST["password"];
+        } else {
+            $password = $row["password"];
+        }
+
+        if (isset($_POST["newsletter"])) {
+            $newsletter = 1;
+        } else {
+            $newsletter = 0;
+        };
+
+        $updatesql = "UPDATE customer
         SET first_name='$f_naam', last_name='$l_naam', email='$email', phone='$phone', 
         username='$username', password='$password', newsletter='$newsletter'
         WHERE customer_id='$session_id'";
-    $updateresult = mysqli_query($db, $updatesql);
+        $updateresult = mysqli_query($db, $updatesql);
 
-} else {
-    echo "De gegevens zijn niet bijgewerkt";
+        ?>
+        <script type="text/javascript">location.href = 'user-detail.php';</script>
+        <?php
+    }
 }
 ?>
 
 <div class="container">
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-12">
             <form action="" method="post">
                 <table class="table">
                     <tbody>
                     <tr>
-                        <th colspan="3" class="user_detail_h3"><h3><b>Wijzigen</b></h3></th>
+                        <th colspan="6" class="user_detail_h3"><h3><b>Wijzigen</b></h3></th>
                     </tr>
                     <tr>
+                        <td></td>
+                        <td></td>
                         <th><b>Naam:</b></th>
                         <td><input type="text" name="f_name" class="form-control"
                                    placeholder="<?= $row["first_name"] ?>"/>
@@ -111,36 +150,64 @@ if (!empty($f_naam) && !empty($l_naam) && !empty($email) && !empty($phone) && !e
                         <td><input type="text" name="l_name" class="form-control"
                                    placeholder="<?= $row["last_name"] ?>"/>
                         </td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
+                        <td></td>
                         <th><b>E-mail:</b></th>
                         <td colspan="2"><input type="email" class="form-control" name="email"
                                                placeholder="<?= $row["email"] ?>"/></td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
+                        <td></td>
                         <th><b>Telefoon:</b></th>
                         <td colspan="2"><input type="tel" class="form-control" name="phone"
                                                placeholder="<?= $row["phone"] ?>"/></td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
+                        <td></td>
                         <th><b>Gebruikersnaam:</b></th>
                         <td colspan="2"><input type="text" class="form-control" name="username"
                                                placeholder="<?= $row["username"] ?>"/></td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
+                        <td></td>
                         <th><label>Wachtwoord:</label></th>
                         <td colspan="2"><input type="text" class="form-control" name="password"
                                                placeholder="<?= $row["password"] ?>"/></td>
+                        <td></td>
+                        <td></td>
                     </tr>
-                    <!--                    <tr>-->
-                    <!--                        <th><b>Nieuwsbrief:</b></th>-->
-                    <!--                        <td colspan="2">-->
-                    <!--                            <input type="checkbox" name="newsletter" -->
-                    <?php //if ($row["newsletter"]){ ?><!-- checked --><?php //} ?><!---->
-                    <!--                        </td>-->
-                    <!--                    </tr>-->
                     <tr>
-                        <td colspan="3"><input type="submit" class="ps-btn ps-btn--sm" value="Wijzigen"/></td>
+                        <td></td>
+                        <td></td>
+                        <th><b>Nieuwsbrief:</b></th>
+                        <td colspan="2">
+                            <input type="checkbox" name="newsletter"
+                                <?php if ($row["newsletter"]){ ?> checked <?php } ?>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td colspan="2"><input type="submit" class="ps-btn ps-btn--sm" value="Wijzigen"/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     </tbody>
                 </table>
