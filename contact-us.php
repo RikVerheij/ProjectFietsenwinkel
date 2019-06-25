@@ -50,15 +50,45 @@
 <body class="ie9 lt-ie10"><![endif]-->
 <body class="ps-loading">
 
-<?php include 'header.php' ?>
+<?php
+include('Database/Config.php');
+session_start();
+include 'header.php';
 
-<!--  <!--Google map-->
+$session_id = $_SESSION['login_user'];
+
+$sql = "
+SELECT * 
+FROM customer
+WHERE customer_id = '$session_id'"; //Query die uitgevoerd wordt
+$result = mysqli_query($db, $sql);
+$row = mysqli_fetch_assoc($result);
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["message"])) {
+
+        $name = $_POST["name"];
+        $email = $_POST["email"];
+        $message = $_POST["message"];
+
+        $contactsql = "INSERT INTO `contact` (`name`, `email`, `message`) VALUES ('$name', '$email', '$message')";
+        $contactresult = mysqli_query($db, $contactsql);
+
+        ?>
+        <script type="text/javascript">location.href = 'contact-us.php';</script>
+        <?php
+    }
+}
+?>
+
+
+<!--  Google map-->
 <!--  <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">-->
 <!--      <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"-->
 <!--              style="border:0" allowfullscreen></iframe>-->
 <!--  </div>-->
 <!---->
-<!--  <!--Google Maps-->
+<!--  Google Maps-->
 <main class="ps-main">
     <div class="ps-contact ps-section">
         <!--Google map-->
@@ -75,24 +105,26 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                     <div class="ps-section__header mb-50">
                         <h2 class="ps-section__title" data-mask="Contact">Neem contact op!</h2>
-                        <form class="ps-contact__form" action="do_action" method="post">
+                        <form action="" method="post">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                                     <div class="form-group">
                                         <label>Naam <sub>*</sub></label>
-                                        <input class="form-control" type="text" placeholder="">
+                                        <input class="form-control" type="text" name="name" required
+                                            <?php if (array_key_exists('login_user', $_SESSION) && !empty($_SESSION['login_user'])) { ?> value="<?= $row["first_name"], " ", $row["last_name"] ?>" <?php } ?>>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                                     <div class="form-group">
                                         <label>Email <sub>*</sub></label>
-                                        <input class="form-control" type="email" placeholder="">
+                                        <input class="form-control" type="email" name="email" required
+                                            <?php if (array_key_exists('login_user', $_SESSION) && !empty($_SESSION['login_user'])) { ?> value="<?= $row["email"] ?>" <?php } ?>>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
                                     <div class="form-group mb-25">
                                         <label>Je bericht <sub>*</sub></label>
-                                        <textarea class="form-control" rows="6"></textarea>
+                                        <textarea class="form-control" name="message" required rows="6"></textarea>
                                     </div>
                                     <div class="form-group">
                                         <button class="ps-btn">Verstuur bericht<i class="ps-icon-next"></i></button>
@@ -105,7 +137,7 @@
 
             </div>
         </div>
-<?php  include 'footer.php' ?>
+        <?php include 'footer.php' ?>
 </main>
 <!-- JS Library-->
 <script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>

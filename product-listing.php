@@ -19,7 +19,7 @@ $sqlsortname = ("SELECT * FROM product ORDER BY product_name ASC ");
 
 $sqlsortpricehilo = ("SELECT * FROM product ORDER BY price desc ");
 
-
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -74,7 +74,8 @@ $sqlsortpricehilo = ("SELECT * FROM product ORDER BY price desc ");
 <body class="ie9 lt-ie10"><![endif]-->
 <body class="ps-loading">
 <div class="header--sidebar"></div>
-<?php include 'header.php' ?>
+<?php include 'header.php';
+?>
 
 <main class="ps-main">
     <div class="ps-products-wrap pt-80 pb-80">
@@ -199,12 +200,11 @@ $sqlsortpricehilo = ("SELECT * FROM product ORDER BY price desc ");
 //}
 
 if ($_POST['sort'] === '2') {
-echo"de naam werkt";
+    echo "de naam werkt";
     $resultname = mysqli_query($db, $sqlsortname);
 
-}
-elseif ( $_POST['sort'] === '3' ) {
-    echo"de prijs van hilo werkt";
+} elseif ($_POST['sort'] === '3') {
+    echo "de prijs van hilo werkt";
     $resultpricehilo = mysqli_query($db, $sqlsortpricehilo);
 }
 ?>

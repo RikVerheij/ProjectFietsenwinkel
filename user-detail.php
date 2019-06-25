@@ -65,8 +65,6 @@ WHERE customer_id = '$session_id'"; //Query die uitgevoerd wordt
 $result = mysqli_query($db, $sql);
 $row = mysqli_fetch_assoc($result);
 
-$row["first_name"];
-
 ?>
 
 <div class="container">
