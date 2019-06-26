@@ -19,7 +19,6 @@ FROM customer
 WHERE customer_id = '$session_id'"; //Query die uitgevoerd wordt
 $result = mysqli_query($db, $sql);
 $row = mysqli_fetch_assoc($result);
-
 $row["first_name"];
 
 ?>
@@ -70,6 +69,7 @@ $row["first_name"];
 </head>
 
 
+<h1> <?= "Welkom: ", $row['first_name'], " ", $row['last_name'], " ", $row['phone'] ?> </h1>
 <div class="container">
     <div class="">
         <div class="col-lg-6 ">
@@ -91,10 +91,7 @@ $row["first_name"];
                     <th><b>Gebruikersnaam:</b></th>
                     <td><?= $row["username"] ?></td>
                 </tr>
-                <tr>
-                    <th><b>Wachtwoord:</b></th>
-                    <td><?= $row["password"] ?></td>
-                </tr>
+
                 <tr>
                     <th><b>Wachtwoord:</b></th>
                     <td><?= $row["password"] ?></td>
@@ -141,7 +138,7 @@ $row["first_name"];
         </div>
     </div>
 </div>
-<h1> <?= $row['first_name'], " ", $row['last_name'], " ", $row['phone'] ?> </h1>
+
 
 
 <?php

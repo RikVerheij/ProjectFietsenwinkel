@@ -65,7 +65,7 @@ include "header.php";
     <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
-
+<h1 style="align-text: center"> Registreren</h1>
 <div class="ps-login">
     <div class="ps-container">
         <div class="row">
