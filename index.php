@@ -1,5 +1,34 @@
 <?php
-include("Database/Session.php");
+include("Database/Config.php");
+$sql = "SELECT * 
+FROM product
+ORDER BY release_date DESC
+limit 5"; //Query die uitgevoerd wordt
+$result = mysqli_query($db, $sql);
+
+$sqlsale = "SELECT * 
+FROM product
+WHERE sale > 0
+ORDER BY release_date DESC
+limit 5"; //Query die uitgevoerd wordt
+$resultsale = mysqli_query($db, $sqlsale);
+
+$sqlreview = "SELECT * 
+FROM home_review
+ORDER BY 'date' DESC
+limit 3"; //Query die uitgevoerd wordt
+$resultreview = mysqli_query($db, $sqlreview);
+
+if (!empty($_POST["description"])) {
+    $description = $_POST["description"];
+    $date = date("Y-m-d");
+    $sqladdreview = "  INSERT INTO home_review (home_review.review, home_review.date)
+                VALUES ('$description', '$date')";
+
+    $result = mysqli_query($db, $sqladdreview);
+
+    echo "<meta http-equiv='refresh' content='0'>";
+}
 ?>
 
 <!DOCTYPE html>
@@ -83,37 +112,125 @@ include 'Functions/functions.php';
                          data-voffset="['30','50','50','50']" data-type="text" data-responsive_offset="on"
                          data-textAlign="['center','center','center','center']"
                          data-frames="[{&quot;delay&quot;:1200,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;x:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;x:50px;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]">
-                        <p>Hoe kies je dan de perfecte fiets? En wie zorgt ervoor dat je lekker door kunt blijven trappen, wat er ook gebeurt?
-                            <br> Bij Chaingang.nl regelen wij het! Want wij hebben maar 1 missie: heel Nederland op de fiets krijgen.</p>
+                        <p>Hoe kies je dan de perfecte fiets? En wie zorgt ervoor dat je lekker door kunt blijven
+                            trappen, wat er ook gebeurt?
+                            <br> Bij Chaingang.nl regelen wij het! Want wij hebben maar 1 missie: heel Nederland op de
+                            fiets krijgen.</p>
                     </div>
                     <a class="tp-caption ps-btn" id="layer31" href="#" data-x="['left','left','left','left']"
                        data-hoffset="['-60','15','15','15']" data-y="['middle','middle','middle','middle']"
                        data-voffset="['120','140','200','200']" data-type="text" data-responsive_offset="on"
                        data-textAlign="['center','center','center','center']"
-                       data-frames="[{&quot;delay&quot;:1500,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;x:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;x:50px;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]">Bestel Nu
+                       data-frames="[{&quot;delay&quot;:1500,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;x:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;x:50px;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]">Bestel
+                        Nu
                         <i class="ps-icon-next"></i></a
                 </li>
             </ul>
-    </div>
+        </div>
 
 
         <div class="ps-section--offer">
-        <div class="ps-column"><a class="ps-offer" href="product-listing.php"><img src="images/banner/e_fietsen.jpg"
-                                                                                   alt=""></a></div>
-        <div class="ps-column"><a class="ps-offer" href="product-listing.php"><img src="images/banner/vrouwen_fietsen.jpg"
-                                                                                   alt=""></a></div>
-    </div>
+            <div class="ps-column"><a class="ps-offer" href="product-listing.php"><img src="images/banner/e_fietsen.jpg"
+                                                                                       alt=""></a></div>
+            <div class="ps-column"><a class="ps-offer" href="product-listing.php"><img
+                            src="images/banner/vrouwen_fietsen.jpg"
+                            alt=""></a></div>
+        </div>
         <div class="ps-section--offer">
-            <div class="ps-column"><a class="ps-offer" href="product-listing.php"><img src="images/banner/mannen_fietsen.jpg"
-                                                                                       alt=""></a></div>
-            <div class="ps-column"><a class="ps-offer" href="product-listing.php"><img src="images/banner/alle_fietsen.jpg"
-                                                                                       alt=""></a></div>
+            <div class="ps-column"><a class="ps-offer" href="product-listing.php"><img
+                            src="images/banner/mannen_fietsen.jpg"
+                            alt=""></a></div>
+            <div class="ps-column"><a class="ps-offer" href="product-listing.php"><img
+                            src="images/banner/alle_fietsen.jpg"
+                            alt=""></a></div>
 
         </div>
 
         <!--Google Maps-->
-        <?php  googlemaps() ?>
+        <?php googlemaps() ?>
 
+        <div class="ps-container">
+            <div class="ps-section__header mb-50">
+                <h2 class="ps-section__title" data-mask="Recent">- Recente fietsen</h2>
+            </div>
+            <div class="ps-product__columns">
+                <?php while ($row = mysqli_fetch_assoc($result)) { ?>
+                <div class="ps-product__column">
+                    <a href="product-detail.php?Id=<?php echo $row["product_id"] ?>">
+                        <div class="ps-shoe mb-30">
+                            <div class="ps-shoe__thumbnail">
+                                <!--                            <div class="ps-badge"><span>New</span></div>-->
+                                <!--                            <div class="ps-badge ps-badge--sale ps-badge--2nd"><span>-35%</span></div>-->
+                                <?php echo '<img class="image" src="data:image/jpeg;base64,' . base64_encode($row['photo']) . '" alt="" />'; ?>
+                            </div>
+                            <div class="ps-shoe__content">
+                                <div class="ps-shoe__detail"><a class="ps-shoe__name"
+                                                                href="product-detail.php?Id=<?php echo $row["product_id"] ?>"><?= $row['product_name'], " ", $row['model'] ?></a>
+                                    <p class="ps-shoe__categories"><?= $row['category'] ?></p>
+                                    <span class="ps-shoe__price">
+
+                                                    <?php if (isset($row['sale']) && $row['sale'] != 0) {
+                                                        ?>
+                                                        € <?= $row['sale'] ?>
+                                                        <del>€<?= $row['price'] ?></del>
+                                                        <?php
+                                                    } else {
+                                                        ?>
+                                                        € <?= $row['price'];
+                                                    }
+                                                    ?>
+                                </div>
+                            </div>
+
+                    </a>
+
+                </div>
+            </div>
+            <?php } ?>
+        </div>
+    </div>
+
+
+    <div class="ps-container">
+        <div class="ps-section__header mb-50">
+            <h2 class="ps-section__title" data-mask="Sale">- Afgeprijsde fietsen</h2>
+        </div>
+        <div class="ps-product__columns">
+            <?php while ($row = mysqli_fetch_assoc($resultsale)) { ?>
+            <div class="ps-product__column">
+                <a href="product-detail.php?Id=<?php echo $row["product_id"] ?>">
+                    <div class="ps-shoe mb-30">
+                        <div class="ps-shoe__thumbnail">
+                            <!--                            <div class="ps-badge"><span>New</span></div>-->
+                            <!--                            <div class="ps-badge ps-badge--sale ps-badge--2nd"><span>-35%</span></div>-->
+                            <?php echo '<img class="image" src="data:image/jpeg;base64,' . base64_encode($row['photo']) . '" alt="" />'; ?>
+                        </div>
+                        <div class="ps-shoe__content">
+                            <div class="ps-shoe__detail"><a class="ps-shoe__name"
+                                                            href="product-detail.php?Id=<?php echo $row["product_id"] ?>"><?= $row['product_name'], " ", $row['model'] ?></a>
+                                <p class="ps-shoe__categories"><?= $row['category'] ?></p>
+                                <span class="ps-shoe__price">
+
+                                                    <?php if (isset($row['sale']) && $row['sale'] != 0) {
+                                                        ?>
+                                                        € <?= $row['sale'] ?>
+                                                        <del>€<?= $row['price'] ?></del>
+                                                        <?php
+                                                    } else {
+                                                        ?>
+                                                        € <?= $row['price'];
+                                                    }
+                                                    ?>
+                            </div>
+                        </div>
+
+                </a>
+
+            </div>
+        </div>
+        <?php } ?>
+    </div>
+    </div>
 
 
     <div class="ps-section ps-home-blog pt-80 pb-80">
@@ -124,49 +241,37 @@ include 'Functions/functions.php';
             </div>
             <div class="ps-section__content">
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <div class="col-lg-12 col-md-4 col-sm-12 col-xs-12 ">
                         <div class="ps-post">
-                            <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img
-                                        src="images/blog/bike_1.jpg" alt=""></div>
-                            <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Gazelle Herenfiets 1</a>
-                                <p class="ps-post__meta"><span>Door:<a class="mr-5"
-                                                                     href="#">Peter Sanders</a></span> -<span
-                                            class="ml-5">Jun 10, 2019</span></p>
-                                <p>Hele fijne fiets die ook sportief oogt. Snelle levering en verwerking, buiten dat ook een goede klantenservice die altijd bereikbaar is.</p><a class="ps-morelink" href="blog-detail.php">Lees meer<i
-                                            class="fa fa-long-arrow-right"></i></a>
+
+                            <div class="ps-review">
+                                <?php while ($rowreview = mysqli_fetch_assoc($resultreview)) { ?>
+                                    <div class="ps-review__content">
+                                        <header>
+                                            <p><?php echo date('j-n-Y', strtotime($rowreview['date'])); ?></p>
+                                        </header>
+                                        <p>
+                                            <?php echo $rowreview['review'] ?>
+                                        </p>
+                                    </div>
+                                <?php } ?>
+
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                        <div class="ps-post">
-                            <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img
-                                        src="images/blog/2.jpg" alt=""></div>
-                            <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Unpacking the
-                                    Breaking2 Race Strategy</a>
-                                <p class="ps-post__meta"><span>By:<a class="mr-5"
-                                                                     href="blog.html">Alena Studio</a></span> -<span
-                                            class="ml-5">Jun 10, 2017</span></p>
-                                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.
-                                    Iterative approaches to corporate strategy foster collaborative thinking to
-                                    further…</p><a class="ps-morelink" href="blog-detail.php">Read more<i
-                                            class="fa fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                        <div class="ps-post">
-                            <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img
-                                        src="images/blog/3.jpg" alt=""></div>
-                            <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Nike’s Latest
-                                    Football Cleat Breaks the Mold</a>
-                                <p class="ps-post__meta"><span>By:<a class="mr-5"
-                                                                     href="blog.html">Alena Studio</a></span> -<span
-                                            class="ml-5">Jun 10, 2017</span></p>
-                                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.
-                                    Iterative approaches to corporate strategy foster collaborative thinking to
-                                    further…</p><a class="ps-morelink" href="blog-detail.php">Read more<i
-                                            class="fa fa-long-arrow-right"></i></a>
-                            </div>
+                            <form class="ps-product__review" action="" method="post">
+                                <h4>SCHRIJF EEN REVIEW</h4>
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 ">
+                                        <div class="form-group">
+                                            <label>Uw review:</label>
+                                            <textarea class="form-control" name="description" rows="6"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="ps-btn ps-btn--sm">Verzend<i class="ps-icon-next"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -174,13 +279,13 @@ include 'Functions/functions.php';
         </div>
     </div>
 
-        <?php
+    <?php
 
-        // footer
-        include 'footer.php';
+    // footer
+    include 'footer.php';
 
 
-        ?>
+    ?>
 
 
 </main>
