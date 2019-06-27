@@ -51,30 +51,15 @@
                 <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
                     <aside class="ps-widget--footer ps-widget--link">
                         <header>
-                            <h3 class="ps-widget__title">Vind onze winkels</h3>
-                        </header>
-                        <footer>
-                            <ul class="ps-list--link">
-                                <li><a href="#">Kortingscode Code</a></li>
-                                <li><a href="#">Meld Aan Voor Email</a></li>
-                                <li><a href="#">Site Feedback</a></li>
-                                <li><a href="#">Banen</a></li>
-                            </ul>
-                        </footer>
-                    </aside>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
-                    <aside class="ps-widget--footer ps-widget--link">
-                        <header>
                             <h3 class="ps-widget__title">Hulp nodig?</h3>
                         </header>
                         <footer>
                             <ul class="ps-list--line">
                                 <li><a href="login.php">Bestelling Status</a></li>
                                 <li><a href="login.php">Verzending en Aflevering</a></li>
-                                <li><a href="#">Terugsturen</a></li>
-                                <li><a href="#">Betalingsmogelijkheden</a></li>
-                                <li><a href="#">Contact ons</a></li>
+                                <li><a href="login.php">Terugsturen</a></li>
+                                <li><a href="login.php">Betalingsmogelijkheden</a></li>
+                                <li><a href="contact-us.php">Contact ons</a></li>
                             </ul>
                         </footer>
                     </aside>
@@ -86,10 +71,10 @@
                         </header>
                         <footer>
                             <ul class="ps-list--line">
-                                <li><a href="#">Mannenfietsen</a></li>
-                                <li><a href="#">Vrouwenfietsen</a></li>
-                                <li><a href="#">E-Bikes</a></li>
-                                <li><a href="#">Overige fietsen</a></li>
+                                <li><a href="product-listing.php">Mannenfietsen</a></li>
+                                <li><a href="product-listing.php">Vrouwenfietsen</a></li>
+                                <li><a href="product-listing.php">E-Bikes</a></li>
+                                <li><a href="product-listing.php">Overige fietsen</a></li>
                             </ul>
                         </footer>
                     </aside>

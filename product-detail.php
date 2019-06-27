@@ -150,7 +150,7 @@ if (!empty($_POST["description"])) {
                         <h3>Beschrijving</h3>
                         <p><?= $row['description'] ?></p>
                     </div>
-                    <div class="ps-product__shopping"><a class="ps-btn mb-10" href="cart.php">Add to cart<i
+                    <div class="ps-product__shopping"><a class="ps-btn mb-10" href="cart.php">Voeg toe<i
                                     class="ps-icon-next"></i></a>
 
                     </div>
@@ -193,7 +193,7 @@ if (!empty($_POST["description"])) {
                         </form>
                     <?php } else { ?>
                     <div class="review_disabled">
-                        <a class="ps-shoe__name" href="login.php">JE MOET EERST INLOGEN OM EEN REVIEW TE PLAATSEN</a>
+                        <a class="ps-shoe__name" href="login.php">JE MOET EERST INLOGGEN OM EEN REVIEW TE PLAATSEN</a>
                         <?php } ?>
                     </div>
                 </div>

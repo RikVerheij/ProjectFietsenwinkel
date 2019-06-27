@@ -137,7 +137,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <table class="table">
                     <tbody>
                     <tr>
-                        <th colspan="6" class="user_detail_h3"><h3><b>Wijzigen</b></h3></th>
+                        <th colspan="6" class="user_detail_h3"><h3><b>Wijzigen van: <?= $row["first_name"] ?></b></h3></th>
                     </tr>
                     <tr>
                         <td></td>
