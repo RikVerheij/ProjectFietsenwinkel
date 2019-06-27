@@ -55,14 +55,17 @@ include('Database/Config.php');
 session_start();
 include 'header.php';
 
-$session_id = $_SESSION['login_user'];
+if ((array_key_exists('login_user', $_SESSION) && !empty($_SESSION['login_user']))) {
+    $session_id = $_SESSION['login_user'];
 
-$sql = "
+    $sql = "
 SELECT * 
 FROM customer
 WHERE customer_id = '$session_id'"; //Query die uitgevoerd wordt
-$result = mysqli_query($db, $sql);
-$row = mysqli_fetch_assoc($result);
+    $result = mysqli_query($db, $sql);
+    $row = mysqli_fetch_assoc($result);
+
+}
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["message"])) {
