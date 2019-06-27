@@ -39,29 +39,27 @@
     </div>
     <nav class="navigation">
         <div class="container-fluid">
-            <div class="navigation__column left col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="navigation__column left">
                 <div class="header__logo"><a class="ps-logo" href="index.php"><img src="images/logo_header.png"
                                                                                    height="75px" alt=""></a>
                 </div>
             </div>
-            <div class="navigation__column center col-lg-6 col-md-6">
+            <div class="navigation__column center">
                 <ul class="main-menu menu">
                     <li class="menu-item menu-item-has-children dropdown"><a href="index.php">Home</a>
 
                     </li>
-                    <li class="menu-item menu-item-has-children has-mega-menu">
-                        <a href="product-listing.php">Alle fietsen </a>
-                    </li>
+                    <li class="menu-item menu-item-has-children has-mega-menu"><a href="product-listing.php">Alle fietsen </a>
 
-                    <li class="menu-item"><a href="#">Over ons</a></li>
+                    </li>
 
                     <li class="menu-item menu-item-has-children dropdown"><a href="contact-us.php">Contact</a>
 
                     </li>
                 </ul>
             </div>
-            <div class="navigation__column right col-lg-3 ">
-                <form class="ps-search--header" action="" method="post">
+            <div class="navigation__column right">
+                <form class="ps-search--header" action="do_action" method="post">
                     <input class="form-control" type="text" placeholder="Zoek product…">
                     <button><i class="ps-icon-search"></i></button>
                 </form>
