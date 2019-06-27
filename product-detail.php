@@ -122,14 +122,13 @@ if (!empty($_POST["description"])) {
                     ?>
 
                     <div class="ps-product__thumbnail--mobile">
-                        <div class="ps-product__main-img"><img src="images/shoe-detail/1.jpg" alt=""></div>
+                        <div class="ps-product__main-img"><?php echo '<img class="image" src="data:image/jpeg;base64,' . base64_encode($resultphoto['photo']) . '" alt="" />'; ?></div>
                         <div class="ps-product__preview owl-slider" data-owl-auto="true" data-owl-loop="true"
                              data-owl-speed="5000" data-owl-gap="20" data-owl-nav="true" data-owl-dots="false"
                              data-owl-item="3" data-owl-item-xs="3" data-owl-item-sm="3" data-owl-item-md="3"
-                             data-owl-item-lg="3" data-owl-duration="1000" data-owl-mousedrag="on"><img
-                                    src="images/shoe-detail/1.jpg" alt=""><img src="images/shoe-detail/2.jpg"
-                                                                               alt=""><img
-                                    src="images/shoe-detail/3.jpg" alt=""></div>
+                             data-owl-item-lg="3" data-owl-duration="1000" data-owl-mousedrag="on">
+                            <?php echo '<img class="image" src="data:image/jpeg;base64,' . base64_encode($resultphoto['photo']) . '" alt="" />'; ?>
+                        </div>
                     </div>
                     <h1> <?= $row['product_name'], " ", $row['category'], " ", $row['model'] ?> </h1>
 
