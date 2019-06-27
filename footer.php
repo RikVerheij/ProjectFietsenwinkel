@@ -11,9 +11,7 @@
 
                 ?>
                 <div class="col-lg-5 col-md-7 col-sm-12 col-xs-12 ">
-                    <form class="ps-subscribe__form" method="post">
-                        <button>Meld nu aan</button>
-                    </form>
+                    <a href="user-detail_personaldata.php" class="ps-btn ps-btn--sm">Meld u nu aan</a>
                 </div>
                 <?php
             } else {
