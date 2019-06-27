@@ -1,5 +1,3 @@
-
-
 <body class="ie7 lt-ie8 lt-ie9 lt-ie10">
 <!--[if IE 8]>
 <body class="ie8 lt-ie9 lt-ie10"><![endif]-->
@@ -20,10 +18,7 @@
                     <?php
                     if (array_key_exists('login_user', $_SESSION) && !empty($_SESSION['login_user'])) {
                         ?>
-                        <div class="header__actions"><a href="user-detail.php">Uw gegevens</a>
-
-
-
+                        <div class="header__actions"><a href="user-detail.php">uw gegevens</a>
                         </div>
                         <div class="header__actions"><a href="logout.php">Uitloggen</a>
                         </div>
