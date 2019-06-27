@@ -7695,6 +7695,27 @@ textarea.form-control {
     margin: 40px;
 }
 
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+    border: none;
+}
+
+table input,
+table select{
+    width: 100%;
+    margin: 5px;
+}
+
+
+.user_detail_h3 {
+    text-align: center;
+    border-bottom: 1px solid #333 !important;
+}
+
 .ps-product--detail .ps-product__tags {
     max-width: 400px;
 }
@@ -8986,4 +9007,8 @@ iframe {
     padding-bottom: 10px;
 }
 
+.beheer-tekst{
+    padding:10px;
+    float:left;
+}
 /*# sourceMappingURL=style.css.map */

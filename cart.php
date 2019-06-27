@@ -10,11 +10,11 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link href="apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="favicon.png" rel="icon">
+    <link href="favicon-bike.png" rel="icon">
     <meta name="author" content="Nghia Minh Luong">
     <meta name="keywords" content="Default Description">
     <meta name="description" content="Default keyword">
-    <title>Sky - Cart</title>
+    <title>Chain Gang - Winkelmand</title>
     <!-- Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:300,400,700%7CMontserrat:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
@@ -40,7 +40,10 @@
   <!--[if IE 8]><body class="ie8 lt-ie9 lt-ie10"><![endif]-->
   <!--[if IE 9]><body class="ie9 lt-ie10"><![endif]-->
   <body class="ps-loading">
-<?php include "header.php"?>
+<?php
+include 'Database/Config.php';
+session_start();
+include "header.php"?>
     <main class="ps-main">
       <div class="ps-content pt-80 pb-80">
         <div class="ps-container">
@@ -56,47 +59,48 @@
                 </tr>
               </thead>
               <tbody>
+<!--                <tr>-->
+<!--                  <td><a class="ps-product__preview" href="product-detail.php"><img class="mr-15" src="images/product/cart-preview/1.jpg" alt=""> air jordan One mid</a></td>-->
+<!--                  <td>$150</td>-->
+<!--                  <td>-->
+<!--                    <div class="form-group--number">-->
+<!--                      <button class="minus"><span>-</span></button>-->
+<!--                      <input class="form-control" type="text" value="2">-->
+<!--                      <button class="plus"><span>+</span></button>-->
+<!--                    </div>-->
+<!--                  </td>-->
+<!--                  <td>$300</td>-->
+<!--                  <td>-->
+<!--                    <div class="ps-remove"></div>-->
+<!--                  </td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                  <td><a class="ps-product__preview" href="product-detail.php"><img class="mr-15" src="images/product/cart-preview/2.jpg" alt=""> The Crusty Croissant</a></td>-->
+<!--                  <td>$150</td>-->
+<!--                  <td>-->
+<!--                    <div class="form-group--number">-->
+<!--                      <button class="minus"><span>-</span></button>-->
+<!--                      <input class="form-control" type="text" value="2">-->
+<!--                      <button class="plus"><span>+</span></button>-->
+<!--                    </div>-->
+<!--                  </td>-->
+<!--                  <td>$300</td>-->
+<!--                  <td>-->
+<!--                    <div class="ps-remove"></div>-->
+<!--                  </td>-->
+<!--                </tr>-->
                 <tr>
-                  <td><a class="ps-product__preview" href="product-detail.php"><img class="mr-15" src="images/product/cart-preview/1.jpg" alt=""> air jordan One mid</a></td>
-                  <td>$150</td>
+                  <td><a class="ps-product__preview" href="product-detail.php"><img class="mr-15" src="images/product/cart-preview/3.jpg" alt="">Gazelle Herenfiets esprit C3
+                      </a></td>
+                  <td>€ 299.99</td>
                   <td>
                     <div class="form-group--number">
                       <button class="minus"><span>-</span></button>
-                      <input class="form-control" type="text" value="2">
+                      <input class="form-control" type="text" value="1">
                       <button class="plus"><span>+</span></button>
                     </div>
                   </td>
-                  <td>$300</td>
-                  <td>
-                    <div class="ps-remove"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <td><a class="ps-product__preview" href="product-detail.php"><img class="mr-15" src="images/product/cart-preview/2.jpg" alt=""> The Crusty Croissant</a></td>
-                  <td>$150</td>
-                  <td>
-                    <div class="form-group--number">
-                      <button class="minus"><span>-</span></button>
-                      <input class="form-control" type="text" value="2">
-                      <button class="plus"><span>+</span></button>
-                    </div>
-                  </td>
-                  <td>$300</td>
-                  <td>
-                    <div class="ps-remove"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <td><a class="ps-product__preview" href="product-detail.php"><img class="mr-15" src="images/product/cart-preview/3.jpg" alt="">The Rolling Pin</a></td>
-                  <td>$150</td>
-                  <td>
-                    <div class="form-group--number">
-                      <button class="minus"><span>-</span></button>
-                      <input class="form-control" type="text" value="2">
-                      <button class="plus"><span>+</span></button>
-                    </div>
-                  </td>
-                  <td>$300</td>
+                  <td> € 299.99</td>
                   <td>
                     <div class="ps-remove"></div>
                   </td>
@@ -115,7 +119,7 @@
                 </div>
               </div>
               <div class="ps-cart__total">
-                <h3>Totale prijs: <span> 2599.00 $</span></h3><a class="ps-btn" href="checkout.php">Doorgaan naar betalen<i class="ps-icon-next"></i></a>
+                <h3>Totale prijs: <span> € 299.99 </span></h3><a class="ps-btn" href="checkout.php">Doorgaan naar betalen<i class="ps-icon-next"></i></a>
               </div>
             </div>
           </div>

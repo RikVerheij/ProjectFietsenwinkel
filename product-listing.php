@@ -1,8 +1,47 @@
 <?php
+session_start();
 include("Database/Config.php");
-$sql = "SELECT * 
+
+//if (isset($_GET['sortby'])) {
+//    // Capture that in a variable by that name
+//    $sortby = $_GET['sortby'];
+//    // Now to change the SQL query based on the sorting the user chose (price high to low, low to high, alphabetical and latest first)
+//
+//    if ($sortby = 'name') {
+//        $sqlsortname = ( "SELECT * FROM product ORDER BY product_name ASC ");
+//    }
+//
+//} 
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    switch ($_POST['sortby']) {
+        case '1':
+            $sql = "SELECT * 
           FROM product"; //Query die uitgevoerd wordt
-$result = mysqli_query($db, $sql);
+            $result = mysqli_query($db, $sql);
+            break;
+        case '2':
+            $sqlsortname = ("SELECT * FROM product ORDER BY product_name ASC ");
+            $result = mysqli_query($db, $sqlsortname);
+            break;
+        case '3':
+            $sqlsortpricelohi = ("SELECT * FROM product ORDER BY price DESC ");
+            $result = mysqli_query($db, $sqlsortpricelohi);
+            break;
+        case '4':
+            $sqlsortpricehilo = ("SELECT * FROM product ORDER BY price ASC ");
+            $result = mysqli_query($db, $sqlsortpricehilo);
+            break;
+    }
+} else {
+    $sql = "SELECT * 
+          FROM product"; //Query die uitgevoerd wordt
+    $result = mysqli_query($db, $sql);
+}
+
+$sqlsortpricehilo = ("SELECT * FROM product ORDER BY price desc ");
+
+
 ?>
 
 <!DOCTYPE html>
@@ -21,6 +60,7 @@ $result = mysqli_query($db, $sql);
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link href="apple-touch-icon.png" rel="apple-touch-icon">
     <link href="favicon-bike.png" rel="icon">
+
     <meta name="author" content="Nghia Minh Luong">
     <meta name="keywords" content="Default Description">
     <meta name="description" content="Default keyword">
@@ -42,12 +82,12 @@ $result = mysqli_query($db, $sql);
     <link rel="stylesheet" href="plugins/revolution/css/layers.css">
     <link rel="stylesheet" href="plugins/revolution/css/navigation.css">
     <!-- Custom-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="Css/style.css">
     <!--HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
     <!--WARNING: Respond.js doesn't work if you view the page via file://-->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+    <script src="../https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="../https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 <!--[if IE 7]>
 <body class="ie7 lt-ie8 lt-ie9 lt-ie10"><![endif]-->
@@ -64,34 +104,32 @@ $result = mysqli_query($db, $sql);
         <div class="ps-products" data-mh="product-listing">
             <div class="ps-product-action">
                 <div class="ps-product__filter">
-                    <select class="ps-select selectpicker">
-                        <option value="1">Shortby</option>
-                        <option value="2" onclick="sorting">Naam  <?php
+                    <!--                    <button><a href="product-listing.php?sortby=name">Naam</a></button>-->
+                    <!--                    <button><a href="product-listing.php?sortby=price">Prijs hoog naar Laag</a></button>-->
+                    <form method="post" action="">
+                        <table class="table">
+                            <tr>
+                                <td>
+                                    <select name="sortby" class="ps-select selectpicker">
+                                        <option selected value="1">Toon alles</option>
 
-                            function sorting (){
-                                include("Database/Config.php");
+                                        <option value="2">Naam
 
-                                $sqlsortname= "SELECT *
-                                FROM product
-                                ORDER BY  product_name";
-                                $resultsortname = mysqli_query($db, $sqlsortname);
-                                $rowcsortname = mysqli_fetch_assoc($resultsortname);
-                            }
-                            ?>
-                        </option>
-                        <option value="3">Price (Low to High)</option>
-                        <option value="3">Price (High to Low)</option>
-                    </select>
-                </div>
-                <div class="ps-pagination">
-                    <ul class="pagination">
-                        <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
-                        <li class="active"><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">...</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
-                    </ul>
+                                        </option>
+
+                                        <option value="3">Prijs (Laag naar Hoog)
+
+                                        </option>
+
+                                        <option value="4">Prijs (Hoog naar Laag)</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="submit" class="ps-btn ps-btn--sm" value=" Sorteren "/>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
                 </div>
             </div>
             <div class="ps-product__columns">
@@ -126,58 +164,61 @@ $result = mysqli_query($db, $sql);
                         </a>
                     </div>
                 <?php } ?>
-                <div class="ps-sidebar" data-mh="product-listing">
-                    <aside class="ps-widget--sidebar ps-widget--category">
-                        <div class="ps-widget__header">
-                            <h3>Category</h3>
-                        </div>
-                        <div class="ps-widget__content">
-                            <ul class="ps-list--checked">
-                                <li class="current"><a href="product-listing.php">alles</a></li>
-                                <li><a href="product-listing.php">Batavus</a></li>
-                                <li><a href="product-listing.php">Gazelle</a></li>
-                                <li><a href="product-listing.php">Football(105)</a></li>
-                                <li><a href="product-listing.php">Soccer(108)</a></li>
-                                <li><a href="product-listing.php">Trainning & game(47)</a></li>
-                                <li><a href="product-listing.php">More</a></li>
-                            </ul>
-                        </div>
-                    </aside>
-                    <aside class="ps-widget--sidebar ps-widget--filter">
-                        <div class="ps-widget__header">
-                            <h3>Category</h3>
-                        </div>
-                        <div class="ps-widget__content">
-                            <div class="ac-slider" data-default-min="100" data-default-max="750" data-max="1200"
-                                 data-step="50" data-unit="$"></div>
-                            <p class="ac-slider__meta">Price:<span class="ac-slider__value ac-slider__min"></span>-<span
-                                        class="ac-slider__value ac-slider__max"></span></p><a
-                                    class="ac-slider__filter ps-btn" href="#">Filter</a>
-                        </div>
-                    </aside>
-                    <aside class="ps-widget--sidebar ps-widget--category">
-                        <div class="ps-widget__header">
-                            <h3>Merk</h3>
-                        </div>
-                        <div class="ps-widget__content">
-                            <ul class="ps-list--checked">
-                                <li class="current"><a href="product-listing.php">Nike(521)</a></li>
-                                <li><a href="product-listing.php">Adidas(76)</a></li>
-                                <li><a href="product-listing.php">Baseball(69)</a></li>
-                                <li><a href="product-listing.php">Gucci(36)</a></li>
-                                <li><a href="product-listing.php">Dior(108)</a></li>
-                                <li><a href="product-listing.php">B&G(108)</a></li>
-                                <li><a href="product-listing.php">Louis Vuiton(47)</a></li>
-                            </ul>
-                        </div>
-                    </aside>
-                </div>
+                <!--                <div class="ps-sidebar" data-mh="product-listing">-->
+                <!--                    <aside class="ps-widget--sidebar ps-widget--category">-->
+                <!--                        <div class="ps-widget__header">-->
+                <!--                            <h3>Category</h3>-->
+                <!--                        </div>-->
+                <!--                        <div class="ps-widget__content">-->
+                <!--                            <ul class="ps-list--checked">-->
+                <!--                                <li class="current"><a href="product-listing.php">alles</a></li>-->
+                <!--                                <li><a href="product-listing.php">Batavus</a></li>-->
+                <!--                                <li><a href="product-listing.php">Gazelle</a></li>-->
+                <!--                                <li><a href="product-listing.php">Football(105)</a></li>-->
+                <!--                                <li><a href="product-listing.php">Soccer(108)</a></li>-->
+                <!--                                <li><a href="product-listing.php">Trainning & game(47)</a></li>-->
+                <!--                                <li><a href="product-listing.php">More</a></li>-->
+                <!--                            </ul>-->
+                <!--                        </div>-->
+                <!--                    </aside>-->
+                <!--                    <aside class="ps-widget--sidebar ps-widget--filter">-->
+                <!--                        <div class="ps-widget__header">-->
+                <!--                            <h3>Category</h3>-->
+                <!--                        </div>-->
+                <!--                        <div class="ps-widget__content">-->
+                <!--                            <div class="ac-slider" data-default-min="100" data-default-max="750" data-max="1200"-->
+                <!--                                 data-step="50" data-unit="$"></div>-->
+                <!--                            <p class="ac-slider__meta">Price:<span class="ac-slider__value ac-slider__min"></span>-<span-->
+                <!--                                        class="ac-slider__value ac-slider__max"></span></p><a-->
+                <!--                                    class="ac-slider__filter ps-btn" href="#">Filter</a>-->
+                <!--                        </div>-->
+                <!--                    </aside>-->
+                <!--                    <aside class="ps-widget--sidebar ps-widget--category">-->
+                <!--                        <div class="ps-widget__header">-->
+                <!--                            <h3>Merk</h3>-->
+                <!--                        </div>-->
+                <!--                        <div class="ps-widget__content">-->
+                <!--                            <ul class="ps-list--checked">-->
+                <!--                                <li class="current"><a href="product-listing.php">Nike(521)</a></li>-->
+                <!--                                <li><a href="product-listing.php">Adidas(76)</a></li>-->
+                <!--                                <li><a href="product-listing.php">Baseball(69)</a></li>-->
+                <!--                                <li><a href="product-listing.php">Gucci(36)</a></li>-->
+                <!--                                <li><a href="product-listing.php">Dior(108)</a></li>-->
+                <!--                                <li><a href="product-listing.php">B&G(108)</a></li>-->
+                <!--                                <li><a href="product-listing.php">Louis Vuiton(47)</a></li>-->
+                <!--                            </ul>-->
+                <!--                        </div>-->
+                <!--                    </aside>-->
+                <!--                </div>-->
             </div>
         </div>
     </div>
 </main>
 
-<?php include 'footer.php' ?>
+<?php include 'footer.php';
+
+
+?>
 <!-- JS Library-->
 <script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="plugins/bootstrap/dist/js/bootstrap.min.js"></script>

@@ -112,12 +112,12 @@ include 'header.php'
                             <table>
                                 <tr>
                                     <div class="form-group">
-                                        <td><input type="text" class="form-control" name="username" id="Gebruikersnaam" placeholder="Gebruikersnaam"></td>
+                                        <td><input type="text" class="form-control" name="username" id="Gebruikersnaam" required placeholder="Gebruikersnaam"></td>
                                     </div>
                                 </tr>
                                 <tr>
                                     <div class="form-group">
-                                        <td><input type="password" class="form-control" name="password" id="Wachtwoord" placeholder="Wachtwoord"></td>
+                                        <td><input type="password" class="form-control" name="password" id="Wachtwoord" required placeholder="Wachtwoord"></td>
                                     </div>
                                 </tr>
                                 <tr>
