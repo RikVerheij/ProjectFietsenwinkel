@@ -59,36 +59,7 @@ include "header.php"?>
                 </tr>
               </thead>
               <tbody>
-<!--                <tr>-->
-<!--                  <td><a class="ps-product__preview" href="product-detail.php"><img class="mr-15" src="images/product/cart-preview/1.jpg" alt=""> air jordan One mid</a></td>-->
-<!--                  <td>$150</td>-->
-<!--                  <td>-->
-<!--                    <div class="form-group--number">-->
-<!--                      <button class="minus"><span>-</span></button>-->
-<!--                      <input class="form-control" type="text" value="2">-->
-<!--                      <button class="plus"><span>+</span></button>-->
-<!--                    </div>-->
-<!--                  </td>-->
-<!--                  <td>$300</td>-->
-<!--                  <td>-->
-<!--                    <div class="ps-remove"></div>-->
-<!--                  </td>-->
-<!--                </tr>-->
-<!--                <tr>-->
-<!--                  <td><a class="ps-product__preview" href="product-detail.php"><img class="mr-15" src="images/product/cart-preview/2.jpg" alt=""> The Crusty Croissant</a></td>-->
-<!--                  <td>$150</td>-->
-<!--                  <td>-->
-<!--                    <div class="form-group--number">-->
-<!--                      <button class="minus"><span>-</span></button>-->
-<!--                      <input class="form-control" type="text" value="2">-->
-<!--                      <button class="plus"><span>+</span></button>-->
-<!--                    </div>-->
-<!--                  </td>-->
-<!--                  <td>$300</td>-->
-<!--                  <td>-->
-<!--                    <div class="ps-remove"></div>-->
-<!--                  </td>-->
-<!--                </tr>-->
+
                 <tr>
                   <td><a class="ps-product__preview" href="product-detail.php"><img class="mr-15" src="images/product/cart-preview/3.jpg" alt="">Gazelle Herenfiets esprit C3
                       </a></td>
@@ -111,7 +82,7 @@ include "header.php"?>
               <div class="ps-cart__promotion">
                 <div class="form-group">
                   <div class="ps-form--icon"><i class="fa fa-angle-right"></i>
-                    <input class="form-control" type="text" placeholder="Promo Code">
+                    <input class="form-control" type="text" placeholder="Kortingscode">
                   </div>
                 </div>
                 <div class="form-group">
