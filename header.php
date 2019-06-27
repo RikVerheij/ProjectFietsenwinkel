@@ -49,20 +49,9 @@
                     <li class="menu-item menu-item-has-children dropdown"><a href="index.php">Home</a>
 
                     </li>
-                    <li class="menu-item menu-item-has-children has-mega-menu"><a href="product-listing.php">Alle
-                            fietsen </a>
-                        <!--                        <div class="mega-menu">-->
-                        <!--                            <div class="mega-wrap">-->
-                        <!--                                <div class="mega-column">-->
-                        <!--                                    <a href="product-listing.php"><h4 class="mega-heading">Vrouwenfietsen</h4></a>-->
-                        <!--                                    <a href="product-listing.php"><h4 class="mega-heading">Herenfietsen</h4></a>-->
-                        <!--                                    <a href="product-listing.php"><h4 class="mega-heading">Kinderfiets</h4></a>-->
-                        <!--                                </div>-->
-                        <!--                            </div>-->
-                        <!--                        </div>-->
-                    </li>
+                    <li class="menu-item menu-item-has-children has-mega-menu"><a href="product-listing.php">Alle fietsen </a>
 
-                    <li class="menu-item"><a href="#">Over ons</a></li>
+                    </li>
 
                     <li class="menu-item menu-item-has-children dropdown"><a href="contact-us.php">Contact</a>
 
