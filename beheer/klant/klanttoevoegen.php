@@ -76,7 +76,6 @@ if (!isset($_SESSION['login_user'])) {
                 $sql = "  INSERT INTO customer (first_name, last_name, email, phone, username, password)
                 VALUES ('$first_name','$last_name', '$email', '$telephone', '$username', '$password')";
                 $result = mysqli_query($db, $sql);
-z
             }
             ?>
 
@@ -88,7 +87,7 @@ z
                 <input type="text" name="last_name"><br/>
 
                 <label id="first">Email:</label><br/>
-                 <input type="text" name="email"><br/>
+                <input type="text" name="email"><br/>
 
                 <label id="first">Phone:</label><br/>
                 <input type="text" name="phone"><br/>
