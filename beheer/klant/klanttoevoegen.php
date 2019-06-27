@@ -52,9 +52,9 @@ session_start();
 
 include '../header.php';
 
-$user_check = $_SESSION['login_user'];
+$user_check = $_SESSION['login_admin'];
 
-if (!isset($_SESSION['login_user'])) {
+if (!isset($_SESSION['login_admin'])) {
     header("location:login.php");
 }
 
@@ -64,56 +64,98 @@ if (!isset($_SESSION['login_user'])) {
     <div class="ps-container ">
         <div class="row col-lg-3">
             <?php
-            if (!empty($_POST["first_name"]) && !empty($_POST["last_name"]) && !empty($_POST["email"]) && !empty($_POST["telephone"]) && !empty($_POST["username"]) && !empty($_POST["password"])) {
+            if (!empty($_POST["first_name"]) && !empty($_POST["last_name"]) && !empty($_POST["email"]) && !empty($_POST["telephone"]) && !empty($_POST["username"]) && !empty($_POST["password"]) && !empty($_POST["city"]) && !empty($_POST["street"]) && !empty($_POST["zipcode"]) && !empty($_POST["house_number"])) {
                 $first_name = $_POST["first_name"];
                 $last_name = $_POST["last_name"];
                 $email = $_POST["email"];
                 $telephone = $_POST["telephone"];
                 $username = $_POST["username"];
                 $password = $_POST["password"];
-                if
+                if (isset($_POST["newsletter"])) {
+                    $newsletter = "1";
+                } else {
+                    $newsletter = "0";
+                }
+                $city = $_POST["city"];
+                $street = $_POST["street"];
+                $zipcode = $_POST["zipcode"];
+                $house_number = $_POST["house_number"];
 
 
-                $sql = "  INSERT INTO customer (first_name, last_name, email, phone, username, password)
-                VALUES ('$first_name','$last_name', '$email', '$telephone', '$username', '$password')";
+                $sql = "  INSERT INTO customer (first_name, last_name, email, phone, username, password, newsletter, city, street, zipcode, house_number)
+                VALUES ('$first_name','$last_name', '$email', '$telephone', '$username', '$password', '$newsletter','$city','$street','$zipcode','$house_number')";
                 $result = mysqli_query($db, $sql);
 
+                print_r($result);
+                header("location: ../index.php");
             }
+
             ?>
 
-            <form method="post">
-                <label id="first"> First name:</label><br/>
-                <input type="text" name="first_name"><br/>
+            <form action="" method="POST">
+                <table>
 
-                <label id="first"> last name:</label><br/>
-                <input type="text" name="last_name"><br/>
+                    <tr>
+                        <div class="form-group">
+                            <td><input type="text" class="form-control" name="first_name" id="Naam" placeholder="Voornaam"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td><input type="text" class="form-control" name="last_name" id="Naam" placeholder="Achternaam"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td colspan="2"><input type="email" class="form-control" name="email" id="Mail" placeholder="E-mail"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td colspan="2"><input type="text" class="form-control" name="telephone" id="Tel" placeholder="Telefoonnummer"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td colspan="2"><input type="text" class="form-control" name="username" id="Gebruiker" placeholder="Gebruikersnaam">
+                            </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td colspan="2"><input type="password" class="form-control" name="password" id="Wachtwoord" placeholder="Wachtwoord">
+                            </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td colspan="2"><input type="text" class="form-control" name="city" id="city" placeholder="stad">
+                            </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td colspan="2"><input type="text" class="form-control" name="street" id="street" placeholder="straat">
+                            </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td colspan="2"><input type="text" class="form-control" name="zipcode" id="zipcode" placeholder="postcode">
+                            </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td colspan="2"><input type="text" class="form-control" name="house_number" id="house_number" placeholder="huis nummer">
+                            </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" class="ps-btn ps-btn--sm" value=" klant toevoegen "/></td>
+                    </tr>
 
-                <label id="first">Email:</label><br/>
-                 <input type="text" name="email"><br/>
-
-                <label id="first">Phone:</label><br/>
-                <input type="text" name="phone"><br/>
-
-                <label id="first">Username:</label><br/>
-                <input type="text" name="username"><br/>
-
-                <label id="first">Password:</label><br/>
-                <input type="password" name="password"><br/>
-
-                <label id="first">City:</label><br/>
-                <input type="text" name="city"><br/>
-
-                <label id="first">Street:</label><br/>
-                <input type="text" name="street"><br/>
-
-                <label id="first">Zipcode:</label><br/>
-                <input type="text" name="zipcode"><br/>
-
-                <label id="first">House number:</label><br/>
-                <input type="text" name="house_number"><br/>
-
-                <button type="submit" name="save">save</button>
-                <button type="submit" name="get">get</button>
+                </table>
             </form>
 
         </div>

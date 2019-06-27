@@ -1,6 +1,5 @@
 <?php
 
-include '../header.php';
 ?>
     <!DOCTYPE html>
     <!--[if IE 7]>
@@ -50,11 +49,17 @@ include '../header.php';
 include('../../Database/Config.php');
 session_start();
 
-$user_check = $_SESSION['login_user'];
+$user_check = $_SESSION['login_admin'];
 
-if (!isset($_SESSION['login_user'])) {
+if (!isset($_SESSION['login_admin'])) {
     header("location:login.php");
 }
+
+$sql = "SELECT * 
+          FROM customer"; //Query die uitgevoerd wordt
+$result = mysqli_query($db, $sql);
+
+
 
 ?>
     <body>
@@ -62,47 +67,16 @@ if (!isset($_SESSION['login_user'])) {
         <div class="ps-container ">
             <div class="row col-lg-3">
                 <?php
-                if(isset($_POST['save'])){
-                    $sql = "INSERT INTO customer (first_name, last_name, email, phone, username, password, city, street, zipcode,house_number)
-        VALUES (".$_POST["first_name"]."','".$_POST["last_name"]."','".$_POST["email"]."','".$_POST["phone"]."','".$_POST["username"]."','".$_POST["password"]."','".$_POST["city"]."','".$_POST["street"]."','".$_POST["zipcode"]."','".$_POST["house_number"].")";
-                }
+                  foreach (($result->fetch_all()) as $row) {
+                      ?>
 
-                ?>
+                      <p><?php $row["customer_id"] . print_r($row) ?></p>
 
-                <form method="post">
-                    <label id="first"> First name:</label><br/>
-                    <input type="text" name="first_name"><br/>
+                      <?php
+                  }
+                  ?>
 
-                    <label id="first"> last name:</label><br/>
-                    <input type="text" name="last_name"><br/>
 
-                    <label id="first">Email:</label><br/>
-                    <input type="text" name="email"><br/>
-
-                    <label id="first">Phone:</label><br/>
-                    <input type="text" name="phone"><br/>
-
-                    <label id="first">Username:</label><br/>
-                    <input type="text" name="username"><br/>
-
-                    <label id="first">Password:</label><br/>
-                    <input type="password" name="password"><br/>
-
-                    <label id="first">City:</label><br/>
-                    <input type="text" name="city"><br/>
-
-                    <label id="first">Street:</label><br/>
-                    <input type="text" name="street"><br/>
-
-                    <label id="first">Zipcode:</label><br/>
-                    <input type="text" name="zipcode"><br/>
-
-                    <label id="first">House number:</label><br/>
-                    <input type="text" name="house_number"><br/>
-
-                    <button type="submit" name="save">save</button>
-                    <button type="submit" name="get">get</button>
-                </form>
 
             </div>
         </div>

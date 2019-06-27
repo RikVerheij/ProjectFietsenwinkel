@@ -50,9 +50,9 @@ include 'header.php';
 include('../Database/Config.php');
 session_start();
 
-$user_check = $_SESSION['login_user'];
+$user_check = $_SESSION['login_admin'];
 
-if (!isset($_SESSION['login_user'])) {
+if (!isset($_SESSION['login_admin'])) {
     header("location:login.php");
 }
 
