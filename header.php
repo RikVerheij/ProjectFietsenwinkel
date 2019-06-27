@@ -24,6 +24,7 @@
 
 
 
+
                         </div>
                         <div class="header__actions"><a href="logout.php">Uitloggen</a>
                         </div>
@@ -39,56 +40,26 @@
     </div>
     <nav class="navigation">
         <div class="container-fluid">
-            <div class="navigation__column left col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="navigation__column left">
                 <div class="header__logo"><a class="ps-logo" href="index.php"><img src="images/logo_header.png"
                                                                                    height="75px" alt=""></a>
                 </div>
             </div>
-            <div class="navigation__column center col-lg-6 col-md-6">
+            <div class="navigation__column center">
                 <ul class="main-menu menu">
                     <li class="menu-item menu-item-has-children dropdown"><a href="index.php">Home</a>
 
                     </li>
-                    <li class="menu-item menu-item-has-children has-mega-menu">
-                        <a href="product-listing.php">Alle fietsen </a>
-                    </li>
+                    <li class="menu-item menu-item-has-children has-mega-menu"><a href="product-listing.php">Alle fietsen </a>
 
-                    <li class="menu-item"><a href="#">Over ons</a></li>
+                    </li>
 
                     <li class="menu-item menu-item-has-children dropdown"><a href="contact-us.php">Contact</a>
 
                     </li>
                 </ul>
             </div>
-            <div class="navigation__column right col-lg-3 ">
-                <form class="ps-search--header" action="" method="post">
-                    <input class="form-control" type="text" placeholder="Zoek product…">
-                    <button><i class="ps-icon-search"></i></button>
-                </form>
-                <div class="ps-cart"><a class="ps-cart__toggle" href="#"><span><i>20</i></span><i
-                                class="ps-icon-shopping-cart"></i></a>
-                    <div class="ps-cart__listing">
-                        <div class="ps-cart__content">
-                            <div class="ps-cart-item"><a class="ps-cart-item__close" href="#"></a>
-                                <div class="ps-cart-item__thumbnail"><a href="product-detail.php"></a><img
-                                            src="images/cart-preview/1.jpg" alt=""></div>
-                                <div class="ps-cart-item__content"><a class="ps-cart-item__title"
-                                                                      href="product-detail.php">Gazelle 1’</a>
-                                    <p><span>Aantal:<i>12</i></span><span>Totaal:<i>€1760.00</i></span></p>
-                                </div>
-                            </div>
 
-                            <div class="ps-cart__total">
-                                <p>Aantal artikelen:<span>1</span></p>
-                                <p>Totaal:<span>€ 1760.00</span></p>
-                            </div>
-                            <div class="ps-cart__footer"><a class="ps-btn" href="cart.php">BESTELLEN<i
-                                            class="ps-icon-arrow-left"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="menu-toggle"><span></span></div>
-                </div>
-            </div>
     </nav>
 </header>
 <div class="header-services">

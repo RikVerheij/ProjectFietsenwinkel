@@ -60,6 +60,7 @@ $sqlsortpricehilo = ("SELECT * FROM product ORDER BY price desc ");
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link href="apple-touch-icon.png" rel="apple-touch-icon">
     <link href="favicon-bike.png" rel="icon">
+
     <meta name="author" content="Nghia Minh Luong">
     <meta name="keywords" content="Default Description">
     <meta name="description" content="Default keyword">

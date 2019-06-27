@@ -12,12 +12,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link href="apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="favicon.png" rel="icon">
+    <link href="favicon-bike.png" rel="icon">
     <meta name="author" content="Nghia Minh Luong">
     <meta name="keywords" content="Default Description">
     <meta name="description" content="Default keyword">
-    <title>Sky - Product Detail</title>
+    <title>Chain Gang - Gegevens</title>
     <!-- Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:300,400,700%7CMontserrat:300,400,500,600,700,800,900"
           rel="stylesheet">
@@ -138,12 +137,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <table class="table">
                     <tbody>
                     <tr>
-                        <th colspan="6" class="user_detail_h3"><h3><b>Wijzigen</b></h3></th>
+                        <th colspan="6" class="user_detail_h3"><h3><b>Wijzigen van: <?= $row["first_name"] ?></b></h3></th>
                     </tr>
                     <tr>
                         <td></td>
                         <td></td>
-                        <th><b>Naam:</b></th>
+                        <th><b>Naam: </b></th>
                         <td><input type="text" name="f_name" class="form-control"
                                    placeholder="<?= $row["first_name"] ?>"/>
                         </td>
