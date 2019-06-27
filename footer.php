@@ -7,7 +7,6 @@
             <?php
             if (array_key_exists('login_user', $_SESSION) && !empty($_SESSION['login_user'])) {
                 ?>
-                <script type="text/javascript">location.href = 'user-detail.php';</script>
             <?php
 
                 ?>
@@ -73,8 +72,8 @@
                         </header>
                         <footer>
                             <ul class="ps-list--line">
-                                <li><a href="#">Bestelling Status</a></li>
-                                <li><a href="#">Verzending en Aflevering</a></li>
+                                <li><a href="login.php">Bestelling Status</a></li>
+                                <li><a href="login.php">Verzending en Aflevering</a></li>
                                 <li><a href="#">Terugsturen</a></li>
                                 <li><a href="#">Betalingsmogelijkheden</a></li>
                                 <li><a href="#">Contact ons</a></li>

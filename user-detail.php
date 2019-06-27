@@ -13,11 +13,11 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link href="apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="favicon.png" rel="icon">
+    <link href="favicon-bike.png" rel="icon">
     <meta name="author" content="Nghia Minh Luong">
     <meta name="keywords" content="Default Description">
     <meta name="description" content="Default keyword">
-    <title>Sky - Product Detail</title>
+    <title>Chain Gang - Gegevens</title>
     <!-- Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:300,400,700%7CMontserrat:300,400,500,600,700,800,900"
           rel="stylesheet">
@@ -67,7 +67,20 @@ $row = mysqli_fetch_assoc($result);
 
 ?>
 
-<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-6">
+
+            <img src="images/background/fiets_footer.jpg" alt="test" class="img-responsive">
+
+            <div class="carousel-caption">
+                <h1 style="color: white">Welkom <?= $row["first_name"], " ", $row["last_name"] ?></h1>
+            </div>
+
+        </div>
+
+
     <div class="row">
         <div class="col-lg-6">
             <table class="table">
