@@ -44,7 +44,7 @@
         $username = mysqli_real_escape_string($db, $_POST['username']);
         $password = mysqli_real_escape_string($db, $_POST['password']);
 
-        $sql = "SELECT customer_id FROM customer WHERE username = '$username' and password = '$password'";
+        $sql = "SELECT admin_id FROM admin WHERE username = '$username' and password = '$password'";
         $result = mysqli_query($db, $sql);
 
         $row = mysqli_fetch_array($result, MYSQLI_ASSOC);

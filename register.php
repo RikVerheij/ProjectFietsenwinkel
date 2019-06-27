@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="plugins/revolution/css/layers.css">
     <link rel="stylesheet" href="plugins/revolution/css/navigation.css">
     <!-- Custom-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="Css/style.css">
 
 <?php
 include "Database/Config.php";

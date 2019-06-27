@@ -34,27 +34,18 @@
     </div>
     <nav class="navigation">
         <div class="container-fluid">
-            <div class="navigation__column left">
+            <div class="navigation__column left col-lg-3 col-md-3 col-sm-6 col-xs-6">
                 <div class="header__logo"><a class="ps-logo" href="index.php"><img src="images/logo_header.png"
                                                                                    height="75px" alt=""></a>
                 </div>
             </div>
-            <div class="navigation__column center">
+            <div class="navigation__column center col-lg-6 col-md-6">
                 <ul class="main-menu menu">
                     <li class="menu-item menu-item-has-children dropdown"><a href="index.php">Home</a>
 
                     </li>
-                    <li class="menu-item menu-item-has-children has-mega-menu"><a href="product-listing.php">Alle
-                            fietsen </a>
-                        <!--                        <div class="mega-menu">-->
-                        <!--                            <div class="mega-wrap">-->
-                        <!--                                <div class="mega-column">-->
-                        <!--                                    <a href="product-listing.php"><h4 class="mega-heading">Vrouwenfietsen</h4></a>-->
-                        <!--                                    <a href="product-listing.php"><h4 class="mega-heading">Herenfietsen</h4></a>-->
-                        <!--                                    <a href="product-listing.php"><h4 class="mega-heading">Kinderfiets</h4></a>-->
-                        <!--                                </div>-->
-                        <!--                            </div>-->
-                        <!--                        </div>-->
+                    <li class="menu-item menu-item-has-children has-mega-menu">
+                        <a href="product-listing.php">Alle fietsen </a>
                     </li>
 
                     <li class="menu-item"><a href="#">Over ons</a></li>
@@ -64,8 +55,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="navigation__column right">
-                <form class="ps-search--header" action="do_action" method="post">
+            <div class="navigation__column right col-lg-3 ">
+                <form class="ps-search--header" action="" method="post">
                     <input class="form-control" type="text" placeholder="Zoek product…">
                     <button><i class="ps-icon-search"></i></button>
                 </form>
