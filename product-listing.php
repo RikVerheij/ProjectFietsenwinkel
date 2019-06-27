@@ -1,8 +1,6 @@
 <?php
+session_start();
 include("Database/Config.php");
-$sql = "SELECT * 
-          FROM product"; //Query die uitgevoerd wordt
-$result = mysqli_query($db, $sql);
 
 //if (isset($_GET['sortby'])) {
 //    // Capture that in a variable by that name
@@ -13,13 +11,37 @@ $result = mysqli_query($db, $sql);
 //        $sqlsortname = ( "SELECT * FROM product ORDER BY product_name ASC ");
 //    }
 //
-//}
+//} 
 
-$sqlsortname = ("SELECT * FROM product ORDER BY product_name ASC ");
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    switch ($_POST['sortby']) {
+        case '1':
+            $sql = "SELECT * 
+          FROM product"; //Query die uitgevoerd wordt
+            $result = mysqli_query($db, $sql);
+            break;
+        case '2':
+            $sqlsortname = ("SELECT * FROM product ORDER BY product_name ASC ");
+            $result = mysqli_query($db, $sqlsortname);
+            break;
+        case '3':
+            $sqlsortpricelohi = ("SELECT * FROM product ORDER BY price DESC ");
+            $result = mysqli_query($db, $sqlsortpricelohi);
+            break;
+        case '4':
+            $sqlsortpricehilo = ("SELECT * FROM product ORDER BY price ASC ");
+            $result = mysqli_query($db, $sqlsortpricehilo);
+            break;
+    }
+} else {
+    $sql = "SELECT * 
+          FROM product"; //Query die uitgevoerd wordt
+    $result = mysqli_query($db, $sql);
+}
 
 $sqlsortpricehilo = ("SELECT * FROM product ORDER BY price desc ");
 
-session_start();
+
 ?>
 
 <!DOCTYPE html>
@@ -74,8 +96,7 @@ session_start();
 <body class="ie9 lt-ie10"><![endif]-->
 <body class="ps-loading">
 <div class="header--sidebar"></div>
-<?php include 'header.php';
-?>
+<?php include 'header.php' ?>
 
 <main class="ps-main">
     <div class="ps-products-wrap pt-80 pb-80">
@@ -85,22 +106,29 @@ session_start();
                     <!--                    <button><a href="product-listing.php?sortby=name">Naam</a></button>-->
                     <!--                    <button><a href="product-listing.php?sortby=price">Prijs hoog naar Laag</a></button>-->
                     <form method="post" action="">
-                        <select name="sort" class="ps-select selectpicker">
-                            <option value="1">Shortby</option>
+                        <table class="table">
+                            <tr>
+                                <td>
+                                    <select name="sortby" class="ps-select selectpicker">
+                                        <option selected value="1">Toon alles</option>
 
-                            <option value="2">Naam
+                                        <option value="2">Naam
 
-                            </option>
+                                        </option>
 
-                            <option value="3">Price (Low to High)
+                                        <option value="3">Prijs (Laag naar Hoog)
 
-                            </option>
+                                        </option>
 
-                            <option value="3">Price (High to Low)</option>
-                        </select>
-                        <button type="submit">verzenden</button>
+                                        <option value="4">Prijs (Hoog naar Laag)</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="submit" class="ps-btn ps-btn--sm" value=" Sorteren "/>
+                                </td>
+                            </tr>
+                        </table>
                     </form>
-
                 </div>
             </div>
             <div class="ps-product__columns">
@@ -188,25 +216,7 @@ session_start();
 
 <?php include 'footer.php';
 
-//switch ($_POST['sort']) {
-//    case '2':
-//        $result = mysqli_query($db, $sqlsortname);
-//        break;
-//    case '3':
-//        $result = mysqli_query($db, $sqlsortpricehilo);
-//        break;
-//    default:
-//        $result = mysqli_query($db, $sql);
-//}
 
-if ($_POST['sort'] === '2') {
-    echo "de naam werkt";
-    $resultname = mysqli_query($db, $sqlsortname);
-
-} elseif ($_POST['sort'] === '3') {
-    echo "de prijs van hilo werkt";
-    $resultpricehilo = mysqli_query($db, $sqlsortpricehilo);
-}
 ?>
 <!-- JS Library-->
 <script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>

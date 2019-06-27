@@ -4,12 +4,29 @@
             <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 ">
                 <h3><i class="fa fa-envelope"></i>Meld aan voor de nieuwsbrief</h3>
             </div>
-            <div class="col-lg-5 col-md-7 col-sm-12 col-xs-12 ">
-                <form class="ps-subscribe__form" action="do_action" method="post">
-                    <input class="form-control" type="text" placeholder="">
-                    <button>Meld nu aan</button>
-                </form>
-            </div>
+            <?php
+            if (array_key_exists('login_user', $_SESSION) && !empty($_SESSION['login_user'])) {
+                ?>
+                <script type="text/javascript">location.href = 'user-detail.php';</script>
+            <?php
+
+                ?>
+                <div class="col-lg-5 col-md-7 col-sm-12 col-xs-12 ">
+                    <form class="ps-subscribe__form" method="post">
+                        <button>Meld nu aan</button>
+                    </form>
+                </div>
+                <?php
+            } else {
+                ?>
+
+                <div class="col-lg-5 col-md-7 col-sm-12 col-xs-12 ">
+                    <a href="login.php" class="ps-btn ps-btn--sm">Log eerst in</a>
+                </div>
+
+                <?php
+            }
+            ?>
             <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12 ">
                 <p>...en krijg een <span>€20</span> cadeaubon voor uw eerste aankoop.</p>
             </div>

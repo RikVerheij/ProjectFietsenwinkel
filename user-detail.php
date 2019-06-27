@@ -1,36 +1,11 @@
-<?php
-
-include('Database/Config.php');
-session_start();
-
-$user_check = $_SESSION['login_user'];
-
-if (!isset($_SESSION['login_user'])) {
-    header("location:login.php");
-}
-
-include("header.php");
-
-$session_id = $_SESSION['login_user'];
-
-$sql = "
-SELECT * 
-FROM customer
-WHERE customer_id = '$session_id'"; //Query die uitgevoerd wordt
-$result = mysqli_query($db, $sql);
-$row = mysqli_fetch_assoc($result);
-$row["first_name"];
-
-?>
-
-    <!DOCTYPE html>
-    <!--[if IE 7]>
-    <html class="ie ie7"><![endif]-->
-    <!--[if IE 8]>
-    <html class="ie ie8"><![endif]-->
-    <!--[if IE 9]>
-    <html class="ie ie9"><![endif]-->
-    <html lang="en">
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7"><![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8"><![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9"><![endif]-->
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -68,13 +43,40 @@ $row["first_name"];
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 
+<?php
 
-<h1> <?= "Welkom: ", $row['first_name'], " ", $row['last_name'], " ", $row['phone'] ?> </h1>
+include('Database/Config.php');
+session_start();
+
+$user_check = $_SESSION['login_user'];
+
+if (!isset($_SESSION['login_user'])) {
+    header("location:login.php");
+}
+
+include("header.php");
+
+$session_id = $_SESSION['login_user'];
+
+$sql = "
+SELECT * 
+FROM customer
+WHERE customer_id = '$session_id'"; //Query die uitgevoerd wordt
+$result = mysqli_query($db, $sql);
+$row = mysqli_fetch_assoc($result);
+
+?>
+
 <div class="container">
-    <div class="">
-        <div class="col-lg-6 ">
-            <table class="table table-hover table-borderless">
+    <div class="row">
+        <div class="col-lg-6">
+            <table class="table">
                 <tbody>
+                <tr>
+                    <th colspan="2" class="user_detail_h3"><h3><a
+                                    href="user-detail_personaldata.php?Id=<?php echo $row["customer_id"] ?>"><b>Persoonsgegevens
+                                    <i class="fa fa-pencil" style="font-size:24px"></i></b></a></h3></th>
+                </tr>
                 <tr>
                     <th><b>Naam:</b></th>
                     <td><?= $row["first_name"], " ", $row["last_name"] ?></td>
@@ -91,7 +93,6 @@ $row["first_name"];
                     <th><b>Gebruikersnaam:</b></th>
                     <td><?= $row["username"] ?></td>
                 </tr>
-
                 <tr>
                     <th><b>Wachtwoord:</b></th>
                     <td><?= $row["password"] ?></td>
@@ -110,35 +111,35 @@ $row["first_name"];
             </table>
         </div>
         <div class="col-lg-6 ">
-            <?php if (!empty($row["city"]) && !empty($row["street"]) && !empty($row["zipcode"]) && !empty($row["house_number"])) { ?>
-                <table class="table table-hover">
-                    <tbody>
-                    <tr>
-                        <th><b>Plaats:</b></th>
-                        <td><?= $row["city"] ?></td>
-                    </tr>
-                    <tr>
-                        <th><b>Straat:</b></th>
-                        <td><?= $row["street"] ?></td>
-                    </tr>
-                    <tr>
-                        <th><b>Postcode:</b></th>
-                        <td><?= $row["zipcode"] ?></td>
-                    </tr>
-                    <tr>
-                        <th><b>Huisnummer:</b></th>
-                        <td><?= $row["house_number"] ?></td>
-                    </tr>
-                    </tbody>
-                </table>
-                <?php
-            } else { ?>
-                U heeft nog geen adres
-    <?php } ?>
+            <table class="table">
+                <tbody>
+                <tr>
+                    <th colspan="2" class="user_detail_h3"><h3><a
+                                    href="user_change_adress.php?Id=<?php echo $row["customer_id"] ?>"><b>Adres
+                                    <i class="fa fa-pencil" style="font-size:24px"></i></b></a></h3></th>
+                </tr>
+                <tr>
+                    <th><b>Plaats:</b></th>
+                    <td><?= $row["city"] ?></td>
+                </tr>
+                <tr>
+                    <th><b>Straat:</b></th>
+                    <td><?= $row["street"] ?></td>
+                </tr>
+                <tr>
+                    <th><b>Postcode:</b></th>
+                    <td><?= $row["zipcode"] ?></td>
+                </tr>
+                <tr>
+                    <th><b>Huisnummer:</b></th>
+                    <td><?= $row["house_number"] ?></td>
+                </tr>
+                </tbody>
+            </table>
         </div>
+
     </div>
 </div>
-
 
 
 <?php

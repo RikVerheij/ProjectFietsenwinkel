@@ -9007,6 +9007,8 @@ iframe {
     padding-bottom: 10px;
 }
 
-/*# sourceMappingURL=style.css.map *
-
- */
+.beheer-tekst{
+    padding:10px;
+    float:left;
+}
+/*# sourceMappingURL=style.css.map */
