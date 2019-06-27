@@ -61,40 +61,111 @@ $session_id = $_SESSION['login_user'];
 $sql = "
 SELECT * 
 FROM customer
-WHERE customer_id = '$session_id'"; //Query die uitgevoerd wordt
+WHERE customer_id = '$session_id'";
 $result = mysqli_query($db, $sql);
 $row = mysqli_fetch_assoc($result);
 
-$row["first_name"];
+$city = $row["city"];
+$street = $row["street"];
+$zipcode = $row["zipcode"];
+$hnumber = $row["house_number"];
 
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if (isset($city) && isset($street) && isset($zipcode) && isset($hnumber)) {
+
+        if (($_POST["city"] !== "")) {
+            $city = $_POST["city"];
+        } else {
+            $city = $row["city"];
+        }
+
+        if (($_POST["street"] !== "")) {
+            $street = $_POST["street"];
+        } else {
+            $street = $row["street"];
+        }
+
+        if (($_POST["zipcode"] !== "")) {
+            $zipcode = $_POST["zipcode"];
+        } else {
+            $zipcode = $row["zipcode"];
+        }
+
+        if (($_POST["hnumber"] !== "")) {
+            $hnumber = $_POST["hnumber"];
+        } else {
+            $hnumber = $row["house_number"];
+        }
+
+        $updatesql = "UPDATE customer
+        SET city='$city', street='$street', zipcode='$zipcode', house_number='$hnumber'
+        WHERE customer_id='$session_id'";
+        $updateresult = mysqli_query($db, $updatesql);
+
+        ?>
+        <script type="text/javascript">location.href = 'user-detail.php';</script>
+        <?php
+    }
+}
 ?>
 
-<div class="container" align="right">
+<div class="container">
     <div class="row">
-        <div class="col-lg-5">
-            <table class="table table-hover table-borderless">
-                <tbody>
-                <tr>
-                    <th colspan="2" class="user_detail_h3"><h3><b>Wijzigen</b></h3></th>
-                </tr>
-                <tr>
-                    <th><b>Plaats:</b></th>
-                    <td><?= $row["city"] ?></td>
-                </tr>
-                <tr>
-                    <th><b>Straat:</b></th>
-                    <td><?= $row["street"] ?></td>
-                </tr>
-                <tr>
-                    <th><b>Postcode:</b></th>
-                    <td><?= $row["zipcode"] ?></td>
-                </tr>
-                <tr>
-                    <th><b>Huisnummer:</b></th>
-                    <td><?= $row["house_number"] ?></td>
-                </tr>
-                </tbody>
-            </table>
+        <div class="col-lg-12 change-adress">
+            <form action="" method="post">
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <th colspan="6" class="user_detail_h3"><h3><b>Wijzigen</b></h3></th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <th><b>Stad:</b></th>
+                        <td colspan="2"><input type="text" class="form-control" name="city"
+                                               placeholder="<?= $row["city"] ?>"/></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <th><label>Straat:</label></th>
+                        <td colspan="2"><input type="text" class="form-control" name="street"
+                                               placeholder="<?= $row["street"] ?>"/></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <th><b>Postcode:</b></th>
+                        <td colspan="2"><input type="text" class="form-control" name="zipcode"
+                                               placeholder="<?= $row["zipcode"] ?>"/></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <th><label>Huisnummer:</label></th>
+                        <td colspan="2"><input type="text" class="form-control" name="hnumber"
+                                               placeholder="<?= $row["house_number"] ?>"/></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td colspan="2"><input type="submit" class="ps-btn ps-btn--sm" value="Wijzigen"/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
         </div>
     </div>
 </div>

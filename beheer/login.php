@@ -37,7 +37,8 @@
     include("../Database/Config.php");
 
     session_start();
-
+    $session_id = $_SESSION['login_admin'];
+        echo $session_id;
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // username and password sent from form
 
@@ -47,13 +48,14 @@
         $sql = "SELECT admin_id FROM admin WHERE username = '$username' and password = '$password'";
         $result = mysqli_query($db, $sql);
 
+
         $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
         $active = $row['active'];
 
         $count = mysqli_num_rows($result);
 
         if ($count == 1) {
-            $_SESSION['login_user'] = $username;
+            $_SESSION['login_admin'] = $admin_id;
             header("location: index.php");
         } else {
             $error = "Your Login Name or Password is invalid";

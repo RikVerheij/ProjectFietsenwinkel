@@ -65,8 +65,6 @@ WHERE customer_id = '$session_id'"; //Query die uitgevoerd wordt
 $result = mysqli_query($db, $sql);
 $row = mysqli_fetch_assoc($result);
 
-$row["first_name"];
-
 ?>
 
 <div class="container">
@@ -113,36 +111,31 @@ $row["first_name"];
             </table>
         </div>
         <div class="col-lg-6 ">
-            <?php if (!empty($row["city"]) && !empty($row["street"]) && !empty($row["zipcode"]) && !empty($row["house_number"])) { ?>
-                <table class="table">
-                    <tbody>
-                    <tr>
-                        <th colspan="2" class="user_detail_h3"><h3><a
-                                        href="user_change_adress.php?Id=<?php echo $row["customer_id"] ?>"><b>Adres
-                                        <i class="fa fa-pencil" style="font-size:24px"></i></b></a></h3></th>
-                    </tr>
-                    <tr>
-                        <th><b>Plaats:</b></th>
-                        <td><?= $row["city"] ?></td>
-                    </tr>
-                    <tr>
-                        <th><b>Straat:</b></th>
-                        <td><?= $row["street"] ?></td>
-                    </tr>
-                    <tr>
-                        <th><b>Postcode:</b></th>
-                        <td><?= $row["zipcode"] ?></td>
-                    </tr>
-                    <tr>
-                        <th><b>Huisnummer:</b></th>
-                        <td><?= $row["house_number"] ?></td>
-                    </tr>
-                    </tbody>
-                </table>
-                <?php
-            } else { ?>
-                U heeft nog geen adres
-            <?php } ?>
+            <table class="table">
+                <tbody>
+                <tr>
+                    <th colspan="2" class="user_detail_h3"><h3><a
+                                    href="user_change_adress.php?Id=<?php echo $row["customer_id"] ?>"><b>Adres
+                                    <i class="fa fa-pencil" style="font-size:24px"></i></b></a></h3></th>
+                </tr>
+                <tr>
+                    <th><b>Plaats:</b></th>
+                    <td><?= $row["city"] ?></td>
+                </tr>
+                <tr>
+                    <th><b>Straat:</b></th>
+                    <td><?= $row["street"] ?></td>
+                </tr>
+                <tr>
+                    <th><b>Postcode:</b></th>
+                    <td><?= $row["zipcode"] ?></td>
+                </tr>
+                <tr>
+                    <th><b>Huisnummer:</b></th>
+                    <td><?= $row["house_number"] ?></td>
+                </tr>
+                </tbody>
+            </table>
         </div>
 
     </div>

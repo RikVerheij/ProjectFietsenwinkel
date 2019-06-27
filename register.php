@@ -36,6 +36,9 @@
 <?php
 include "Database/Config.php";
 
+session_start();
+
+
 if (!empty($_POST["first_name"]) && !empty($_POST["last_name"]) && !empty($_POST["email"]) && !empty($_POST["telephone"]) && !empty($_POST["username"]) && !empty($_POST["password"])) {
     $first_name = $_POST["first_name"];
     $last_name = $_POST["last_name"];
@@ -48,11 +51,8 @@ if (!empty($_POST["first_name"]) && !empty($_POST["last_name"]) && !empty($_POST
     $sql = "  INSERT INTO customer (first_name, last_name, email, phone, username, password)
                 VALUES ('$first_name','$last_name', '$email', '$telephone', '$username', '$password')";
     $result = mysqli_query($db, $sql);
-    header("location: logout.php");
+    header("location: login.php");
 }
-?>
-
-<?php
 include "header.php";
 ?>
 <!DOCTYPE html>
@@ -65,7 +65,7 @@ include "header.php";
     <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
-
+<h1 style="align-text: center"> Registreren</h1>
 <div class="ps-login">
     <div class="ps-container">
         <div class="row">
@@ -99,13 +99,12 @@ include "header.php";
                         </tr>
                         <tr>
                             <div class="form-group">
-                                <td colspan="2"><input type="text" class="form-control" name="password" id="Wachtwoord" placeholder="Wachtwoord">
+                                <td colspan="2"><input type="password" class="form-control" name="password" id="Wachtwoord" placeholder="Wachtwoord">
                                 </td>
                             </div>
                         </tr>
                         <tr>
                             <td><input type="submit" class="ps-btn ps-btn--sm" value=" Registeren "/></td>
-                            <td><input type="submit" class="ps-btn ps-btn--sm" value=" Login "/></td>
                         </tr>
 
 
